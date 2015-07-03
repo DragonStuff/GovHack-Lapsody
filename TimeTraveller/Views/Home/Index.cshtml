@@ -1,0 +1,58 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+@section scripts
+{
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            var map = new GMaps({
+                div: '#map',
+                lat: -33.8650,
+                lng: 151.2094
+            });
+        });
+    </script>
+}
+
+<div class="jumbotron">
+    <div id="map" class="height-5 floating-label"></div>
+    <h1>IN TIME</h1>
+    <p class="lead">A Social Media app designed to assist Australian Youth find the Expert Help in time of crisis.</p>
+</div>
+
+
+
+<div class="row">
+    <div class="col-md-4">
+        <div class="card style-accent-light">
+            <div class="card-head">
+                <header>Card header</header>
+            </div>
+            <div class="card-body">
+                Card content
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card style-accent">
+            <div class="card-head">
+                <header>Card header</header>
+            </div>
+            <div class="card-body">
+                Card content
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card style-accent-dark">
+            <div class="card-head">
+                <header>Card header</header>
+            </div>
+            <div class="card-body">
+                Card content
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,175 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - In Time</title>
+    <!-- BEGIN STYLESHEETS -->
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true&key=AIzaSyBuHZcHf8nfPe5tT0eUkWz15ZJNCZFGkrE"></script>
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:400italic,300,400,600,700,800" rel="stylesheet" type="text/css" />
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/modernizr")
+    @Scripts.Render("~/bundles/bootstrap")
+
+</head>
+<body class="menubar-hoverable header-fixed menubar-pin ">
+    <!-- BEGIN HEADER-->
+    <header id="header">
+        <div class="headerbar">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="headerbar-left">
+                <ul class="header-nav header-nav-options">
+                    <li class="header-nav-brand">
+                        <div class="brand-holder">
+                            <a asp-controller="Home" asp-action="Index">
+                                <h2>In Time</h2>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="btn btn-icon-toggle menubar-toggle" data-toggle="menubar" href="javascript:void(0);">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="headerbar-right">
+                <ul class="header-nav header-nav-options">
+                    <li>
+                        <!-- Search form -->
+                        <form class="navbar-search" role="search">
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="headerSearch" placeholder="Enter your keyword">
+                            </div>
+                            <button type="submit" class="btn btn-icon-toggle ink-reaction"><i class="fa fa-search"></i></button>
+                        </form>
+                    </li>
+                </ul>
+                <!--end .header-nav-options -->
+                @if (Request.IsAuthenticated) {
+
+                <ul class="header-nav header-nav-profile">
+                    <li class="dropdown">
+                        <a href="javascript:void(0);" class="dropdown-toggle ink-reaction" data-toggle="dropdown">
+                            <img src="//lh3.googleusercontent.com/-TJc2-TVmW3M/AAAAAAAAAAI/AAAAAAAAAAA/XvAvQer9vQw/photo.jpg" alt="" />
+                            <span class="profile-info">
+                                Jeremy Vista
+                                <small>Administrator</small>
+                            </span>
+                        </a>
+                        <ul class="dropdown-menu animation-dock">
+                            <li class="dropdown-header">Config</li>
+                            <li><a href="#">My profile</a></li>
+                            <li><a href="#">My tasks <span class="badge style-danger pull-right">16</span></a></li>
+                            <li><a href="#">My appointments</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#"><i class="fa fa-fw fa-lock"></i> Lock</a></li>
+                            <li><a asp-controller="Security" asp-action="Index"><i class="fa fa-fw fa-power-off text-danger"></i> Logout</a></li>
+                        </ul><!--end .dropdown-menu -->
+                    </li><!--end .dropdown -->
+                </ul>
+
+                }
+
+
+                <!--end .header-nav-profile -->
+                <ul class="header-nav header-nav-toggle">
+                    <li>
+                        <a class="btn btn-icon-toggle btn-default" href="#offcanvas-search" data-toggle="offcanvas" data-backdrop="false">
+                            <i class="fa fa-ellipsis-v"></i>
+                        </a>
+                    </li>
+                </ul><!--end .header-nav-toggle -->
+            </div><!--end #header-navbar-collapse -->
+        </div>
+    </header>
+    <!-- END HEADER-->
+    <!-- BEGIN BASE-->
+    <div id="base">
+
+        <!-- BEGIN OFFCANVAS LEFT -->
+        <div class="offcanvas">
+        </div><!--end .offcanvas-->
+        <!-- END OFFCANVAS LEFT -->
+        <!-- BEGIN CONTENT-->
+        <div id="content">
+
+            <!-- BEGIN BLANK SECTION -->
+            <section>
+                @RenderBody()
+            </section>
+
+            <!-- BEGIN BLANK SECTION -->
+        </div><!--end #content-->
+        <!-- END CONTENT -->
+        <!-- BEGIN MENUBAR-->
+        <div id="menubar" class="menubar">
+            <div class="menubar-fixed-panel">
+                <div>
+                    <a class="btn btn-icon-toggle btn-default menubar-toggle" data-toggle="menubar" href="javascript:void(0);">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </div>
+                <div class="expanded">
+                    <a asp-controller="Home" asp-action="Index">
+                        <span class="text-lg text-bold text-primary ">IN TIME</span>
+                    </a>
+                </div>
+            </div>
+            <div class="menubar-scroll-panel">
+
+                <!-- BEGIN MAIN MENU -->
+                <ul id="main-menu" class="gui-controls">
+
+                    <!-- BEGIN Dashboard -->
+                    <li>
+                        <a asp-controller="Dashboard" asp-action="Index">
+                            <div class="gui-icon"><i class="md md-home"></i></div>
+                            <span class="title">Welcome</span>
+                        </a>
+                    </li><!--end /menu-li -->
+                    <!-- END Dashboard -->
+                    <!-- BEGIN Timesheets -->
+
+                    <!-- END LEVELS -->
+
+                </ul><!--end .main-menu -->
+                <!-- END MAIN MENU -->
+
+                <div class="menubar-foot-panel">
+                    <small class="no-linebreak hidden-folded">
+                        <span class="opacity-75">Copyright &copy; 2015</span> <strong>Time Travellers</strong>
+                    </small>
+                </div>
+            </div><!--end .menubar-scroll-panel-->
+        </div><!--end #menubar-->
+        <!-- END MENUBAR -->
+        <!-- BEGIN OFFCANVAS RIGHT -->
+        <div class="offcanvas">
+
+            <!-- BEGIN OFFCANVAS SEARCH -->
+            <div id="offcanvas-search" class="offcanvas-pane width-8">
+                <div class="offcanvas-head">
+                    <header class="text-primary">Search</header>
+                    <div class="offcanvas-tools">
+                        <a class="btn btn-icon-toggle btn-default-light pull-right" data-dismiss="offcanvas">
+                            <i class="md md-close"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="offcanvas-body no-padding">
+
+                </div><!--end .offcanvas-body -->
+            </div><!--end .offcanvas-pane -->
+            <!-- END OFFCANVAS SEARCH -->
+
+        </div><!--end .offcanvas-->
+        <!-- END OFFCANVAS RIGHT -->
+
+    </div><!--end #base-->
+    <!-- END BASE -->
+    @RenderSection("scripts", required: false)
+</body>
+</html>
