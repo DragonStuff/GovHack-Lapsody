@@ -589,6 +589,9 @@
     <Content Include="Content\Site.min.css">
       <DependentUpon>Site.css</DependentUpon>
     </Content>
+    <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="fonts\LICENSE.txt" />
+    <Content Include="fonts\Material-Design-Iconic-Font.svg" />
     <Content Include="Scripts\materialadmin\core\demo\Demo.js" />
     <Content Include="Scripts\materialadmin\core\demo\DemoCalendar.js" />
     <Content Include="Scripts\materialadmin\core\demo\DemoCharts.js" />
@@ -1935,6 +1938,16 @@
     <Content Include="Content\Site.css.map">
       <DependentUpon>Site.css</DependentUpon>
     </Content>
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\FontAwesome.otf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\Material-Design-Iconic-Font.eot" />
+    <Content Include="fonts\Material-Design-Iconic-Font.ttf" />
+    <Content Include="fonts\Material-Design-Iconic-Font.woff" />
+    <None Include="Properties\PublishProfiles\timetravellers.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
