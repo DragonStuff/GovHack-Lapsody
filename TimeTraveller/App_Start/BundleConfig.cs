@@ -9,7 +9,10 @@ namespace TimeTraveller
         public static void RegisterBundles(BundleCollection bundles)
         {
             bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
-                        "~/Scripts/jquery-{version}.js"));
+                        "~/Scripts/jquery-{version}.js",
+                        "~/Scripts/jquery.signalR-{version}.js",
+                        "~/Scripts/hyperhub.js"
+                        ));
 
             bundles.Add(new ScriptBundle("~/bundles/jqueryval").Include(
                         "~/Scripts/jquery.validate*"));
@@ -23,7 +26,9 @@ namespace TimeTraveller
                       "~/Scripts/bootstrap.js",
                       "~/Scripts/respond.js",
                       "~/Scripts/materialadmin/core/source/*.js",
-                      "~/Scripts/materialadmin/libs/gmaps/*.js"
+                      "~/Scripts/materialadmin/libs/gmaps/*.js",
+                      "~/Scripts/markerclusterer.js",
+                      "~/Scripts/timetravellers.js"
                       ));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(

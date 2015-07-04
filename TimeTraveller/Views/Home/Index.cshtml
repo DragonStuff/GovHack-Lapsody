@@ -6,53 +6,108 @@
 {
 
     <script type="text/javascript">
-        $(document).ready(function() {
-            var map = new GMaps({
-                div: '#map',
-                lat: -33.8650,
-                lng: 151.2094
-            });
+    var hyperHub = null;
+    var currCenter = null;
+    var map = null;
+    var marker = null;
+    var circle = null;
+    var radius = 1000;
+
+    $(document).ready(function() {
+        initMap();
+
+        initHyperHub();
+
+        getCurrentLocation();
+    });
+
+    function initHyperHub() {
+        if (@Request.IsAuthenticated.ToString().ToLower()) {
+            hyperHub = new HyperHub(map);
+        }
+    }
+
+    function initMap() {
+        var latlng = new google.maps.LatLng(-33.8650, 151.2094);
+
+        var mapOptions = {
+            center: latlng,
+            zoom: 13,
+            disableDefaultUI: true,
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+
+        map = new google.maps.Map(document.getElementById("map"), mapOptions);
+
+        setLocation(latlng);
+
+        google.maps.event.addDomListener(window, "resize", function() {
+            fitMap();
+            setLocation(currCenter);
         });
-    </script>
+
+        fitMap();
+    }
+
+    function fitMap() {
+        $("#map").height($(window).height() - 80);
+    }
+
+    function getCurrentLocation() {
+        navigator.geolocation.getCurrentPosition(onGeoLocationHandler, onGeoLocationErro);
+    }
+
+    function onGeoLocationHandler(position) {
+        if (position == null) return;
+        
+        var latlng = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
+
+        if(hyperHub)
+            hyperHub.updateLocation(position.coords.latitude, position.coords.longitude);
+
+/*            // get the country used to localise searches
+        $.ajax({
+            url: "/Home/GetCountry",
+            dataType: "json",
+            data: {
+                latitude: position.coords.latitude,
+                longitude: position.coords.longitude
+            },
+            success: function (data) {
+                var result = eval(data);
+                country = result.Data;
+            },
+            error: function (err) {
+            }
+        });*/
+
+        setLocation(latlng);
+    }
+
+    function onGeoLocationErro(error) {
+        switch (error.code) {
+            case error.PERMISSION_DENIED:
+                alert("user did not share geolocation data");
+                break;
+
+            case error.POSITION_UNAVAILABLE:
+                alert("could not detect current position");
+                break;
+
+            case error.TIMEOUT:
+                alert("retrieving position timed out");
+                break;
+
+            default:
+                alert("unknown error");
+                break;
+        }
+    }
+
+    function setLocation(latlng) {
+        currCenter = latlng;
+        map.setCenter(latlng);
+    }
+</script>
 }
-
-<div class="jumbotron">
-    <div id="map" class="height-5 floating-label"></div>
-    <h1>IN TIME</h1>
-    <p class="lead">A Social Media app designed to assist Australian Youth find the Expert Help in time of crisis.</p>
-</div>
-
-
-
-<div class="row">
-    <div class="col-md-4">
-        <div class="card style-accent-light">
-            <div class="card-head">
-                <header>Card header</header>
-            </div>
-            <div class="card-body">
-                Card content
-            </div>
-        </div>
-    </div>
-    <div class="col-md-4">
-        <div class="card style-accent">
-            <div class="card-head">
-                <header>Card header</header>
-            </div>
-            <div class="card-body">
-                Card content
-            </div>
-        </div>
-    </div>
-    <div class="col-md-4">
-        <div class="card style-accent-dark">
-            <div class="card-head">
-                <header>Card header</header>
-            </div>
-            <div class="card-body">
-                Card content
-            </div>
-        </div>
-    </div>
-</div>
+<div id="map" class="floating-label"></div>

@@ -54,15 +54,15 @@ namespace TimeTraveller
             //   consumerKey: "",
             //   consumerSecret: "");
 
-            //app.UseFacebookAuthentication(
-            //   appId: "",
-            //   appSecret: "");
+            app.UseFacebookAuthentication(
+               appId: "109278482747810",
+               appSecret: "da46018d7f7efa18e6cc9b37a0792c4a");
 
-            //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
-            //{
-            //    ClientId = "",
-            //    ClientSecret = ""
-            //});
+            app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
+            {
+                ClientId = "472021427126-8ce2p5iin99m2p7hi77islhohrvon6jt.apps.googleusercontent.com",
+                ClientSecret = "u2R0fdTnNdybCVbnRO6bUGFZ"
+            });            
         }
     }
 }

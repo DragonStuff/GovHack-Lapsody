@@ -1,0 +1,25 @@
+﻿
+    <ul class="header-nav header-nav-profile">
+        <li class="dropdown">
+            <a href="javascript:void(0);" class="dropdown-toggle ink-reaction" data-toggle="dropdown">
+                <img src="//lh3.googleusercontent.com/-TJc2-TVmW3M/AAAAAAAAAAI/AAAAAAAAAAA/XvAvQer9vQw/photo.jpg" alt="" />
+                <span class="profile-info">
+                    @Session["Fullname"].ToString()
+                </span>
+            </a>
+            <ul class="dropdown-menu animation-dock">
+                <li class="dropdown-header">Config</li>
+                <li><a href="@Url.Action("Index", "Manage")">My Profile</a></li>
+                <li class="divider"></li>
+                <li><a href="javascript:logOff();"><i class="fa fa-fw fa-power-off text-danger"></i> Logout</a></li>
+            </ul><!--end .dropdown-menu -->
+        </li><!--end .dropdown -->
+    </ul>
+    <!--end .header-nav-profile -->
+    <ul class="header-nav header-nav-toggle">
+        <li>
+            <a class="btn btn-icon-toggle btn-default" href="#offcanvas-myusage" data-toggle="offcanvas" data-backdrop="false">
+                <i class="fa fa-lightbulb-o"></i>
+            </a>
+        </li>
+    </ul><!--end .header-nav-toggle -->
