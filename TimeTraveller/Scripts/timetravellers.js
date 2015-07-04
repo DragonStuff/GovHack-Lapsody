@@ -6,6 +6,18 @@ var marker = null;
 var circle = null;
 var radius = 1000;
 var isAuthenticated = false;
+var powerstationOn = false;
+
+$(document).ready(function() {
+    $(".reportToggle").click(function() {
+        switch ($(this).attr('id')) {
+            case "chkPowerStation":
+                powerstationOn = !powerstationOn;
+                hyperHub.togglePowerStationReport(powerstationOn);
+                break;
+        }
+    });
+});
 
 function logOff() {    
     hyperHub.disconnect();

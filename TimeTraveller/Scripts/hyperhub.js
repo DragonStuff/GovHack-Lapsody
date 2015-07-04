@@ -2,7 +2,8 @@
     // Declare a proxy to reference the hub. 
     var hyper = $.connection.hyperHub;
     var markersArray = [];
-    var circles = [];
+    var powerStationsArray = [];
+    var circlesArray = [];
     var markerClusterer;
 
     function init() {
@@ -17,7 +18,7 @@
         };
 
         hyper.client.getMyUsage = function (myUsage) {
-            console.log(myUsage);
+            //console.log("getMyUsage: " + myUsage);
             var usages = eval(myUsage);
             if (usages) {
                 var usageList = $("#usagelist");
@@ -54,7 +55,7 @@
          */
 
         hyper.client.userListChanged = function (userList) {
-            console.log(userList);
+            //console.log("userListChanged: " + userList);
             clearOverlays();
             var users = eval(userList);
             for (var key in users) {
@@ -81,7 +82,7 @@
                 var circle = new google.maps.Circle(emissionOptions);
 
                 markersArray.push(marker);
-                circles.push(circle);
+                circlesArray.push(circle);
             }
 
             markerClusterer = new MarkerClusterer(map, markersArray);
@@ -94,11 +95,11 @@
         }
         markersArray.length = 0;
 
-        for (var i = 0; i < circles.length; i++) {
-            circles[i].setMap(null);
+        for (var i = 0; i < circlesArray.length; i++) {
+            circlesArray[i].setMap(null);
         }
 
-        circles.length = 0;
+        circlesArray.length = 0;
 
         if (markerClusterer) {
             markerClusterer.clearMarkers();
@@ -129,11 +130,15 @@
         });
     }
 
+    function togglePowerStationReport(toggle) {
+    }
+
     return {
         updateLocation: updateLocation,
         disconnect: disconnect,
         init: init,
         addUsage: addUsage,
-        removeAppliance: removeAppliance
+        removeAppliance: removeAppliance,
+        togglePowerStationReport: togglePowerStationReport
     }
 }

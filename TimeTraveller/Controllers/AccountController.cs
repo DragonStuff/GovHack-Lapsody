@@ -58,7 +58,11 @@ namespace TimeTraveller.Controllers
         public ActionResult Login(string returnUrl)
         {
             ViewBag.ReturnUrl = returnUrl;
-            return View();
+            var model = new LoginViewModel
+            {
+                External = new ExternalLoginListViewModel { ReturnUrl = ViewBag.ReturnUrl }
+            };
+            return View(model);
         }
 
         //

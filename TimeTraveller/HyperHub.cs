@@ -70,8 +70,8 @@ namespace TimeTraveller
             {
                 Username = username,
                 Fullname = "",
-                Latitude = 0,
-                Longitude = 0
+                Latitude = -33.8809044,
+                Longitude = 151.20046760000002
             };
 
             var ctx = ApplicationDbContext.Create();
@@ -89,7 +89,7 @@ namespace TimeTraveller
             _connections.Add(user);            
         }
 
-        public void UpdateLocation(decimal latitude, decimal longitude)
+        public void UpdateLocation(double latitude, double longitude)
         {
             if ((int)latitude == 0) return;
 

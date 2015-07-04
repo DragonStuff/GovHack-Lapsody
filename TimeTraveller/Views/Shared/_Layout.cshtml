@@ -42,7 +42,7 @@
 
                 @if (Request.IsAuthenticated)
                 {
-                    Html.RenderAction("UserDetails", "Common");                   
+                    Html.RenderAction("UserDetails", "Common");
                 }
 
                 @if (!Request.IsAuthenticated)
@@ -57,7 +57,7 @@
                 }
 
             </div>
-            </div>
+        </div>
     </header>
     <!-- END HEADER-->
     <!-- BEGIN BASE-->
@@ -79,7 +79,7 @@
         </div><!--end #content-->
         <!-- END CONTENT -->
         <!-- BEGIN MENUBAR-->
-        <div id="menubar" class="menubar-inverse ">
+        <div id="menubar" class="menubar-inverse">
             <div class="menubar-fixed-panel">
                 <div>
                     <a class="btn btn-icon-toggle btn-default menubar-toggle" data-toggle="menubar" href="javascript:void(0);">
@@ -88,7 +88,8 @@
                 </div>
                 <div class="expanded">
                     <a href="@Url.Action("Index", "Home")" class="active">
-                        <span class="text-lg text-bold text-primary ">LAPSODY</span>                    </a>
+                        <span class="text-lg text-bold text-primary ">LAPSODY</span>
+                    </a>
                 </div>
             </div>
             <div class="menubar-scroll-panel">
@@ -104,7 +105,6 @@
                         </a>
                     </li><!--end /menu-li -->
                     <!-- END DASHBOARD -->
-
                     @if (!Request.IsAuthenticated)
                     {
                         <!-- BEGIN DASHBOARD -->
@@ -121,7 +121,7 @@
                     }
                     else
                     {
-                        
+
                     }
 
                 </ul><!--end .main-menu -->
@@ -135,12 +135,10 @@
             </div><!--end .menubar-scroll-panel-->
         </div><!--end #menubar-->
         <!-- END MENUBAR -->
-
         <!-- BEGIN OFFCANVAS RIGHT -->
-
         @if (Request.IsAuthenticated)
         {
-            Html.RenderAction("MyUsage", "Common");            
+            Html.RenderAction("MyUsage", "Common");
         }
         <!-- END OFFCANVAS RIGHT -->
 
@@ -148,4 +146,5 @@
     <!-- END BASE -->
     @RenderSection("scripts", required: false)
 </body>
+
 </html>
