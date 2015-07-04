@@ -3,6 +3,7 @@ using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin;
 using Microsoft.Owin.Security.Cookies;
+using Microsoft.Owin.Security.Facebook;
 using Microsoft.Owin.Security.Google;
 using Owin;
 using TimeTraveller.Models;
@@ -54,9 +55,14 @@ namespace TimeTraveller
             //   consumerKey: "",
             //   consumerSecret: "");
 
-            app.UseFacebookAuthentication(
-               appId: "109278482747810",
-               appSecret: "da46018d7f7efa18e6cc9b37a0792c4a");
+            var facebookAuthenticationOptions = new FacebookAuthenticationOptions()
+            {
+                AppId = "109278482747810",
+                AppSecret = "da46018d7f7efa18e6cc9b37a0792c4a"
+            };
+
+            facebookAuthenticationOptions.Scope.Add("email");
+            app.UseFacebookAuthentication(facebookAuthenticationOptions);
 
             app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
             {

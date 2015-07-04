@@ -2,6 +2,7 @@
     // Declare a proxy to reference the hub. 
     var hyper = $.connection.hyperHub;
     var markersArray = [];
+    var circles = [];
     var markerClusterer;
 
     function init() {
@@ -53,6 +54,7 @@
          */
 
         hyper.client.userListChanged = function (userList) {
+            console.log(userList);
             clearOverlays();
             var users = eval(userList);
             for (var key in users) {
@@ -63,7 +65,23 @@
 
                 console.log(users[key].Latitude + "/" + users[key].Longitude);
 
+                // draw circle based on the emission
+                var emissionOptions = {
+                    strokeColor: '#FF0000',
+                    strokeOpacity: 0.3,
+                    strokeWeight: 2,
+                    fillColor: '#FF0000',
+                    fillOpacity: 0.2,
+                    map: map,
+                    center: new google.maps.LatLng(users[key].Latitude, users[key].Longitude),
+                    radius: users[key].Emission
+                };
+
+                // Add the circle for this city to the map.
+                var circle = new google.maps.Circle(emissionOptions);
+
                 markersArray.push(marker);
+                circles.push(circle);
             }
 
             markerClusterer = new MarkerClusterer(map, markersArray);
@@ -75,6 +93,12 @@
             markersArray[i].setMap(null);
         }
         markersArray.length = 0;
+
+        for (var i = 0; i < circles.length; i++) {
+            circles[i].setMap(null);
+        }
+
+        circles.length = 0;
 
         if (markerClusterer) {
             markerClusterer.clearMarkers();

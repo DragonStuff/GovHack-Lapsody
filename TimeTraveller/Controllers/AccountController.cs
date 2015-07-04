@@ -343,7 +343,11 @@ namespace TimeTraveller.Controllers
                     // If the user does not have an account, then prompt the user to create an account
                     ViewBag.ReturnUrl = returnUrl;
                     ViewBag.LoginProvider = loginInfo.Login.LoginProvider;
-                    return View("ExternalLoginConfirmation", new ExternalLoginConfirmationViewModel { Email = loginInfo.Email });
+                    var fullname = loginInfo.Email.Contains("@") ? loginInfo.Email.Split('@')[0] : "";
+                    if (loginInfo.ExternalIdentity.Name != null)
+                        fullname = loginInfo.ExternalIdentity.Name;
+
+                    return View("ExternalLoginConfirmation", new ExternalLoginConfirmationViewModel { Email = loginInfo.Email, FullName = fullname});
             }
         }
 

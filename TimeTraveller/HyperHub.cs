@@ -21,15 +21,7 @@ namespace TimeTraveller
             string username = Context.User.Identity.GetUserId();
             if (!_connections.IsExist(username))
             {
-                var user = new User
-                {
-                    Username = username,
-                    Fullname = "",
-                    Latitude = 0,
-                    Longitude = 0
-                };
-
-                _connections.Add(user);
+                UpdateUserConnection(username);
 
                 GetMyUsage();
             }
@@ -43,9 +35,17 @@ namespace TimeTraveller
 
             _connections.Remove(username);
 
-            Clients.All.userListChanged(JsonConvert.SerializeObject(_connections.GetConnections()));
+            UserListChanged();
 
             return base.OnDisconnected(stopCalled);
+        }
+
+        private void UserListChanged()
+        {
+            var ctx = ApplicationDbContext.Create();
+            // need total emmissions for all users
+            var totalEmission = 
+            Clients.All.userListChanged(JsonConvert.SerializeObject(_connections.GetConnections()));            
         }
 
         public override Task OnReconnected()
@@ -54,18 +54,39 @@ namespace TimeTraveller
 
             if (!_connections.IsExist(username))
             {
-                var user = new User
-                {
-                    Username = username,
-                    Fullname = "",
-                    Latitude = 0,
-                    Longitude = 0
-                };
+                UpdateUserConnection(username);
 
-                _connections.Add(user);
+                GetMyUsage();
             }
 
+            UserListChanged();
+
             return base.OnReconnected();
+        }
+
+        public void UpdateUserConnection(string username)
+        {
+            var user = new User
+            {
+                Username = username,
+                Fullname = "",
+                Latitude = 0,
+                Longitude = 0
+            };
+
+            var ctx = ApplicationDbContext.Create();
+            var usage = ctx.UserUsages
+                .Where(u => u.Username.Equals(username, StringComparison.InvariantCultureIgnoreCase))
+                .GroupBy(u => u.Username)
+                .Select(u => u.Sum(v => v.Emission))
+                .ToList().FirstOrDefault();
+
+            if (usage != null)
+            {
+                user.Emission = usage;
+            }
+
+            _connections.Add(user);            
         }
 
         public void UpdateLocation(decimal latitude, decimal longitude)
@@ -81,7 +102,7 @@ namespace TimeTraveller
                 _connections.Update(user);
             }
 
-            Clients.All.userListChanged(JsonConvert.SerializeObject(_connections.GetConnections()));
+            UserListChanged();
         }
 
         public void Disconnect()
@@ -90,7 +111,7 @@ namespace TimeTraveller
 
             _connections.Remove(username);
 
-            Clients.All.userListChanged(JsonConvert.SerializeObject(_connections.GetConnections()));
+            UserListChanged();
         }
 
         public void GetMyUsage()
@@ -107,21 +128,29 @@ namespace TimeTraveller
             {
                 string username = Context.User.Identity.GetUserId();
                 var ctx = ApplicationDbContext.Create();
-                var usage = ctx.UserUsages.FirstOrDefault(u => u.Username.Equals(username, StringComparison.InvariantCultureIgnoreCase) && u.Id == id);
+                var usage =
+                    ctx.UserUsages.FirstOrDefault(
+                        u => u.Username.Equals(username, StringComparison.InvariantCultureIgnoreCase) && u.Id == id);
                 if (usage != null)
                 {
+                    var oldEmission = usage.Emission;
+                    usage.Quantity = 0;
+                    CalculateEmission(usage, oldEmission);
                     ctx.UserUsages.Remove(usage);
                 }
 
 
                 ctx.SaveChanges();
-
-                GetMyUsage();
             }
             catch (Exception ex)
             {
-                
-            }            
+
+            }
+            finally
+            {
+                GetMyUsage();
+                UserListChanged();
+            }
         }
 
         public void AddUsage(string product, int quantity)
@@ -133,7 +162,8 @@ namespace TimeTraveller
                 var usage = ctx.UserUsages.FirstOrDefault(u => u.Username.Equals(username, StringComparison.InvariantCultureIgnoreCase) && u.Product.Equals(product, StringComparison.InvariantCultureIgnoreCase));
 
                 if (usage == null)
-                {
+                {                    
+                    Random rand = new Random();
                     usage = new UserUsage
                     {
                         Username = username,
@@ -142,19 +172,42 @@ namespace TimeTraveller
                         Quantity = quantity
                     };
 
+                    CalculateEmission(usage, 0);
+
                     ctx.UserUsages.Add(usage);
                 }
                 else
                 {
+                    var oldEmission = usage.Emission;
                     usage.Quantity = quantity;
+                    CalculateEmission(usage, oldEmission);
                 }
 
                 ctx.SaveChanges();
-
-                GetMyUsage();
             }
             catch (Exception ex)
             {                                
+            }
+            finally
+            {
+                GetMyUsage();
+                UserListChanged();
+            }
+        }
+
+        private void CalculateEmission(UserUsage usage, decimal oldEmission)
+        {
+            var rand = new Random();
+            usage.Emission = usage.Quantity * rand.Next(10, 100);
+
+            // update user emission
+            string username = Context.User.Identity.GetUserId();
+            var user = _connections.Get(username);
+            if (user != null)
+            {
+                user.Emission -= oldEmission;
+                user.Emission += usage.Emission;
+                _connections.Update(user);
             }
         }
 
