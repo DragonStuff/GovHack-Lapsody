@@ -27,6 +27,8 @@ namespace TimeTraveller.Models
         {
         }
 
+        public DbSet<UserUsage> UserUsages { get; set; }
+
         public static ApplicationDbContext Create()
         {
             return new ApplicationDbContext();

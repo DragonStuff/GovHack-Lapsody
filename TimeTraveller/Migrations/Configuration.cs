@@ -9,7 +9,7 @@ namespace TimeTraveller.Migrations
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = false;
+            AutomaticMigrationsEnabled = true;
             ContextKey = "TimeTraveller.Models.ApplicationDbContext";
         }
 

@@ -32,8 +32,8 @@ namespace TimeTraveller
                 _connections.Add(user);
             }
 
-/*            var oSerializer = new System.Web.Script.Serialization.JavaScriptSerializer();
-            string sJSON = oSerializer.Serialize();*/
+            var ctx = ApplicationDbContext.Create();
+            var usage = ctx.UserUsages.ToList();
 
             return base.OnConnected();
         }

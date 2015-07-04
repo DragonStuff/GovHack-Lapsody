@@ -2,3 +2,5 @@ packages/
 TimeTraveller.v12.suo
 TimeTraveller/bin/
 TimeTraveller/obj/
+TimeTraveller/App_Data/aspnet-TimeTraveller-20150704120019.mdf
+TimeTraveller/App_Data/aspnet-TimeTraveller-20150704120019_log.ldf

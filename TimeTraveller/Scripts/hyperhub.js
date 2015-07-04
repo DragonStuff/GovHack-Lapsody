@@ -3,6 +3,7 @@
     var hyper = $.connection.hyperHub;
     var map = _map;
     var markersArray = [];
+    var markerClusterer;
 
     // Create a function that the hub can call to broadcast messages.
     hyper.client.broadcastMessage = function (name, message) {
@@ -28,7 +29,7 @@
             markersArray.push(marker);
         }
 
-        var mc = new MarkerClusterer(map);
+        markerClusterer = new MarkerClusterer(map, markersArray);
     };
 
     // Start the connection.
@@ -46,6 +47,10 @@
             markersArray[i].setMap(null);
         }
         markersArray.length = 0;
+
+        if (markerClusterer) {
+            markerClusterer.clearMarkers();
+        }
     }
 
     function updateLocation(lat, lng) {

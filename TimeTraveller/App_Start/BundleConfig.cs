@@ -36,7 +36,9 @@ namespace TimeTraveller
                       "~/Content/materialadmin/css/theme-1/materialadmin.css",
                       "~/Content/materialadmin/css/theme-1/font-awesome.css",
                       "~/Content/materialadmin/css/theme-1/material-design-iconic-font.css",
-                      "~/Content/site.css"));            
+                      "~/Content/site.css"));
+
+            System.Web.Optimization.BundleTable.EnableOptimizations = false;
         }
     }
 }
