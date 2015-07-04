@@ -23,35 +23,32 @@
             if (usages) {
                 var usageList = $("#usagelist");
                 usageList.empty();
+                var totalEmissions = 0;
                 var html = "<li>";
-                for (var key in usages) {                    
+                for (var key in usages) {
+                    totalEmissions += usages[key].Emission;
                     html += '<div class="card style-default-light">';
                     html += '<div class="comment-avatar"><i class="glyphicon opacity-50">' + usages[key].Quantity + '</i></div>';
                     html += '<div class="card-body">';
                     html += '<h4 class="comment-title">' + usages[key].Product + '</h4>';
-                    html += '<p>Produces ' + usages[key].Emission + ' CO2 Emmissions Per Day</p>';
+                    html += '<p>' + Math.round(usages[key].Emission) + 'Kg CO2 Emmissions Per Year</p>';
                     html += '<a class="btn btn-danger stick-top-right" href="javascript:removeAppliance(\'' + usages[key].Id + '\')">Remove</a>';
                     html += '</div>';
                     html += '</div>';
                 }
 
                 html += "</li>";
+                html = '<li><div class="card"><div class="card-body no-padding"><div class="alert alert-callout alert-info no-margin"><strong class="text-xl">' + Math.round(totalEmissions) + 'KG per year</strong><br/><span class="opacity-50">My Carbon Footprint</span></div></div></div></li>' + html;
                 usageList.append(html);
             }
         };
 
         /*
-                        <li>
-                            <div class="card style-default-light">
-                                <div class="comment-avatar"><i class="glyphicon opacity-50">10</i></div>
-                                <div class="card-body">
-                                    <h4 class="comment-title">Computer</h4>
-                                    <p>Produces 1.2 CO2 Emmissions Per Day</p>
-                                    <a class="btn btn-danger stick-top-right" href="#">Remove</a>
-                                </div>
-                            </div>
-                        </li>          
          
+
+                                
+
+
          */
 
         hyper.client.userListChanged = function (userList) {
@@ -65,6 +62,7 @@
                 });
 
                 console.log(users[key].Latitude + "/" + users[key].Longitude);
+                var emissionFactor = 0.05;
 
                 // draw circle based on the emission
                 var emissionOptions = {
@@ -75,8 +73,9 @@
                     fillOpacity: 0.2,
                     map: map,
                     center: new google.maps.LatLng(users[key].Latitude, users[key].Longitude),
-                    radius: users[key].Emission
+                    radius: users[key].Emission * emissionFactor
                 };
+
 
                 // Add the circle for this city to the map.
                 var circle = new google.maps.Circle(emissionOptions);

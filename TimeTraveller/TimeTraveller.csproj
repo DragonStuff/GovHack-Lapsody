@@ -626,6 +626,7 @@
     <Content Include="fonts\LICENSE.txt" />
     <Content Include="fonts\Material-Design-Iconic-Font.svg" />
     <Content Include="Scripts\hyperhub.js" />
+    <Content Include="Scripts\jquery.cookie.js" />
     <Content Include="Scripts\jquery.signalR-2.2.0.js" />
     <Content Include="Scripts\jquery.signalR-2.2.0.min.js" />
     <Content Include="Scripts\markerclusterer.js" />

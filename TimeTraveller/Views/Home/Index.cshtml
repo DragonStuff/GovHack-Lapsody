@@ -16,8 +16,22 @@
             initHyperHub();
 
             getCurrentLocation();
+
+            if (!isAuthenticated) {
+                $("#dialog").dialog({
+                    dialogClass: "no-close"
+                });
+            } else {
+                var firstLoad = $.cookie('firstLoad');
+                if (firstLoad == null) {
+                    $.cookie('firstLoad', 1);
+                    $("#dialogHint").dialog({
+                        dialogClass: "no-close"
+                    });
+                }
+            }
         });
 
-</script>
+    </script>
 }
 <div id="map" class="floating-label"></div>

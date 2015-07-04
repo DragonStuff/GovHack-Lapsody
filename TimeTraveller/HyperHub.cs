@@ -260,7 +260,66 @@ namespace TimeTraveller
             try
             {
                 var rand = new Random();
-                usage.Emission = usage.Quantity * rand.Next(10, 100);
+                var factor = 0.0;
+                var averageUsage = 0.0;
+
+                switch (usage.Product.Trim().ToUpper())
+                {
+                    case "BEDROOMS":
+                        factor = 0.27;
+                        averageUsage =  4;
+                        break;                    
+                    case "COMPUTER":
+                        factor = 0.19;
+                        averageUsage =  4;
+                        break;
+                    case "MOBILE PHONES":
+                        factor = 0.02;
+                        averageUsage = 4;
+                        break;
+                    case "TELEVISION":
+                        factor = 0.58;
+                        averageUsage = 8;
+                        break;
+                    case "MICROWAVE OVEN":
+                        factor = 0.945;
+                        averageUsage = 1;
+                        break;
+                    case "OVEN":
+                        factor = 1.56;
+                        averageUsage = 1;
+                        break;
+                    case "AIRCONDITIONER":
+                        factor = 1.25;
+                        averageUsage = 2.5;
+                        break;
+                    case "HEATER":
+                        factor = 1.11;
+                        averageUsage = 2.5;
+                        break;
+                    case "REFRIGERATOR":
+                        factor = 0.42;
+                        averageUsage = 24;
+                        break;
+                    case "FREEZER":
+                        factor = 0.56;
+                        averageUsage = 24;
+                        break;
+                    case "DISHWASHER":
+                        factor = 1.07;
+                        averageUsage = 1.5;
+                        break;
+                    case "DRYER":
+                        factor = 2.50;
+                        averageUsage = 1;
+                        break;
+                    case "WASHING MACHINE":
+                        factor = 0.63;
+                        averageUsage = 1;
+                        break;
+                }
+
+                usage.Emission = (decimal) (usage.Quantity * factor * averageUsage * 365);
 
                 // update user emission
                 string username = Context.User.Identity.GetUserId();

@@ -10,7 +10,9 @@ namespace TimeTraveller
         {
             bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
                         "~/Scripts/jquery-{version}.js",
+                        "~/Scripts/materialadmin/libs/jquery-ui/jquery-ui.min.js",
                         "~/Scripts/jquery.signalR-{version}.js",
+                        "~/Scripts/jquery.cookie.js",
                         "~/Scripts/hyperhub.js"
                         ));
 

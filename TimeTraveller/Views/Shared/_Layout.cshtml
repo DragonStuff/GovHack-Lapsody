@@ -17,7 +17,47 @@
 
 </head>
 <body class="menubar-hoverable header-fixed">
-    <!-- BEGIN HEADER-->
+<div id="dialog" class="card" style="display: none">
+    <div class="card-head style-primary">
+        <img style="width: 40px;" src="~/Content/images/lapsody.png"/>
+        <b>&nbsp;Welcome to Lapsody</b>
+    </div>
+
+    <div class="card-body">
+        <a href="@Url.Action("Login", "Account")">Register</a> and Join <b>Lapsody </b>to combat Carbon Emission and keep your Local Community Sustainable and Green
+        <hr/>
+
+        <div class="row">
+            <div class="col-xs-4"></div>
+            <div class="col-xs-4" style="margin: auto"><button onclick="closeDialog()" class="btn btn-flat">Close</button>
+            </div>
+            <div class="col-xs-4"></div>
+        </div>
+
+    </div>
+</div>
+
+<div id="dialogHint" class="card" style="display: none">
+    <div class="card-head style-primary">
+        <img style="width: 40px;" src="~/Content/images/lapsody.png" />
+        <b>&nbsp;First Use</b>
+    </div>
+
+    <div class="card-body">
+        Click on the Lighbulb to customise the appliances in your household. Lapsody will calculate your CO2 emmisions and overlay that data on Google Map.
+        <hr />
+
+        <div class="row">
+            <div class="col-xs-4"></div>
+            <div class="col-xs-4" style="margin: auto"><button onclick="closeDialogHint()" class="btn btn-flat">Close</button></div>
+            <div class="col-xs-4"></div>
+        </div>
+
+    </div>
+</div>
+
+
+<!-- BEGIN HEADER-->
     <header id="header">
         <div class="headerbar">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -100,14 +140,16 @@
                     <!-- BEGIN DASHBOARD -->
                     <li>
                         <a href="@Url.Action("Index", "Home")" class="active">
-                            <div class="gui-icon"><i class="md md-home"></i></div>
+                            <div class="gui-icon">
+                                <i class="md md-home"></i>
+                            </div>
                             <span class="title">Dashboard</span>
                         </a>
                     </li><!--end /menu-li -->
                     <!-- END DASHBOARD -->
                     @if (!Request.IsAuthenticated)
                     {
-                        <!-- BEGIN DASHBOARD -->
+                    <!-- BEGIN DASHBOARD -->
                         <li>
                             <a href="@Url.Action("Login", "Account")">
                                 <div class="gui-icon">
@@ -116,8 +158,8 @@
                                 <span class="title">Login</span>
                             </a>
                         </li>
-                        <!--end /menu-li -->
-                        <!-- END DASHBOARD -->
+                    <!--end /menu-li -->
+                    <!-- END DASHBOARD -->
                     }
                     else
                     {

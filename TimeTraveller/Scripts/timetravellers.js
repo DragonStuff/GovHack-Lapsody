@@ -28,6 +28,16 @@ $(document).ready(function() {
     });;
 });
 
+function closeDialog() {
+    $("#dialog").dialog("close");
+}
+
+
+function closeDialogHint() {
+    $("#dialogHint").dialog("close");
+}
+
+
 function logOff() {    
     hyperHub.disconnect();
     window.location = "/Account/Logoff";

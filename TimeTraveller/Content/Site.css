@@ -11,4 +11,7 @@
   right: 0;
   margin: auto;
 }
+.no-close .ui-dialog-titlebar-close {
+  display: none;
+}
 /*# sourceMappingURL=Site.css.map */
