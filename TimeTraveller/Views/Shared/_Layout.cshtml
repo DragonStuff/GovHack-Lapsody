@@ -42,7 +42,18 @@
 
                 @if (Request.IsAuthenticated)
                 {
-                    Html.RenderAction("UserDetails", "Common");                    
+                    Html.RenderAction("UserDetails", "Common");                   
+                }
+
+                @if (!Request.IsAuthenticated)
+                {
+                    <ul class="header-nav header-nav-toggle">
+                        <li>
+                            <a class="btn btn-icon-toggle btn-default" href="@Url.Action("Login", "Account")">
+                                <i class="fa fa-lock"></i>
+                            </a>
+                        </li>
+                    </ul>
                 }
 
             </div>
@@ -129,25 +140,7 @@
 
         @if (Request.IsAuthenticated)
         {
-            <div class="offcanvas">
-
-                <!-- BEGIN OFFCANVAS SEARCH -->
-                <div id="offcanvas-myusage" class="offcanvas-pane width-12">
-                    <div class="offcanvas-head">
-                        <header class="text-primary">My Usage</header>
-                        <div class="offcanvas-tools">
-                            <a class="btn btn-icon-toggle btn-default-light pull-right" data-dismiss="offcanvas">
-                                <i class="md md-close"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="offcanvas-body no-padding">
-                        Test
-                    </div><!--end .offcanvas-body -->
-                </div><!--end .offcanvas-pane -->
-                <!-- END OFFCANVAS SEARCH -->
-
-            </div><!--end .offcanvas-->
+            Html.RenderAction("MyUsage", "Common");            
         }
         <!-- END OFFCANVAS RIGHT -->
 

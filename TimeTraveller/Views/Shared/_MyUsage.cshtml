@@ -1,9 +1,9 @@
 ﻿<div class="offcanvas">
 
     <!-- BEGIN OFFCANVAS SEARCH -->
-    <div id="offcanvas-myusage" class="offcanvas-pane width-8">
+    <div id="offcanvas-myusage" class="offcanvas-pane width-12">
         <div class="offcanvas-head">
-            <header class="text-primary">My Usage</header>
+            <header class="text-primary">My Household Appliances</header>
             <div class="offcanvas-tools">
                 <a class="btn btn-icon-toggle btn-default-light pull-right" data-dismiss="offcanvas">
                     <i class="md md-close"></i>
@@ -11,10 +11,61 @@
             </div>
         </div>
         <div class="offcanvas-body no-padding">
+            <div class="card">
+                <div class="card-header style-primary">
 
+                </div>
+                <div class="card-body">
+                    <div id="entry" class="row">
+                        <div class="col-xs-7" style="padding-left: 2px">
+                            <form class="form">
+                                <div class="form-group floating-label">
+                                    <select id="cbxUsage" name="cbxUsage" class="form-control">
+                                        <option value="">&nbsp;</option>
+                                        <option value="Computer">Computer</option>
+                                        <option value="Mobile Phones">Mobile Phones</option>
+                                        <option value="Television">Television</option>
+                                        <option value="Microwave">Microwave</option>
+                                        <option value="Oven">Oven</option>
+                                        <option value="Airconditioner">Airconditioner</option>
+                                        <option value="Heater">Heater</option>
+                                        <option value="Refrigerator">Refrigerator</option>
+                                    </select>
+                                    <label for="cbxUsage">Select Appliance</label>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-xs-3">
+                            <form class="form">
+                                <div class="form-group floating-label">
+                                    <select id="cbxQuantity" name="cbxQuantity" class="form-control">
+                                        <option value="">&nbsp;</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                        <option value="7">7</option>
+                                        <option value="8">8</option>
+                                        <option value="9">9</option>
+                                    </select>
+                                    <label for="cbxQuantity">#</label>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-xs-1">
+                            <button type="button" onclick="addAppliance()" class="btn ink-reaction btn-raised btn-lg btn-primary">+</button>
+                        </div>
+                        <div class="col-xs-1"></div>
+                    </div>
+                    <hr/>
+                    <ul class="list-comments scroll " id="usagelist">                        
+                    </ul>
+                </div>
+            </div>
         </div><!--end .offcanvas-body -->
 
-        <footer>Test</footer>
     </div><!--end .offcanvas-pane -->
     <!-- END OFFCANVAS SEARCH -->
 

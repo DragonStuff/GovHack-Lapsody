@@ -30,10 +30,9 @@ namespace TimeTraveller
                 };
 
                 _connections.Add(user);
-            }
 
-            var ctx = ApplicationDbContext.Create();
-            var usage = ctx.UserUsages.ToList();
+                GetMyUsage();
+            }
 
             return base.OnConnected();
         }
@@ -92,6 +91,71 @@ namespace TimeTraveller
             _connections.Remove(username);
 
             Clients.All.userListChanged(JsonConvert.SerializeObject(_connections.GetConnections()));
+        }
+
+        public void GetMyUsage()
+        {
+            string username = Context.User.Identity.GetUserId();
+            var ctx = ApplicationDbContext.Create();
+            var usage = ctx.UserUsages.Where(u => u.Username.Equals(username, StringComparison.InvariantCultureIgnoreCase)).ToList();
+            Clients.Caller.getMyUsage(JsonConvert.SerializeObject(usage));
+        }
+
+        public void RemoveUsage(int id)
+        {
+            try
+            {
+                string username = Context.User.Identity.GetUserId();
+                var ctx = ApplicationDbContext.Create();
+                var usage = ctx.UserUsages.FirstOrDefault(u => u.Username.Equals(username, StringComparison.InvariantCultureIgnoreCase) && u.Id == id);
+                if (usage != null)
+                {
+                    ctx.UserUsages.Remove(usage);
+                }
+
+
+                ctx.SaveChanges();
+
+                GetMyUsage();
+            }
+            catch (Exception ex)
+            {
+                
+            }            
+        }
+
+        public void AddUsage(string product, int quantity)
+        {
+            try
+            {
+                string username = Context.User.Identity.GetUserId();
+                var ctx = ApplicationDbContext.Create();
+                var usage = ctx.UserUsages.FirstOrDefault(u => u.Username.Equals(username, StringComparison.InvariantCultureIgnoreCase) && u.Product.Equals(product, StringComparison.InvariantCultureIgnoreCase));
+
+                if (usage == null)
+                {
+                    usage = new UserUsage
+                    {
+                        Username = username,
+                        Emission = 0,
+                        Product = product,
+                        Quantity = quantity
+                    };
+
+                    ctx.UserUsages.Add(usage);
+                }
+                else
+                {
+                    usage.Quantity = quantity;
+                }
+
+                ctx.SaveChanges();
+
+                GetMyUsage();
+            }
+            catch (Exception ex)
+            {                                
+            }
         }
 
 
