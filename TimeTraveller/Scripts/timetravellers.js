@@ -7,6 +7,7 @@ var circle = null;
 var radius = 1000;
 var isAuthenticated = false;
 var powerstationOn = false;
+var year = 2015;
 
 $(document).ready(function() {
     $(".reportToggle").click(function() {
@@ -17,6 +18,14 @@ $(document).ready(function() {
                 break;
         }
     });
+
+    $("#datepicker").datepicker({
+        format: " yyyy", // Notice the Extra space at the beginning
+        viewMode: "years",
+        minViewMode: "years"
+    }).on("changeDate", function (e) {
+        year = e.date.getFullYear();
+    });;
 });
 
 function logOff() {    

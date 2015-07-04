@@ -18,12 +18,20 @@ namespace TimeTraveller
 
         public override Task OnConnected()
         {
-            string username = Context.User.Identity.GetUserId();
-            if (!_connections.IsExist(username))
-            {
-                UpdateUserConnection(username);
 
-                GetMyUsage();
+            try
+            {
+                string username = Context.User.Identity.GetUserId();
+                if (!_connections.IsExist(username))
+                {
+                    UpdateUserConnection(username);
+
+                    GetMyUsage();
+                }
+            }
+            catch
+            {
+                
             }
 
             return base.OnConnected();
@@ -31,11 +39,20 @@ namespace TimeTraveller
 
         public override Task OnDisconnected(bool stopCalled)
         {
-            string username = Context.User.Identity.GetUserId();
+            try
+            {
 
-            _connections.Remove(username);
+                string username = Context.User.Identity.GetUserId();
 
-            UserListChanged();
+                _connections.Remove(username);
+
+                UserListChanged();
+            }
+            catch
+            {
+
+            }
+
 
             return base.OnDisconnected(stopCalled);
         }
@@ -50,16 +67,23 @@ namespace TimeTraveller
 
         public override Task OnReconnected()
         {
-            string username = Context.User.Identity.GetUserId();
-
-            if (!_connections.IsExist(username))
+            try
             {
-                UpdateUserConnection(username);
+                string username = Context.User.Identity.GetUserId();
 
-                GetMyUsage();
+                if (!_connections.IsExist(username))
+                {
+                    UpdateUserConnection(username);
+
+                    GetMyUsage();
+                }
+
+                UserListChanged();
             }
+            catch
+            {
 
-            UserListChanged();
+            }
 
             return base.OnReconnected();
         }
@@ -70,20 +94,31 @@ namespace TimeTraveller
             {
                 Username = username,
                 Fullname = "",
+                Emission = 0,
+                //Latitude = 0,
+                //Longitude = 0
                 Latitude = -33.8809044,
                 Longitude = 151.20046760000002
+
             };
 
-            var ctx = ApplicationDbContext.Create();
-            var usage = ctx.UserUsages
-                .Where(u => u.Username.Equals(username, StringComparison.InvariantCultureIgnoreCase))
-                .GroupBy(u => u.Username)
-                .Select(u => u.Sum(v => v.Emission))
-                .ToList().FirstOrDefault();
-
-            if (usage != null)
+            try
             {
-                user.Emission = usage;
+                var ctx = ApplicationDbContext.Create();
+                var usage = ctx.UserUsages
+                    .Where(u => u.Username.Equals(username, StringComparison.InvariantCultureIgnoreCase))
+                    .GroupBy(u => u.Username)
+                    .Select(u => u.Sum(v => v.Emission))
+                    .ToList().FirstOrDefault();
+
+                if (usage != null)
+                {
+                    user.Emission = usage;
+                }
+            }
+            catch
+            {
+                
             }
 
             _connections.Add(user);            
@@ -91,35 +126,60 @@ namespace TimeTraveller
 
         public void UpdateLocation(double latitude, double longitude)
         {
-            if ((int)latitude == 0) return;
-
-            string username = Context.User.Identity.GetUserId();
-            var user = _connections.Get(username);
-            if (user != null)
+            try
             {
-                user.Latitude = latitude;
-                user.Longitude = longitude;
-                _connections.Update(user);
-            }
+                if ((int)latitude == 0) return;
 
-            UserListChanged();
+
+
+                string username = Context.User.Identity.GetUserId();
+                var user = _connections.Get(username);
+                if (user != null)
+                {
+                    user.Latitude = latitude;
+                    user.Longitude = longitude;
+                    _connections.Update(user);
+                }
+
+                UserListChanged();
+            }
+            catch
+            {
+
+            }
         }
 
         public void Disconnect()
         {
-            string username = Context.User.Identity.GetUserId();
+            try
+            {
 
-            _connections.Remove(username);
+                string username = Context.User.Identity.GetUserId();
 
-            UserListChanged();
+                _connections.Remove(username);
+
+                UserListChanged();
+            }
+            catch
+            {
+
+            }
         }
 
         public void GetMyUsage()
         {
-            string username = Context.User.Identity.GetUserId();
-            var ctx = ApplicationDbContext.Create();
-            var usage = ctx.UserUsages.Where(u => u.Username.Equals(username, StringComparison.InvariantCultureIgnoreCase)).ToList();
-            Clients.Caller.getMyUsage(JsonConvert.SerializeObject(usage));
+            try
+            {
+
+                string username = Context.User.Identity.GetUserId();
+                var ctx = ApplicationDbContext.Create();
+                var usage = ctx.UserUsages.Where(u => u.Username.Equals(username, StringComparison.InvariantCultureIgnoreCase)).ToList();
+                Clients.Caller.getMyUsage(JsonConvert.SerializeObject(usage));
+            }
+            catch
+            {
+
+            }
         }
 
         public void RemoveUsage(int id)
@@ -197,25 +257,25 @@ namespace TimeTraveller
 
         private void CalculateEmission(UserUsage usage, decimal oldEmission)
         {
-            var rand = new Random();
-            usage.Emission = usage.Quantity * rand.Next(10, 100);
-
-            // update user emission
-            string username = Context.User.Identity.GetUserId();
-            var user = _connections.Get(username);
-            if (user != null)
+            try
             {
-                user.Emission -= oldEmission;
-                user.Emission += usage.Emission;
-                _connections.Update(user);
+                var rand = new Random();
+                usage.Emission = usage.Quantity * rand.Next(10, 100);
+
+                // update user emission
+                string username = Context.User.Identity.GetUserId();
+                var user = _connections.Get(username);
+                if (user != null)
+                {
+                    user.Emission -= oldEmission;
+                    user.Emission += usage.Emission;
+                    _connections.Update(user);
+                }
             }
-        }
+            catch
+            {
 
-
-        public void Send(string name, string message)
-        {
-            // Call the broadcastMessage method to update clients.
-            Clients.All.broadcastMessage(name, message);
+            }
         }
     }
 }

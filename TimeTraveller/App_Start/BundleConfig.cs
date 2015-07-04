@@ -28,6 +28,7 @@ namespace TimeTraveller
                       "~/Scripts/materialadmin/core/source/*.js",
                       "~/Scripts/materialadmin/libs/gmaps/*.js",
                       "~/Scripts/materialadmin/libs/toastr/*.js",
+                      "~/Scripts/materialadmin/libs/bootstrap-datepicker/*.js",
                       "~/Scripts/markerclusterer.js",
                       "~/Scripts/timetravellers.js"
                       ));
@@ -38,6 +39,7 @@ namespace TimeTraveller
                       "~/Content/materialadmin/css/theme-1/font-awesome.css",
                       "~/Content/materialadmin/css/theme-1/material-design-iconic-font.css",
                       "~/Content/materialadmin/css/theme-default/libs/toastr/*.css",
+                      "~/Content/materialadmin/css/theme-default/libs/bootstrap-datepicker/*.css",
                       "~/Content/site.css"));
 
             System.Web.Optimization.BundleTable.EnableOptimizations = false;
