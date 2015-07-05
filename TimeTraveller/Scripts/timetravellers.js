@@ -8,10 +8,17 @@ var radius = 1000;
 var isAuthenticated = false;
 var powerstationOn = false;
 var airPollutionOn = false;
+var sydneyWaterTurbidityOn = false;
+var sydneyWaterChlorineOn = false;
+var airconOn = false;
+var heaterOn = false;
 var year = 2015;
 var powerPlantsArray = [];
 var airPollutionArray = [];
+var sydneyWaterArray = [];
+var airconArray = [];
 var myApp;
+var predictionOpen = false;
 
 $(document).ready(function() {
     $(".reportToggle").click(function () {
@@ -24,11 +31,27 @@ $(document).ready(function() {
                 airPollutionOn = !airPollutionOn;
                 hyperHub.toggleAirPollution(airPollutionOn);
                 break;
+            case "chkWaterPollutionTurbidity":
+                sydneyWaterTurbidityOn = !sydneyWaterTurbidityOn;
+                hyperHub.toggleSydneyWaterTurbidity(sydneyWaterTurbidityOn);
+                break;
+            case "chkWaterPollutionChlorine":
+                sydneyWaterChlorineOn = !sydneyWaterChlorineOn;
+                hyperHub.toggleSydneyWaterChlorine(sydneyWaterChlorineOn);
+                break;
+            case "chkAircon":
+                airconOn = !airconOn;
+                hyperHub.toggleAircon(airconOn);
+                break;
+            case "chkHeater":
+                heaterOn = !heaterOn;
+                hyperHub.toggleHeater(heaterOn);
+                break;
         }        
     });
 
     $("#datepicker").datepicker({
-        format: " yyyy", // Notice the Extra space at the beginning
+        format: " yyyy", // Notice the Extra space at the beginning 
         viewMode: "years",
         minViewMode: "years"
     }).on("changeDate", function (e) {
@@ -37,12 +60,30 @@ $(document).ready(function() {
             year = newYear;
             $("#currentYear").html("" + year);
             hyperHub.toggleAirPollution(airPollutionOn);
+            hyperHub.toggleSydneyWaterTurbidity(sydneyWaterTurbidityOn);
+            hyperHub.toggleSydneyWaterChlorine(sydneyWaterChlorineOn);
         }
     });;
 
     loadPowerStations();
     loadAirPollution();
+    loadSydneyWater();
+    loadAircon();
 });
+
+function showPrediction(totalEmission) {
+    /*var prediction = $(".prediction");
+    if (!predictionOpen) {
+        $.get(url, function(data) {
+            predictionOpen = true;
+            prediction.replaceWith(data);
+        });
+    } else {
+        predictionOpen = false;
+        prediction.empty();
+    }*/
+    window.href = "/Home/Predictor";
+}
 
 function loadPowerStations() {
     $.getJSON("PowerPlant.json", function (data) {
@@ -50,9 +91,22 @@ function loadPowerStations() {
     });
 }
 
+function loadAircon() {
+    $.getJSON("Aircon.json", function (data) {
+        airconArray = data;
+    });
+}
+
+
 function loadAirPollution() {
     $.getJSON("AirPollution.json", function (data) {
         airPollutionArray = data;
+    });
+}
+
+function loadSydneyWater() {
+    $.getJSON("SydneyWater.json", function (data) {
+        sydneyWaterArray = data;
     });
 }
 

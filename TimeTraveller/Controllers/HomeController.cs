@@ -30,5 +30,10 @@ namespace TimeTraveller.Controllers
 
             return View();
         }
+
+        public ActionResult Predictor()
+        {
+            return View();
+        }
     }
 }

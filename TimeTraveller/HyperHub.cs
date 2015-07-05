@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using System.Web;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.SignalR;
 using Newtonsoft.Json;
@@ -12,26 +11,24 @@ namespace TimeTraveller
 {
     public class HyperHub : Hub
     {
-        private readonly static ConnectionMapping _connections =
+        private static readonly ConnectionMapping _connections =
             new ConnectionMapping();
-
 
         public override Task OnConnected()
         {
-
             try
             {
-                string username = Context.User.Identity.GetUserId();
+                var username = Context.User.Identity.GetUserId();
                 if (!_connections.IsExist(username))
                 {
                     UpdateUserConnection(username);
 
                     GetMyUsage();
+                    //UserListChanged();
                 }
             }
             catch
             {
-                
             }
 
             return base.OnConnected();
@@ -41,8 +38,7 @@ namespace TimeTraveller
         {
             try
             {
-
-                string username = Context.User.Identity.GetUserId();
+                var username = Context.User.Identity.GetUserId();
 
                 _connections.Remove(username);
 
@@ -50,7 +46,6 @@ namespace TimeTraveller
             }
             catch
             {
-
             }
 
 
@@ -61,15 +56,24 @@ namespace TimeTraveller
         {
             var ctx = ApplicationDbContext.Create();
             // need total emmissions for all users
-            var totalEmission = 
-            Clients.All.userListChanged(JsonConvert.SerializeObject(_connections.GetConnections()));            
+            var users = ctx.Users.ToList();
+            var connections = users.Select(usr => new User
+            {
+                Username = usr.UserName,
+                Emission = usr.Emission,
+                Latitude = (usr.Latitude == 0) ? -33.8809044 : usr.Latitude,
+                Longitude = (usr.Longitude == 0) ? 151.20046760000002 : usr.Longitude,
+                Fullname = ""
+            }).ToList();
+
+            Clients.All.userListChanged(JsonConvert.SerializeObject(connections));
         }
 
         public override Task OnReconnected()
         {
             try
             {
-                string username = Context.User.Identity.GetUserId();
+                var username = Context.User.Identity.GetUserId();
 
                 if (!_connections.IsExist(username))
                 {
@@ -82,7 +86,6 @@ namespace TimeTraveller
             }
             catch
             {
-
             }
 
             return base.OnReconnected();
@@ -99,7 +102,6 @@ namespace TimeTraveller
                 //Longitude = 0
                 Latitude = -33.8809044,
                 Longitude = 151.20046760000002
-
             };
 
             try
@@ -115,24 +117,34 @@ namespace TimeTraveller
                 {
                     user.Emission = usage;
                 }
+
+                var appUser =
+                    ctx.Users
+                        .FirstOrDefault(u => u.Id.ToString().Equals(username, StringComparison.InvariantCultureIgnoreCase));
+
+                if (appUser != null)
+                {
+                    appUser.Latitude = user.Latitude;
+                    appUser.Longitude = user.Longitude;
+                    appUser.Emission = user.Emission;
+                    ctx.SaveChanges();
+                }
             }
             catch
             {
-                
             }
 
-            _connections.Add(user);            
+            _connections.Add(user);
         }
 
         public void UpdateLocation(double latitude, double longitude)
         {
             try
             {
-                if ((int)latitude == 0) return;
+                if ((int) latitude == 0) return;
 
 
-
-                string username = Context.User.Identity.GetUserId();
+                var username = Context.User.Identity.GetUserId();
                 var user = _connections.Get(username);
                 if (user != null)
                 {
@@ -145,7 +157,6 @@ namespace TimeTraveller
             }
             catch
             {
-
             }
         }
 
@@ -153,8 +164,7 @@ namespace TimeTraveller
         {
             try
             {
-
-                string username = Context.User.Identity.GetUserId();
+                var username = Context.User.Identity.GetUserId();
 
                 _connections.Remove(username);
 
@@ -162,7 +172,6 @@ namespace TimeTraveller
             }
             catch
             {
-
             }
         }
 
@@ -170,23 +179,24 @@ namespace TimeTraveller
         {
             try
             {
-
-                string username = Context.User.Identity.GetUserId();
+                var username = Context.User.Identity.GetUserId();
                 var ctx = ApplicationDbContext.Create();
-                var usage = ctx.UserUsages.Where(u => u.Username.Equals(username, StringComparison.InvariantCultureIgnoreCase)).ToList();
+                var usage =
+                    ctx.UserUsages.Where(u => u.Username.Equals(username, StringComparison.InvariantCultureIgnoreCase))
+                        .ToList();
                 Clients.Caller.getMyUsage(JsonConvert.SerializeObject(usage));
             }
             catch
             {
-
             }
-        }        
+        }
 
-        public void RemoveUsage(int id)
+        public decimal RemoveUsage(int id)
         {
+            decimal finalEmission = 0;
             try
             {
-                string username = Context.User.Identity.GetUserId();
+                var username = Context.User.Identity.GetUserId();
                 var ctx = ApplicationDbContext.Create();
                 var usage =
                     ctx.UserUsages.FirstOrDefault(
@@ -195,7 +205,7 @@ namespace TimeTraveller
                 {
                     var oldEmission = usage.Emission;
                     usage.Quantity = 0;
-                    CalculateEmission(usage, oldEmission);
+                    finalEmission = CalculateEmission(usage, oldEmission);
                     ctx.UserUsages.Remove(usage);
                 }
 
@@ -204,26 +214,31 @@ namespace TimeTraveller
             }
             catch (Exception ex)
             {
-
             }
             finally
             {
                 GetMyUsage();
                 UserListChanged();
             }
+
+            return finalEmission;
         }
 
         public void AddUsage(string product, int quantity)
         {
             try
             {
-                string username = Context.User.Identity.GetUserId();
+                decimal finalEmission = 0;
+                var username = Context.User.Identity.GetUserId();
                 var ctx = ApplicationDbContext.Create();
-                var usage = ctx.UserUsages.FirstOrDefault(u => u.Username.Equals(username, StringComparison.InvariantCultureIgnoreCase) && u.Product.Equals(product, StringComparison.InvariantCultureIgnoreCase));
+                var usage =
+                    ctx.UserUsages.FirstOrDefault(
+                        u =>
+                            u.Username.Equals(username, StringComparison.InvariantCultureIgnoreCase) &&
+                            u.Product.Equals(product, StringComparison.InvariantCultureIgnoreCase));
 
                 if (usage == null)
-                {                    
-                    Random rand = new Random();
+                {
                     usage = new UserUsage
                     {
                         Username = username,
@@ -232,28 +247,37 @@ namespace TimeTraveller
                         Quantity = quantity
                     };
 
-                    CalculateEmission(usage, 0);
+                    finalEmission = CalculateEmission(usage, 0);
 
                     ctx.UserUsages.Add(usage);
                 }
                 else
                 {
-                    if (quantity == 0)
+                    if (quantity <= 0)
                     {
-                        RemoveUsage(usage.Id);
+                        finalEmission = RemoveUsage(usage.Id);
                     }
                     else
                     {
                         var oldEmission = usage.Emission;
                         usage.Quantity = quantity;
-                        CalculateEmission(usage, oldEmission);
+                        finalEmission = CalculateEmission(usage, oldEmission);
                     }
                 }
+
+                var appUser =
+                    ctx.Users
+                        .FirstOrDefault(u => u.Id.ToString().Equals(username, StringComparison.InvariantCultureIgnoreCase));
+
+                if (appUser != null)
+                {
+                    appUser.Emission = finalEmission;
+                }                
 
                 ctx.SaveChanges();
             }
             catch (Exception ex)
-            {                                
+            {
             }
             finally
             {
@@ -262,8 +286,9 @@ namespace TimeTraveller
             }
         }
 
-        private void CalculateEmission(UserUsage usage, decimal oldEmission)
+        private decimal CalculateEmission(UserUsage usage, decimal oldEmission)
         {
+            decimal finalEmission = 0;
             try
             {
                 var rand = new Random();
@@ -274,11 +299,11 @@ namespace TimeTraveller
                 {
                     case "BEDROOMS":
                         factor = 0.27;
-                        averageUsage =  4;
-                        break;                    
+                        averageUsage = 4;
+                        break;
                     case "COMPUTER":
                         factor = 0.19;
-                        averageUsage =  4;
+                        averageUsage = 4;
                         break;
                     case "MOBILE PHONES":
                         factor = 0.02;
@@ -324,24 +349,30 @@ namespace TimeTraveller
                         factor = 0.63;
                         averageUsage = 1;
                         break;
+                    case "LIGHT BULB":
+                        factor = 0.08;
+                        averageUsage = 12;
+                        break;
                 }
 
-                usage.Emission = (decimal) (usage.Quantity * factor * averageUsage * 365);
+                usage.Emission = (decimal) (usage.Quantity*factor*averageUsage*365);
 
                 // update user emission
-                string username = Context.User.Identity.GetUserId();
+                var username = Context.User.Identity.GetUserId();
                 var user = _connections.Get(username);
                 if (user != null)
                 {
                     user.Emission -= oldEmission;
                     user.Emission += usage.Emission;
+                    finalEmission = user.Emission;
                     _connections.Update(user);
                 }
             }
             catch
             {
-
             }
+
+            return finalEmission;
         }
     }
 }

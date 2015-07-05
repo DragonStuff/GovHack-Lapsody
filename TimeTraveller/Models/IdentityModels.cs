@@ -10,6 +10,9 @@ namespace TimeTraveller.Models
     public class ApplicationUser : IdentityUser
     {
         public string FullName { get; set; }
+        public double Latitude { get; set; }
+        public double Longitude { get; set; }
+        public decimal Emission { get; set; }
 
         public async Task<ClaimsIdentity> GenerateUserIdentityAsync(UserManager<ApplicationUser> manager)
         {

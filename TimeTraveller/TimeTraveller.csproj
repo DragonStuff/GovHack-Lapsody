@@ -625,6 +625,9 @@
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\LICENSE.txt" />
     <Content Include="fonts\Material-Design-Iconic-Font.svg" />
+    <Content Include="Scripts\Chart.Core.js" />
+    <Content Include="Scripts\Chart.Line.js" />
+    <Content Include="Scripts\Chart.min.js" />
     <Content Include="Scripts\fontawesome-markers.min.js" />
     <Content Include="Scripts\hyperhub.js" />
     <Content Include="Scripts\jquery.cookie.js" />
@@ -1988,6 +1991,7 @@
     <Content Include="fonts\Material-Design-Iconic-Font.woff" />
     <Content Include="PowerPlant.json" />
     <Content Include="AirPollution.json" />
+    <Content Include="Aircon.json" />
     <None Include="Properties\PublishProfiles\timetravellers.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -2039,6 +2043,8 @@
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Shared\_UserDetails.cshtml" />
     <Content Include="Views\Shared\_MyUsage.cshtml" />
+    <Content Include="SydneyWater.json" />
+    <Content Include="Views\Home\Predictor.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

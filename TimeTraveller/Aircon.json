@@ -1,0 +1,5366 @@
+[
+  {
+    "Postcode":2000,
+    "LocationFix":" Australia",
+    "Postcode":2000,
+    "Cooling":651,
+    "Heating":659,
+    "Latitude":"-33.8657305",
+    "Longitude":151.20733
+  },
+  {
+    "Postcode":2006,
+    "LocationFix":" Australia",
+    "Postcode":2006,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.8875569",
+    "Longitude":151.1879896
+  },
+  {
+    "Postcode":2007,
+    "LocationFix":" Australia",
+    "Postcode":2007,
+    "Cooling":651,
+    "Heating":659,
+    "Latitude":"-33.8797613",
+    "Longitude":151.197131
+  },
+  {
+    "Postcode":2008,
+    "LocationFix":" Australia",
+    "Postcode":2008,
+    "Cooling":651,
+    "Heating":659,
+    "Latitude":"-33.8878872",
+    "Longitude":151.1964025
+  },
+  {
+    "Postcode":2009,
+    "LocationFix":" Australia",
+    "Postcode":2009,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.8687895",
+    "Longitude":151.1942171
+  },
+  {
+    "Postcode":2010,
+    "LocationFix":" Australia",
+    "Postcode":2010,
+    "Cooling":651,
+    "Heating":659,
+    "Latitude":"-33.8825595",
+    "Longitude":151.2131584
+  },
+  {
+    "Postcode":2011,
+    "LocationFix":" Australia",
+    "Postcode":2011,
+    "Cooling":651,
+    "Heating":659,
+    "Latitude":"-33.8710844",
+    "Longitude":151.2233585
+  },
+  {
+    "Postcode":2015,
+    "LocationFix":" Australia",
+    "Postcode":2015,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.9087966",
+    "Longitude":151.195674
+  },
+  {
+    "Postcode":2017,
+    "LocationFix":" Australia",
+    "Postcode":2017,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.9015357",
+    "Longitude":151.20733
+  },
+  {
+    "Postcode":2018,
+    "LocationFix":" Australia",
+    "Postcode":2018,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.9219899",
+    "Longitude":151.20733
+  },
+  {
+    "Postcode":2019,
+    "LocationFix":" Australia",
+    "Postcode":2019,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.9544766",
+    "Longitude":151.2044159
+  },
+  {
+    "Postcode":2021,
+    "LocationFix":" Australia",
+    "Postcode":2021,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.8921203",
+    "Longitude":151.2306446
+  },
+  {
+    "Postcode":2022,
+    "LocationFix":" Australia",
+    "Postcode":2022,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.8949143",
+    "Longitude":151.2466754
+  },
+  {
+    "Postcode":2023,
+    "LocationFix":" Australia",
+    "Postcode":2023,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.8826955",
+    "Longitude":151.2539627
+  },
+  {
+    "Postcode":2024,
+    "LocationFix":" Australia",
+    "Postcode":2024,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.9046399",
+    "Longitude":151.2597927
+  },
+  {
+    "Postcode":2025,
+    "LocationFix":" Australia",
+    "Postcode":2025,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.8865002",
+    "Longitude":151.2437606
+  },
+  {
+    "Postcode":2026,
+    "LocationFix":" Australia",
+    "Postcode":2026,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.8834964",
+    "Longitude":151.2772841
+  },
+  {
+    "Postcode":2027,
+    "LocationFix":" Australia",
+    "Postcode":2027,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.8722288",
+    "Longitude":151.2379312
+  },
+  {
+    "Postcode":2028,
+    "LocationFix":" Australia",
+    "Postcode":2028,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.8780012",
+    "Longitude":151.2430319
+  },
+  {
+    "Postcode":2029,
+    "LocationFix":" Australia",
+    "Postcode":2029,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.8754209",
+    "Longitude":151.265623
+  },
+  {
+    "Postcode":2030,
+    "LocationFix":" Australia",
+    "Postcode":2030,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.8579067",
+    "Longitude":151.2772841
+  },
+  {
+    "Postcode":2031,
+    "LocationFix":" Australia",
+    "Postcode":2031,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.9155426",
+    "Longitude":151.2423032
+  },
+  {
+    "Postcode":2033,
+    "LocationFix":" Australia",
+    "Postcode":2033,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.9096151",
+    "Longitude":151.2189869
+  },
+  {
+    "Postcode":2034,
+    "LocationFix":" Australia",
+    "Postcode":2034,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.9236193",
+    "Longitude":151.2539627
+  },
+  {
+    "Postcode":2035,
+    "LocationFix":" Australia",
+    "Postcode":2035,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.942927",
+    "Longitude":151.2393885
+  },
+  {
+    "Postcode":2037,
+    "LocationFix":" Australia",
+    "Postcode":2037,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.8802599",
+    "Longitude":151.1840188
+  },
+  {
+    "Postcode":2038,
+    "LocationFix":" Australia",
+    "Postcode":2038,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.8824062",
+    "Longitude":151.1723645
+  },
+  {
+    "Postcode":2039,
+    "LocationFix":" Australia",
+    "Postcode":2039,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.8635979",
+    "Longitude":151.1738213
+  },
+  {
+    "Postcode":2040,
+    "LocationFix":" Australia",
+    "Postcode":2040,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.8779521",
+    "Longitude":151.1548847
+  },
+  {
+    "Postcode":2041,
+    "LocationFix":" Australia",
+    "Postcode":2041,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.8546842",
+    "Longitude":151.1840188
+  },
+  {
+    "Postcode":2042,
+    "LocationFix":" Australia",
+    "Postcode":2042,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.8992314",
+    "Longitude":151.1781916
+  },
+  {
+    "Postcode":2043,
+    "LocationFix":" Australia",
+    "Postcode":2043,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.9023649",
+    "Longitude":151.1854757
+  },
+  {
+    "Postcode":2044,
+    "LocationFix":" Australia",
+    "Postcode":2044,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.9197505",
+    "Longitude":151.1694315
+  },
+  {
+    "Postcode":2045,
+    "LocationFix":" Australia",
+    "Postcode":2045,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.8786088",
+    "Longitude":151.1374068
+  },
+  {
+    "Postcode":2046,
+    "LocationFix":" Australia",
+    "Postcode":2046,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.8617826",
+    "Longitude":151.1315813
+  },
+  {
+    "Postcode":2047,
+    "LocationFix":" Australia",
+    "Postcode":2047,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.8523805",
+    "Longitude":151.1548847
+  },
+  {
+    "Postcode":2049,
+    "LocationFix":" Australia",
+    "Postcode":2049,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.8932918",
+    "Longitude":151.1548847
+  },
+  {
+    "Postcode":2050,
+    "LocationFix":" Australia",
+    "Postcode":2050,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.8888388",
+    "Longitude":151.182562
+  },
+  {
+    "Postcode":2052,
+    "LocationFix":" Australia",
+    "Postcode":2052,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.9174103",
+    "Longitude":151.2313068
+  },
+  {
+    "Postcode":2060,
+    "LocationFix":" Australia",
+    "Postcode":2060,
+    "Cooling":651,
+    "Heating":659,
+    "Latitude":"-33.8401473",
+    "Longitude":151.20733
+  },
+  {
+    "Postcode":2061,
+    "LocationFix":" Australia",
+    "Postcode":2061,
+    "Cooling":651,
+    "Heating":659,
+    "Latitude":"-33.8483957",
+    "Longitude":151.2146155
+  },
+  {
+    "Postcode":2062,
+    "LocationFix":" Australia",
+    "Postcode":2062,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.8228068",
+    "Longitude":151.2146155
+  },
+  {
+    "Postcode":2063,
+    "LocationFix":" Australia",
+    "Postcode":2063,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.8123999",
+    "Longitude":151.2189869
+  },
+  {
+    "Postcode":2064,
+    "LocationFix":" Australia",
+    "Postcode":2064,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.8086312",
+    "Longitude":151.1840188
+  },
+  {
+    "Postcode":2065,
+    "LocationFix":" Australia",
+    "Postcode":2065,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.8269489",
+    "Longitude":151.195674
+  },
+  {
+    "Postcode":2066,
+    "LocationFix":" Australia",
+    "Postcode":2066,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.8126017",
+    "Longitude":151.1694511
+  },
+  {
+    "Postcode":2067,
+    "LocationFix":" Australia",
+    "Postcode":2067,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.7969122",
+    "Longitude":151.1781916
+  },
+  {
+    "Postcode":2068,
+    "LocationFix":" Australia",
+    "Postcode":2068,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.7992003",
+    "Longitude":151.20733
+  },
+  {
+    "Postcode":2069,
+    "LocationFix":" Australia",
+    "Postcode":2069,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.7808794",
+    "Longitude":151.195674
+  },
+  {
+    "Postcode":2070,
+    "LocationFix":" Australia",
+    "Postcode":2070,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.7785908",
+    "Longitude":151.1665377
+  },
+  {
+    "Postcode":2071,
+    "LocationFix":" Australia",
+    "Postcode":2071,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.7632319",
+    "Longitude":151.1665377
+  },
+  {
+    "Postcode":2072,
+    "LocationFix":" Australia",
+    "Postcode":2072,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.7515094",
+    "Longitude":151.1607111
+  },
+  {
+    "Postcode":2073,
+    "LocationFix":" Australia",
+    "Postcode":2073,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.7627554",
+    "Longitude":151.134494
+  },
+  {
+    "Postcode":2075,
+    "LocationFix":" Australia",
+    "Postcode":2075,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.7204426",
+    "Longitude":151.1694511
+  },
+  {
+    "Postcode":2076,
+    "LocationFix":" Australia",
+    "Postcode":2076,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.7085861",
+    "Longitude":151.1228434
+  },
+  {
+    "Postcode":2077,
+    "LocationFix":" Australia",
+    "Postcode":2077,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.6924088",
+    "Longitude":151.0995447
+  },
+  {
+    "Postcode":2080,
+    "LocationFix":" Australia",
+    "Postcode":2080,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.6500724",
+    "Longitude":151.134494
+  },
+  {
+    "Postcode":2081,
+    "LocationFix":" Australia",
+    "Postcode":2081,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.5769126",
+    "Longitude":151.1694511
+  },
+  {
+    "Postcode":2082,
+    "LocationFix":" Australia",
+    "Postcode":2082,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.5988104",
+    "Longitude":151.134494
+  },
+  {
+    "Postcode":2083,
+    "LocationFix":" Australia",
+    "Postcode":2083,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.6217551",
+    "Longitude":151.245218
+  },
+  {
+    "Postcode":2084,
+    "LocationFix":" Australia",
+    "Postcode":2084,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.6828601",
+    "Longitude":151.2131584
+  },
+  {
+    "Postcode":2085,
+    "LocationFix":" Australia",
+    "Postcode":2085,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.7293236",
+    "Longitude":151.2044159
+  },
+  {
+    "Postcode":2086,
+    "LocationFix":" Australia",
+    "Postcode":2086,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.7473073",
+    "Longitude":151.2248157
+  },
+  {
+    "Postcode":2087,
+    "LocationFix":" Australia",
+    "Postcode":2087,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.773259",
+    "Longitude":151.2160726
+  },
+  {
+    "Postcode":2088,
+    "LocationFix":" Australia",
+    "Postcode":2088,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.8303776",
+    "Longitude":151.2393885
+  },
+  {
+    "Postcode":2089,
+    "LocationFix":" Australia",
+    "Postcode":2089,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.8379923",
+    "Longitude":151.2189869
+  },
+  {
+    "Postcode":2090,
+    "LocationFix":" Australia",
+    "Postcode":2090,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.827587",
+    "Longitude":151.2233585
+  },
+  {
+    "Postcode":2093,
+    "LocationFix":" Australia",
+    "Postcode":2093,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.7971531",
+    "Longitude":151.2597927
+  },
+  {
+    "Postcode":2094,
+    "LocationFix":" Australia",
+    "Postcode":2094,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.7940757",
+    "Longitude":151.2729111
+  },
+  {
+    "Postcode":2095,
+    "LocationFix":" Australia",
+    "Postcode":2095,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.8060158",
+    "Longitude":151.2947775
+  },
+  {
+    "Postcode":2096,
+    "LocationFix":" Australia",
+    "Postcode":2096,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.7738038",
+    "Longitude":151.2889461
+  },
+  {
+    "Postcode":2097,
+    "LocationFix":" Australia",
+    "Postcode":2097,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.734283",
+    "Longitude":151.2947775
+  },
+  {
+    "Postcode":2099,
+    "LocationFix":" Australia",
+    "Postcode":2099,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.7500081",
+    "Longitude":151.2860306
+  },
+  {
+    "Postcode":2100,
+    "LocationFix":" Australia",
+    "Postcode":2100,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.7616432",
+    "Longitude":151.2510477
+  },
+  {
+    "Postcode":2101,
+    "LocationFix":" Australia",
+    "Postcode":2101,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.6891976",
+    "Longitude":151.2685382
+  },
+  {
+    "Postcode":2102,
+    "LocationFix":" Australia",
+    "Postcode":2102,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.6881414",
+    "Longitude":151.2947775
+  },
+  {
+    "Postcode":2103,
+    "LocationFix":" Australia",
+    "Postcode":2103,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.6742294",
+    "Longitude":151.300609
+  },
+  {
+    "Postcode":2104,
+    "LocationFix":" Australia",
+    "Postcode":2104,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.6610245",
+    "Longitude":151.2889461
+  },
+  {
+    "Postcode":2105,
+    "LocationFix":" Australia",
+    "Postcode":2105,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.6395909",
+    "Longitude":151.290404
+  },
+  {
+    "Postcode":2106,
+    "LocationFix":" Australia",
+    "Postcode":2106,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.6566564",
+    "Longitude":151.3122727
+  },
+  {
+    "Postcode":2107,
+    "LocationFix":" Australia",
+    "Postcode":2107,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.6357749",
+    "Longitude":151.321021
+  },
+  {
+    "Postcode":2108,
+    "LocationFix":" Australia",
+    "Postcode":2108,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.6031492",
+    "Longitude":151.3239372
+  },
+  {
+    "Postcode":2110,
+    "LocationFix":" Australia",
+    "Postcode":2110,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.8274649",
+    "Longitude":151.1374068
+  },
+  {
+    "Postcode":2111,
+    "LocationFix":" Australia",
+    "Postcode":2111,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.8296098",
+    "Longitude":151.125756
+  },
+  {
+    "Postcode":2112,
+    "LocationFix":" Australia",
+    "Postcode":2112,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.807991",
+    "Longitude":151.1111936
+  },
+  {
+    "Postcode":2114,
+    "LocationFix":" Australia",
+    "Postcode":2114,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.8089747",
+    "Longitude":151.0849848
+  },
+  {
+    "Postcode":2115,
+    "LocationFix":" Australia",
+    "Postcode":2115,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.8132521",
+    "Longitude":151.0616918
+  },
+  {
+    "Postcode":2116,
+    "LocationFix":" Australia",
+    "Postcode":2116,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.8124093",
+    "Longitude":151.0384023
+  },
+  {
+    "Postcode":2117,
+    "LocationFix":" Australia",
+    "Postcode":2117,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.7973906",
+    "Longitude":151.0296696
+  },
+  {
+    "Postcode":2118,
+    "LocationFix":" Australia",
+    "Postcode":2118,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.7696806",
+    "Longitude":151.0413133
+  },
+  {
+    "Postcode":2119,
+    "LocationFix":" Australia",
+    "Postcode":2119,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.7533514",
+    "Longitude":151.0675147
+  },
+  {
+    "Postcode":2120,
+    "LocationFix":" Australia",
+    "Postcode":2120,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.7274311",
+    "Longitude":151.0762495
+  },
+  {
+    "Postcode":2121,
+    "LocationFix":" Australia",
+    "Postcode":2121,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.7716764",
+    "Longitude":151.0791612
+  },
+  {
+    "Postcode":2122,
+    "LocationFix":" Australia",
+    "Postcode":2122,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.7863691",
+    "Longitude":151.0966326
+  },
+  {
+    "Postcode":2123,
+    "LocationFix":" Australia",
+    "Postcode":2123,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.3920943",
+    "Longitude":-70.6772003
+  },
+  {
+    "Postcode":2125,
+    "LocationFix":" Australia",
+    "Postcode":2125,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.7462388",
+    "Longitude":151.0296696
+  },
+  {
+    "Postcode":2127,
+    "LocationFix":" Australia",
+    "Postcode":2127,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.8472324",
+    "Longitude":151.0646032
+  },
+  {
+    "Postcode":2128,
+    "LocationFix":" Australia",
+    "Postcode":2128,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.8343506",
+    "Longitude":151.0442244
+  },
+  {
+    "Postcode":2130,
+    "LocationFix":" Australia",
+    "Postcode":2130,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.8922971",
+    "Longitude":151.1359504
+  },
+  {
+    "Postcode":2132,
+    "LocationFix":" Australia",
+    "Postcode":2132,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.8741495",
+    "Longitude":151.1199309
+  },
+  {
+    "Postcode":2133,
+    "LocationFix":" Australia",
+    "Postcode":2133,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.8967345",
+    "Longitude":151.1082813
+  },
+  {
+    "Postcode":2134,
+    "LocationFix":" Australia",
+    "Postcode":2134,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.8799121",
+    "Longitude":151.1024569
+  },
+  {
+    "Postcode":2135,
+    "LocationFix":" Australia",
+    "Postcode":2135,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.8808808",
+    "Longitude":151.0762495
+  },
+  {
+    "Postcode":2136,
+    "LocationFix":" Australia",
+    "Postcode":2136,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.8929126",
+    "Longitude":151.0733379
+  },
+  {
+    "Postcode":2137,
+    "LocationFix":" Australia",
+    "Postcode":2137,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.8489097",
+    "Longitude":151.1111936
+  },
+  {
+    "Postcode":2138,
+    "LocationFix":" Australia",
+    "Postcode":2138,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.8429606",
+    "Longitude":151.0878967
+  },
+  {
+    "Postcode":2139,
+    "LocationFix":" Australia",
+    "Postcode":2139,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.3921929",
+    "Longitude":-70.677171
+  },
+  {
+    "Postcode":2140,
+    "LocationFix":" Australia",
+    "Postcode":2140,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.8622463",
+    "Longitude":151.0733379
+  },
+  {
+    "Postcode":2141,
+    "LocationFix":" Australia",
+    "Postcode":2141,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.8719405",
+    "Longitude":151.0413133
+  },
+  {
+    "Postcode":2142,
+    "LocationFix":" Australia",
+    "Postcode":2142,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.8323277",
+    "Longitude":151.006385
+  },
+  {
+    "Postcode":2144,
+    "LocationFix":" Australia",
+    "Postcode":2144,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.8485157",
+    "Longitude":151.0296696
+  },
+  {
+    "Postcode":2145,
+    "LocationFix":" Australia",
+    "Postcode":2145,
+    "Cooling":942,
+    "Heating":1444,
+    "Latitude":"-33.8160213",
+    "Longitude":150.9632689
+  },
+  {
+    "Postcode":2146,
+    "LocationFix":" Australia",
+    "Postcode":2146,
+    "Cooling":942,
+    "Heating":1444,
+    "Latitude":"-33.7864147",
+    "Longitude":150.9569167
+  },
+  {
+    "Postcode":2147,
+    "LocationFix":" Australia",
+    "Postcode":2147,
+    "Cooling":942,
+    "Heating":1444,
+    "Latitude":"-33.7632936",
+    "Longitude":150.9365521
+  },
+  {
+    "Postcode":2148,
+    "LocationFix":" Australia",
+    "Postcode":2148,
+    "Cooling":942,
+    "Heating":1444,
+    "Latitude":"-33.7849921",
+    "Longitude":150.9016476
+  },
+  {
+    "Postcode":2150,
+    "LocationFix":" Australia",
+    "Postcode":2150,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.8151823",
+    "Longitude":151.0092954
+  },
+  {
+    "Postcode":2151,
+    "LocationFix":" Australia",
+    "Postcode":2151,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.7739537",
+    "Longitude":151.0180269
+  },
+  {
+    "Postcode":2152,
+    "LocationFix":" Australia",
+    "Postcode":2152,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.7902573",
+    "Longitude":150.9918338
+  },
+  {
+    "Postcode":2153,
+    "LocationFix":" Australia",
+    "Postcode":2153,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.7597726",
+    "Longitude":150.9914951
+  },
+  {
+    "Postcode":2154,
+    "LocationFix":" Australia",
+    "Postcode":2154,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.7270691",
+    "Longitude":150.9947439
+  },
+  {
+    "Postcode":2155,
+    "LocationFix":" Australia",
+    "Postcode":2155,
+    "Cooling":942,
+    "Heating":1444,
+    "Latitude":"-33.6880666",
+    "Longitude":150.9423702
+  },
+  {
+    "Postcode":2156,
+    "LocationFix":" Australia",
+    "Postcode":2156,
+    "Cooling":942,
+    "Heating":1444,
+    "Latitude":"-33.6530868",
+    "Longitude":150.9656452
+  },
+  {
+    "Postcode":2157,
+    "LocationFix":" Australia",
+    "Postcode":2157,
+    "Cooling":942,
+    "Heating":1444,
+    "Latitude":"-33.5420387",
+    "Longitude":151.0122058
+  },
+  {
+    "Postcode":2158,
+    "LocationFix":" Australia",
+    "Postcode":2158,
+    "Cooling":942,
+    "Heating":1444,
+    "Latitude":"-33.6914284",
+    "Longitude":151.0354914
+  },
+  {
+    "Postcode":2159,
+    "LocationFix":" Australia",
+    "Postcode":2159,
+    "Cooling":942,
+    "Heating":1444,
+    "Latitude":"-33.5876386",
+    "Longitude":151.0704263
+  },
+  {
+    "Postcode":2160,
+    "LocationFix":" Australia",
+    "Postcode":2160,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.8365794",
+    "Longitude":150.9831038
+  },
+  {
+    "Postcode":2161,
+    "LocationFix":" Australia",
+    "Postcode":2161,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.8570185",
+    "Longitude":150.9831038
+  },
+  {
+    "Postcode":2162,
+    "LocationFix":" Australia",
+    "Postcode":2162,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.883427",
+    "Longitude":151.006385
+  },
+  {
+    "Postcode":2163,
+    "LocationFix":" Australia",
+    "Postcode":2163,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.88468",
+    "Longitude":150.9714645
+  },
+  {
+    "Postcode":2164,
+    "LocationFix":" Australia",
+    "Postcode":2164,
+    "Cooling":942,
+    "Heating":1444,
+    "Latitude":"-33.8492918",
+    "Longitude":150.9132815
+  },
+  {
+    "Postcode":2165,
+    "LocationFix":" Australia",
+    "Postcode":2165,
+    "Cooling":942,
+    "Heating":1444,
+    "Latitude":"-33.8702903",
+    "Longitude":150.9452794
+  },
+  {
+    "Postcode":2166,
+    "LocationFix":" Australia",
+    "Postcode":2166,
+    "Cooling":942,
+    "Heating":1444,
+    "Latitude":"-33.8961316",
+    "Longitude":150.9365521
+  },
+  {
+    "Postcode":2167,
+    "LocationFix":" Australia",
+    "Postcode":2167,
+    "Cooling":942,
+    "Heating":1444,
+    "Latitude":"-33.9690916",
+    "Longitude":150.8929227
+  },
+  {
+    "Postcode":2168,
+    "LocationFix":" Australia",
+    "Postcode":2168,
+    "Cooling":942,
+    "Heating":1444,
+    "Latitude":"-33.9117729",
+    "Longitude":150.8783824
+  },
+  {
+    "Postcode":2170,
+    "LocationFix":" Australia",
+    "Postcode":2170,
+    "Cooling":942,
+    "Heating":1444,
+    "Latitude":"-33.9397233",
+    "Longitude":150.9249431
+  },
+  {
+    "Postcode":2171,
+    "LocationFix":" Australia",
+    "Postcode":2171,
+    "Cooling":942,
+    "Heating":1444,
+    "Latitude":"-33.9129713",
+    "Longitude":150.8434913
+  },
+  {
+    "Postcode":2172,
+    "LocationFix":" Australia",
+    "Postcode":2172,
+    "Cooling":942,
+    "Heating":1444,
+    "Latitude":"-33.9645606",
+    "Longitude":150.9743743
+  },
+  {
+    "Postcode":2173,
+    "LocationFix":" Australia",
+    "Postcode":2173,
+    "Cooling":942,
+    "Heating":1444,
+    "Latitude":"-34.0425826",
+    "Longitude":150.9307341
+  },
+  {
+    "Postcode":2174,
+    "LocationFix":" Australia",
+    "Postcode":2174,
+    "Cooling":942,
+    "Heating":1444,
+    "Latitude":"-33.9600831",
+    "Longitude":150.8580282
+  },
+  {
+    "Postcode":2175,
+    "LocationFix":" Australia",
+    "Postcode":2175,
+    "Cooling":942,
+    "Heating":1444,
+    "Latitude":"-33.848126",
+    "Longitude":150.8493059
+  },
+  {
+    "Postcode":2176,
+    "LocationFix":" Australia",
+    "Postcode":2176,
+    "Cooling":942,
+    "Heating":1444,
+    "Latitude":"-33.8709405",
+    "Longitude":150.8783824
+  },
+  {
+    "Postcode":2177,
+    "LocationFix":" Australia",
+    "Postcode":2177,
+    "Cooling":942,
+    "Heating":1444,
+    "Latitude":"-33.8946607",
+    "Longitude":150.8812903
+  },
+  {
+    "Postcode":2178,
+    "LocationFix":" Australia",
+    "Postcode":2178,
+    "Cooling":942,
+    "Heating":1444,
+    "Latitude":"-33.8769426",
+    "Longitude":150.8027952
+  },
+  {
+    "Postcode":2179,
+    "LocationFix":" Australia",
+    "Postcode":2179,
+    "Cooling":942,
+    "Heating":1444,
+    "Latitude":"-33.9519427",
+    "Longitude":150.7969823
+  },
+  {
+    "Postcode":2190,
+    "LocationFix":" Australia",
+    "Postcode":2190,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.90558",
+    "Longitude":151.0529578
+  },
+  {
+    "Postcode":2191,
+    "LocationFix":" Australia",
+    "Postcode":2191,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.9061117",
+    "Longitude":151.0849848
+  },
+  {
+    "Postcode":2192,
+    "LocationFix":" Australia",
+    "Postcode":2192,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.9178204",
+    "Longitude":151.0908086
+  },
+  {
+    "Postcode":2193,
+    "LocationFix":" Australia",
+    "Postcode":2193,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.909932",
+    "Longitude":151.1199309
+  },
+  {
+    "Postcode":2194,
+    "LocationFix":" Australia",
+    "Postcode":2194,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.9105784",
+    "Longitude":151.1024569
+  },
+  {
+    "Postcode":2196,
+    "LocationFix":" Australia",
+    "Postcode":2196,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.9293131",
+    "Longitude":151.0558691
+  },
+  {
+    "Postcode":2197,
+    "LocationFix":" Australia",
+    "Postcode":2197,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.8990652",
+    "Longitude":150.9976541
+  },
+  {
+    "Postcode":2198,
+    "LocationFix":" Australia",
+    "Postcode":2198,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.9077856",
+    "Longitude":150.9918338
+  },
+  {
+    "Postcode":2200,
+    "LocationFix":" Australia",
+    "Postcode":2200,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.9272741",
+    "Longitude":151.0180269
+  },
+  {
+    "Postcode":2203,
+    "LocationFix":" Australia",
+    "Postcode":2203,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.9031903",
+    "Longitude":151.1422914
+  },
+  {
+    "Postcode":2204,
+    "LocationFix":" Australia",
+    "Postcode":2204,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.913741",
+    "Longitude":151.1548847
+  },
+  {
+    "Postcode":2205,
+    "LocationFix":" Australia",
+    "Postcode":2205,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.9378099",
+    "Longitude":151.1490585
+  },
+  {
+    "Postcode":2206,
+    "LocationFix":" Australia",
+    "Postcode":2206,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.9267511",
+    "Longitude":151.125756
+  },
+  {
+    "Postcode":2207,
+    "LocationFix":" Australia",
+    "Postcode":2207,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.9541086",
+    "Longitude":151.1228434
+  },
+  {
+    "Postcode":2208,
+    "LocationFix":" Australia",
+    "Postcode":2208,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.9379361",
+    "Longitude":151.0995447
+  },
+  {
+    "Postcode":2209,
+    "LocationFix":" Australia",
+    "Postcode":2209,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.9454921",
+    "Longitude":151.0791612
+  },
+  {
+    "Postcode":2210,
+    "LocationFix":" Australia",
+    "Postcode":2210,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.9566557",
+    "Longitude":151.0529578
+  },
+  {
+    "Postcode":2211,
+    "LocationFix":" Australia",
+    "Postcode":2211,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.9608964",
+    "Longitude":151.0296696
+  },
+  {
+    "Postcode":2212,
+    "LocationFix":" Australia",
+    "Postcode":2212,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.9495044",
+    "Longitude":151.0151163
+  },
+  {
+    "Postcode":2214,
+    "LocationFix":" Australia",
+    "Postcode":2214,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.9405364",
+    "Longitude":150.9801939
+  },
+  {
+    "Postcode":2216,
+    "LocationFix":" Australia",
+    "Postcode":2216,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.9531396",
+    "Longitude":151.1490585
+  },
+  {
+    "Postcode":2217,
+    "LocationFix":" Australia",
+    "Postcode":2217,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.9757081",
+    "Longitude":151.1374068
+  },
+  {
+    "Postcode":2219,
+    "LocationFix":" Australia",
+    "Postcode":2219,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.9961376",
+    "Longitude":151.1374068
+  },
+  {
+    "Postcode":2220,
+    "LocationFix":" Australia",
+    "Postcode":2220,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.9583688",
+    "Longitude":151.0995447
+  },
+  {
+    "Postcode":2221,
+    "LocationFix":" Australia",
+    "Postcode":2221,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.9886917",
+    "Longitude":151.1082813
+  },
+  {
+    "Postcode":2222,
+    "LocationFix":" Australia",
+    "Postcode":2222,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.9623045",
+    "Longitude":151.0849848
+  },
+  {
+    "Postcode":2223,
+    "LocationFix":" Australia",
+    "Postcode":2223,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-33.9728345",
+    "Longitude":151.0762495
+  },
+  {
+    "Postcode":2224,
+    "LocationFix":" Australia",
+    "Postcode":2224,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-34.0094315",
+    "Longitude":151.0995447
+  },
+  {
+    "Postcode":2225,
+    "LocationFix":" Australia",
+    "Postcode":2225,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-34.0016599",
+    "Longitude":151.0791612
+  },
+  {
+    "Postcode":2226,
+    "LocationFix":" Australia",
+    "Postcode":2226,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-34.0106901",
+    "Longitude":151.0646032
+  },
+  {
+    "Postcode":2227,
+    "LocationFix":" Australia",
+    "Postcode":2227,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-34.043981",
+    "Longitude":151.0849848
+  },
+  {
+    "Postcode":2228,
+    "LocationFix":" Australia",
+    "Postcode":2228,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-34.03825",
+    "Longitude":151.1024569
+  },
+  {
+    "Postcode":2229,
+    "LocationFix":" Australia",
+    "Postcode":2229,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-34.0460194",
+    "Longitude":151.1228434
+  },
+  {
+    "Postcode":2231,
+    "LocationFix":" Australia",
+    "Postcode":2231,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-34.0200619",
+    "Longitude":151.1811052
+  },
+  {
+    "Postcode":2232,
+    "LocationFix":" Australia",
+    "Postcode":2232,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-34.0712948",
+    "Longitude":151.082073
+  },
+  {
+    "Postcode":2233,
+    "LocationFix":" Australia",
+    "Postcode":2233,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-34.1145376",
+    "Longitude":151.0122058
+  },
+  {
+    "Postcode":2234,
+    "LocationFix":" Australia",
+    "Postcode":2234,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-34.0161592",
+    "Longitude":151.006385
+  },
+  {
+    "Postcode":2250,
+    "LocationFix":" Australia",
+    "Postcode":2250,
+    "Cooling":810,
+    "Heating":1094,
+    "Latitude":"-33.3355391",
+    "Longitude":151.2102442
+  },
+  {
+    "Postcode":2251,
+    "LocationFix":" Australia",
+    "Postcode":2251,
+    "Cooling":810,
+    "Heating":1094,
+    "Latitude":"-33.4816666",
+    "Longitude":151.402695
+  },
+  {
+    "Postcode":2256,
+    "LocationFix":" Australia",
+    "Postcode":2256,
+    "Cooling":810,
+    "Heating":1094,
+    "Latitude":"-33.5110561",
+    "Longitude":151.2743688
+  },
+  {
+    "Postcode":2257,
+    "LocationFix":" Australia",
+    "Postcode":2257,
+    "Cooling":810,
+    "Heating":1094,
+    "Latitude":"-33.5140026",
+    "Longitude":151.3676868
+  },
+  {
+    "Postcode":2258,
+    "LocationFix":" Australia",
+    "Postcode":2258,
+    "Cooling":810,
+    "Heating":1094,
+    "Latitude":"-33.3295763",
+    "Longitude":151.3501856
+  },
+  {
+    "Postcode":2259,
+    "LocationFix":" Australia",
+    "Postcode":2259,
+    "Cooling":810,
+    "Heating":1094,
+    "Latitude":"-33.2176201",
+    "Longitude":151.3968598
+  },
+  {
+    "Postcode":2260,
+    "LocationFix":" Australia",
+    "Postcode":2260,
+    "Cooling":810,
+    "Heating":1094,
+    "Latitude":"-33.4360805",
+    "Longitude":151.4260379
+  },
+  {
+    "Postcode":2261,
+    "LocationFix":" Australia",
+    "Postcode":2261,
+    "Cooling":810,
+    "Heating":1094,
+    "Latitude":"-33.3603327",
+    "Longitude":151.4318742
+  },
+  {
+    "Postcode":2262,
+    "LocationFix":" Australia",
+    "Postcode":2262,
+    "Cooling":810,
+    "Heating":1094,
+    "Latitude":"-33.2046568",
+    "Longitude":151.5311224
+  },
+  {
+    "Postcode":2263,
+    "LocationFix":" Australia",
+    "Postcode":2263,
+    "Cooling":810,
+    "Heating":1094,
+    "Latitude":"-33.2504355",
+    "Longitude":151.5077645
+  },
+  {
+    "Postcode":2264,
+    "LocationFix":" Australia",
+    "Postcode":2264,
+    "Cooling":810,
+    "Heating":1094,
+    "Latitude":"-33.1244951",
+    "Longitude":151.4785718
+  },
+  {
+    "Postcode":2265,
+    "LocationFix":" Australia",
+    "Postcode":2265,
+    "Cooling":810,
+    "Heating":1094,
+    "Latitude":"-33.0567216",
+    "Longitude":151.4552213
+  },
+  {
+    "Postcode":2267,
+    "LocationFix":" Australia",
+    "Postcode":2267,
+    "Cooling":810,
+    "Heating":1094,
+    "Latitude":"-33.0683359",
+    "Longitude":151.5749274
+  },
+  {
+    "Postcode":2278,
+    "LocationFix":" Australia",
+    "Postcode":2278,
+    "Cooling":810,
+    "Heating":1094,
+    "Latitude":"-32.9351373",
+    "Longitude":151.548643
+  },
+  {
+    "Postcode":2280,
+    "LocationFix":" Australia",
+    "Postcode":2280,
+    "Cooling":810,
+    "Heating":1094,
+    "Latitude":"-33.0223311",
+    "Longitude":151.6713386
+  },
+  {
+    "Postcode":2281,
+    "LocationFix":" Australia",
+    "Postcode":2281,
+    "Cooling":810,
+    "Heating":1094,
+    "Latitude":"-33.1170985",
+    "Longitude":151.6362736
+  },
+  {
+    "Postcode":2282,
+    "LocationFix":" Australia",
+    "Postcode":2282,
+    "Cooling":810,
+    "Heating":1094,
+    "Latitude":"-32.9648241",
+    "Longitude":151.6479611
+  },
+  {
+    "Postcode":2283,
+    "LocationFix":" Australia",
+    "Postcode":2283,
+    "Cooling":810,
+    "Heating":1094,
+    "Latitude":"-33.017891",
+    "Longitude":151.548643
+  },
+  {
+    "Postcode":2284,
+    "LocationFix":" Australia",
+    "Postcode":2284,
+    "Cooling":810,
+    "Heating":1094,
+    "Latitude":"-32.9532984",
+    "Longitude":151.6012158
+  },
+  {
+    "Postcode":2285,
+    "LocationFix":" Australia",
+    "Postcode":2285,
+    "Cooling":810,
+    "Heating":1094,
+    "Latitude":"-32.9110348",
+    "Longitude":151.6187438
+  },
+  {
+    "Postcode":2286,
+    "LocationFix":" Australia",
+    "Postcode":2286,
+    "Cooling":810,
+    "Heating":1094,
+    "Latitude":"-32.8995067",
+    "Longitude":151.5720067
+  },
+  {
+    "Postcode":2287,
+    "LocationFix":" Australia",
+    "Postcode":2287,
+    "Cooling":810,
+    "Heating":1094,
+    "Latitude":"-32.8923373",
+    "Longitude":151.6479611
+  },
+  {
+    "Postcode":2289,
+    "LocationFix":" Australia",
+    "Postcode":2289,
+    "Cooling":810,
+    "Heating":1094,
+    "Latitude":"-32.9462692",
+    "Longitude":151.7093339
+  },
+  {
+    "Postcode":2290,
+    "LocationFix":" Australia",
+    "Postcode":2290,
+    "Cooling":810,
+    "Heating":1094,
+    "Latitude":"-32.9754667",
+    "Longitude":151.712257
+  },
+  {
+    "Postcode":2291,
+    "LocationFix":" Australia",
+    "Postcode":2291,
+    "Cooling":810,
+    "Heating":1094,
+    "Latitude":"-32.9497012",
+    "Longitude":151.744414
+  },
+  {
+    "Postcode":2292,
+    "LocationFix":" Australia",
+    "Postcode":2292,
+    "Cooling":810,
+    "Heating":1094,
+    "Latitude":"-32.9225853",
+    "Longitude":151.7341816
+  },
+  {
+    "Postcode":2293,
+    "LocationFix":" Australia",
+    "Postcode":2293,
+    "Cooling":810,
+    "Heating":1094,
+    "Latitude":"-32.9153665",
+    "Longitude":151.7575709
+  },
+  {
+    "Postcode":2294,
+    "LocationFix":" Australia",
+    "Postcode":2294,
+    "Cooling":810,
+    "Heating":1094,
+    "Latitude":"-32.9123334",
+    "Longitude":151.7663428
+  },
+  {
+    "Postcode":2295,
+    "LocationFix":" Australia",
+    "Postcode":2295,
+    "Cooling":810,
+    "Heating":1094,
+    "Latitude":"-32.8674273",
+    "Longitude":151.7999723
+  },
+  {
+    "Postcode":2296,
+    "LocationFix":" Australia",
+    "Postcode":2296,
+    "Cooling":810,
+    "Heating":1094,
+    "Latitude":"-32.9158076",
+    "Longitude":151.7487996
+  },
+  {
+    "Postcode":2297,
+    "LocationFix":" Australia",
+    "Postcode":2297,
+    "Cooling":810,
+    "Heating":1094,
+    "Latitude":"-32.9050024",
+    "Longitude":151.7575709
+  },
+  {
+    "Postcode":2298,
+    "LocationFix":" Australia",
+    "Postcode":2298,
+    "Cooling":810,
+    "Heating":1094,
+    "Latitude":"-32.9025199",
+    "Longitude":151.7210265
+  },
+  {
+    "Postcode":2299,
+    "LocationFix":" Australia",
+    "Postcode":2299,
+    "Cooling":810,
+    "Heating":1094,
+    "Latitude":"-32.9085765",
+    "Longitude":151.7034879
+  },
+  {
+    "Postcode":2300,
+    "LocationFix":" Australia",
+    "Postcode":2300,
+    "Cooling":810,
+    "Heating":1094,
+    "Latitude":"-32.930965",
+    "Longitude":151.773653
+  },
+  {
+    "Postcode":2302,
+    "LocationFix":" Australia",
+    "Postcode":2302,
+    "Cooling":810,
+    "Heating":1094,
+    "Latitude":"-32.9264461",
+    "Longitude":151.7604948
+  },
+  {
+    "Postcode":2303,
+    "LocationFix":" Australia",
+    "Postcode":2303,
+    "Cooling":810,
+    "Heating":1094,
+    "Latitude":"-32.9252332",
+    "Longitude":151.7502614
+  },
+  {
+    "Postcode":2304,
+    "LocationFix":" Australia",
+    "Postcode":2304,
+    "Cooling":810,
+    "Heating":1094,
+    "Latitude":"-32.8709867",
+    "Longitude":151.7297964
+  },
+  {
+    "Postcode":2305,
+    "LocationFix":" Australia",
+    "Postcode":2305,
+    "Cooling":810,
+    "Heating":1094,
+    "Latitude":"-32.9274242",
+    "Longitude":151.7064109
+  },
+  {
+    "Postcode":2306,
+    "LocationFix":" Australia",
+    "Postcode":2306,
+    "Cooling":810,
+    "Heating":1094,
+    "Latitude":"-32.9908543",
+    "Longitude":151.680106
+  },
+  {
+    "Postcode":2307,
+    "LocationFix":" Australia",
+    "Postcode":2307,
+    "Cooling":810,
+    "Heating":1094,
+    "Latitude":"-32.879801",
+    "Longitude":151.6917966
+  },
+  {
+    "Postcode":2308,
+    "LocationFix":" Australia",
+    "Postcode":2308,
+    "Cooling":810,
+    "Heating":1094,
+    "Latitude":"-32.8930342",
+    "Longitude":151.7034879
+  },
+  {
+    "Postcode":2309,
+    "LocationFix":" Australia",
+    "Postcode":2309,
+    "Cooling":810,
+    "Heating":1094,
+    "Latitude":"-33.3932932",
+    "Longitude":-70.6790917
+  },
+  {
+    "Postcode":2311,
+    "LocationFix":" Australia",
+    "Postcode":2311,
+    "Cooling":942,
+    "Heating":1444,
+    "Latitude":"-32.2611927",
+    "Longitude":151.4668962
+  },
+  {
+    "Postcode":2312,
+    "LocationFix":" Australia",
+    "Postcode":2312,
+    "Cooling":790,
+    "Heating":696,
+    "Latitude":"-32.1257631",
+    "Longitude":152.3799862
+  },
+  {
+    "Postcode":2314,
+    "LocationFix":" Australia",
+    "Postcode":2314,
+    "Cooling":810,
+    "Heating":1094,
+    "Latitude":"-32.7996439",
+    "Longitude":151.8479121
+  },
+  {
+    "Postcode":2315,
+    "LocationFix":" Australia",
+    "Postcode":2315,
+    "Cooling":810,
+    "Heating":1094,
+    "Latitude":"-32.7457912",
+    "Longitude":152.1336925
+  },
+  {
+    "Postcode":2316,
+    "LocationFix":" Australia",
+    "Postcode":2316,
+    "Cooling":810,
+    "Heating":1094,
+    "Latitude":"-32.7553076",
+    "Longitude":152.0868168
+  },
+  {
+    "Postcode":2317,
+    "LocationFix":" Australia",
+    "Postcode":2317,
+    "Cooling":810,
+    "Heating":1094,
+    "Latitude":"-32.7311991",
+    "Longitude":152.0838875
+  },
+  {
+    "Postcode":2318,
+    "LocationFix":" Australia",
+    "Postcode":2318,
+    "Cooling":810,
+    "Heating":1094,
+    "Latitude":"-32.753389",
+    "Longitude":151.8643252
+  },
+  {
+    "Postcode":2319,
+    "LocationFix":" Australia",
+    "Postcode":2319,
+    "Cooling":810,
+    "Heating":1094,
+    "Latitude":"-32.7392913",
+    "Longitude":151.9989579
+  },
+  {
+    "Postcode":2320,
+    "LocationFix":" Australia",
+    "Postcode":2320,
+    "Cooling":942,
+    "Heating":1444,
+    "Latitude":"-32.7397662",
+    "Longitude":151.3035248
+  },
+  {
+    "Postcode":2321,
+    "LocationFix":" Australia",
+    "Postcode":2321,
+    "Cooling":942,
+    "Heating":1444,
+    "Latitude":"-32.5869664",
+    "Longitude":151.7356433
+  },
+  {
+    "Postcode":2322,
+    "LocationFix":" Australia",
+    "Postcode":2322,
+    "Cooling":942,
+    "Heating":1444,
+    "Latitude":"-32.8189255",
+    "Longitude":151.6654939
+  },
+  {
+    "Postcode":2323,
+    "LocationFix":" Australia",
+    "Postcode":2323,
+    "Cooling":942,
+    "Heating":1444,
+    "Latitude":"-32.9103365",
+    "Longitude":151.4902483
+  },
+  {
+    "Postcode":2324,
+    "LocationFix":" Australia",
+    "Postcode":2324,
+    "Cooling":790,
+    "Heating":696,
+    "Latitude":"-32.6249114",
+    "Longitude":151.9345555
+  },
+  {
+    "Postcode":2325,
+    "LocationFix":" Australia",
+    "Postcode":2325,
+    "Cooling":942,
+    "Heating":1444,
+    "Latitude":"-32.9910442",
+    "Longitude":151.2335592
+  },
+  {
+    "Postcode":2326,
+    "LocationFix":" Australia",
+    "Postcode":2326,
+    "Cooling":942,
+    "Heating":1444,
+    "Latitude":"-32.787791",
+    "Longitude":151.4552213
+  },
+  {
+    "Postcode":2327,
+    "LocationFix":" Australia",
+    "Postcode":2327,
+    "Cooling":942,
+    "Heating":1444,
+    "Latitude":"-32.8312613",
+    "Longitude":151.4844099
+  },
+  {
+    "Postcode":2328,
+    "LocationFix":" Australia",
+    "Postcode":2328,
+    "Cooling":271,
+    "Heating":3761,
+    "Latitude":"-32.466267",
+    "Longitude":150.6285091
+  },
+  {
+    "Postcode":2329,
+    "LocationFix":" Australia",
+    "Postcode":2329,
+    "Cooling":281,
+    "Heating":2944,
+    "Latitude":"-32.0459832",
+    "Longitude":150.1184797
+  },
+  {
+    "Postcode":2330,
+    "LocationFix":" Australia",
+    "Postcode":2330,
+    "Cooling":942,
+    "Heating":1444,
+    "Latitude":"-32.7319195",
+    "Longitude":150.8609358
+  },
+  {
+    "Postcode":2331,
+    "LocationFix":" Australia",
+    "Postcode":2331,
+    "Cooling":942,
+    "Heating":1444,
+    "Latitude":"-32.7048371",
+    "Longitude":151.1636244
+  },
+  {
+    "Postcode":2334,
+    "LocationFix":" Australia",
+    "Postcode":2334,
+    "Cooling":942,
+    "Heating":1444,
+    "Latitude":"-32.6875639",
+    "Longitude":151.38519
+  },
+  {
+    "Postcode":2335,
+    "LocationFix":" Australia",
+    "Postcode":2335,
+    "Cooling":942,
+    "Heating":1444,
+    "Latitude":"-32.6270649",
+    "Longitude":151.3501856
+  },
+  {
+    "Postcode":2336,
+    "LocationFix":" Australia",
+    "Postcode":2336,
+    "Cooling":281,
+    "Heating":2944,
+    "Latitude":"-32.1089351",
+    "Longitude":151.1869325
+  },
+  {
+    "Postcode":2337,
+    "LocationFix":" Australia",
+    "Postcode":2337,
+    "Cooling":281,
+    "Heating":2944,
+    "Latitude":"-31.9193182",
+    "Longitude":151.0937206
+  },
+  {
+    "Postcode":2338,
+    "LocationFix":" Australia",
+    "Postcode":2338,
+    "Cooling":281,
+    "Heating":2944,
+    "Latitude":"-31.7295314",
+    "Longitude":151.0005643
+  },
+  {
+    "Postcode":2339,
+    "LocationFix":" Australia",
+    "Postcode":2339,
+    "Cooling":281,
+    "Heating":2944,
+    "Latitude":"-31.7795952",
+    "Longitude":150.535641
+  },
+  {
+    "Postcode":2340,
+    "LocationFix":" Australia",
+    "Postcode":2340,
+    "Cooling":281,
+    "Heating":2944,
+    "Latitude":"-31.128784",
+    "Longitude":150.9444544
+  },
+  {
+    "Postcode":2341,
+    "LocationFix":" Australia",
+    "Postcode":2341,
+    "Cooling":281,
+    "Heating":2944,
+    "Latitude":"-31.3599657",
+    "Longitude":150.6052865
+  },
+  {
+    "Postcode":2342,
+    "LocationFix":" Australia",
+    "Postcode":2342,
+    "Cooling":281,
+    "Heating":2944,
+    "Latitude":"-31.1929989",
+    "Longitude":150.6052865
+  },
+  {
+    "Postcode":2344,
+    "LocationFix":" Australia",
+    "Postcode":2344,
+    "Cooling":281,
+    "Heating":2944,
+    "Latitude":"-31.1325489",
+    "Longitude":150.6981989
+  },
+  {
+    "Postcode":2345,
+    "LocationFix":" Australia",
+    "Postcode":2345,
+    "Cooling":281,
+    "Heating":2944,
+    "Latitude":"-30.9158156",
+    "Longitude":150.8376769
+  },
+  {
+    "Postcode":2346,
+    "LocationFix":" Australia",
+    "Postcode":2346,
+    "Cooling":281,
+    "Heating":2944,
+    "Latitude":"-30.6870373",
+    "Longitude":150.6749653
+  },
+  {
+    "Postcode":2347,
+    "LocationFix":" Australia",
+    "Postcode":2347,
+    "Cooling":281,
+    "Heating":2944,
+    "Latitude":"-30.3053875",
+    "Longitude":150.4892292
+  },
+  {
+    "Postcode":2350,
+    "LocationFix":" Australia",
+    "Postcode":2350,
+    "Cooling":281,
+    "Heating":2944,
+    "Latitude":"-30.4941859",
+    "Longitude":151.9813913
+  },
+  {
+    "Postcode":2351,
+    "LocationFix":" Australia",
+    "Postcode":2351,
+    "Cooling":281,
+    "Heating":2944,
+    "Latitude":"-33.3934717",
+    "Longitude":-70.6795676
+  },
+  {
+    "Postcode":2352,
+    "LocationFix":" Australia",
+    "Postcode":2352,
+    "Cooling":281,
+    "Heating":2944,
+    "Latitude":"-31.0794521",
+    "Longitude":151.1636244
+  },
+  {
+    "Postcode":2353,
+    "LocationFix":" Australia",
+    "Postcode":2353,
+    "Cooling":281,
+    "Heating":2944,
+    "Latitude":"-30.9728211",
+    "Longitude":151.0704263
+  },
+  {
+    "Postcode":2354,
+    "LocationFix":" Australia",
+    "Postcode":2354,
+    "Cooling":281,
+    "Heating":2944,
+    "Latitude":"-31.0638225",
+    "Longitude":151.8877321
+  },
+  {
+    "Postcode":2355,
+    "LocationFix":" Australia",
+    "Postcode":2355,
+    "Cooling":281,
+    "Heating":2944,
+    "Latitude":"-30.7474594",
+    "Longitude":151.0937206
+  },
+  {
+    "Postcode":2356,
+    "LocationFix":" Australia",
+    "Postcode":2356,
+    "Cooling":281,
+    "Heating":2944,
+    "Latitude":"-30.5436583",
+    "Longitude":148.96649
+  },
+  {
+    "Postcode":2357,
+    "LocationFix":" Australia",
+    "Postcode":2357,
+    "Cooling":1285,
+    "Heating":1905,
+    "Latitude":"-31.220809",
+    "Longitude":149.3339956
+  },
+  {
+    "Postcode":2358,
+    "LocationFix":" Australia",
+    "Postcode":2358,
+    "Cooling":281,
+    "Heating":2944,
+    "Latitude":"-30.5621734",
+    "Longitude":151.373521
+  },
+  {
+    "Postcode":2359,
+    "LocationFix":" Australia",
+    "Postcode":2359,
+    "Cooling":281,
+    "Heating":2944,
+    "Latitude":"-30.1731018",
+    "Longitude":151.0704263
+  },
+  {
+    "Postcode":2360,
+    "LocationFix":" Australia",
+    "Postcode":2360,
+    "Cooling":1285,
+    "Heating":1905,
+    "Latitude":"-29.7659965",
+    "Longitude":151.0471355
+  },
+  {
+    "Postcode":2361,
+    "LocationFix":" Australia",
+    "Postcode":2361,
+    "Cooling":281,
+    "Heating":2944,
+    "Latitude":"-29.2477204",
+    "Longitude":151.1869325
+  },
+  {
+    "Postcode":2365,
+    "LocationFix":" Australia",
+    "Postcode":2365,
+    "Cooling":281,
+    "Heating":2944,
+    "Latitude":"-30.0677809",
+    "Longitude":151.6070583
+  },
+  {
+    "Postcode":2369,
+    "LocationFix":" Australia",
+    "Postcode":2369,
+    "Cooling":281,
+    "Heating":2944,
+    "Latitude":"-29.9529375",
+    "Longitude":151.2102442
+  },
+  {
+    "Postcode":2370,
+    "LocationFix":" Australia",
+    "Postcode":2370,
+    "Cooling":281,
+    "Heating":2944,
+    "Latitude":"-29.6445018",
+    "Longitude":151.9813913
+  },
+  {
+    "Postcode":2371,
+    "LocationFix":" Australia",
+    "Postcode":2371,
+    "Cooling":281,
+    "Heating":2944,
+    "Latitude":"-29.3880642",
+    "Longitude":151.6070583
+  },
+  {
+    "Postcode":2372,
+    "LocationFix":" Australia",
+    "Postcode":2372,
+    "Cooling":281,
+    "Heating":2944,
+    "Latitude":"-29.0034573",
+    "Longitude":152.1688572
+  },
+  {
+    "Postcode":2379,
+    "LocationFix":" Australia",
+    "Postcode":2379,
+    "Cooling":1285,
+    "Heating":1905,
+    "Latitude":"-31.0917446",
+    "Longitude":149.7948904
+  },
+  {
+    "Postcode":2380,
+    "LocationFix":" Australia",
+    "Postcode":2380,
+    "Cooling":281,
+    "Heating":2944,
+    "Latitude":"-30.9361952",
+    "Longitude":150.1647697
+  },
+  {
+    "Postcode":2381,
+    "LocationFix":" Australia",
+    "Postcode":2381,
+    "Cooling":281,
+    "Heating":2944,
+    "Latitude":"-31.305517",
+    "Longitude":149.9797036
+  },
+  {
+    "Postcode":2382,
+    "LocationFix":" Australia",
+    "Postcode":2382,
+    "Cooling":281,
+    "Heating":2944,
+    "Latitude":"-30.6855751",
+    "Longitude":150.1647697
+  },
+  {
+    "Postcode":2386,
+    "LocationFix":" Australia",
+    "Postcode":2386,
+    "Cooling":1824,
+    "Heating":1170,
+    "Latitude":"-30.0503142",
+    "Longitude":148.8289611
+  },
+  {
+    "Postcode":2387,
+    "LocationFix":" Australia",
+    "Postcode":2387,
+    "Cooling":1824,
+    "Heating":1170,
+    "Latitude":"-29.7110242",
+    "Longitude":148.96649
+  },
+  {
+    "Postcode":2388,
+    "LocationFix":" Australia",
+    "Postcode":2388,
+    "Cooling":1824,
+    "Heating":1170,
+    "Latitude":"-30.3602829",
+    "Longitude":149.3800105
+  },
+  {
+    "Postcode":2390,
+    "LocationFix":" Australia",
+    "Postcode":2390,
+    "Cooling":1824,
+    "Heating":1170,
+    "Latitude":"-30.1669781",
+    "Longitude":149.9334764
+  },
+  {
+    "Postcode":2395,
+    "LocationFix":" Australia",
+    "Postcode":2395,
+    "Cooling":1285,
+    "Heating":1905,
+    "Latitude":"-31.5759338",
+    "Longitude":149.4260421
+  },
+  {
+    "Postcode":2396,
+    "LocationFix":" Australia",
+    "Postcode":2396,
+    "Cooling":1285,
+    "Heating":1905,
+    "Latitude":"-30.9238593",
+    "Longitude":149.1501056
+  },
+  {
+    "Postcode":2397,
+    "LocationFix":" Australia",
+    "Postcode":2397,
+    "Cooling":1824,
+    "Heating":1170,
+    "Latitude":"-29.8992727",
+    "Longitude":149.7025801
+  },
+  {
+    "Postcode":2398,
+    "LocationFix":" Australia",
+    "Postcode":2398,
+    "Cooling":1824,
+    "Heating":1170,
+    "Latitude":"-29.6707647",
+    "Longitude":149.7948904
+  },
+  {
+    "Postcode":2399,
+    "LocationFix":" Australia",
+    "Postcode":2399,
+    "Cooling":1824,
+    "Heating":1170,
+    "Latitude":"-29.5101099",
+    "Longitude":150.1647697
+  },
+  {
+    "Postcode":2400,
+    "LocationFix":" Australia",
+    "Postcode":2400,
+    "Cooling":1824,
+    "Heating":1170,
+    "Latitude":"-29.4491211",
+    "Longitude":149.7487272
+  },
+  {
+    "Postcode":2401,
+    "LocationFix":" Australia",
+    "Postcode":2401,
+    "Cooling":1824,
+    "Heating":1170,
+    "Latitude":"-29.5832092",
+    "Longitude":150.3369712
+  },
+  {
+    "Postcode":2402,
+    "LocationFix":" Australia",
+    "Postcode":2402,
+    "Cooling":1824,
+    "Heating":1170,
+    "Latitude":"-29.3695185",
+    "Longitude":150.6285091
+  },
+  {
+    "Postcode":2403,
+    "LocationFix":" Australia",
+    "Postcode":2403,
+    "Cooling":281,
+    "Heating":2944,
+    "Latitude":"-29.6680003",
+    "Longitude":150.8144215
+  },
+  {
+    "Postcode":2404,
+    "LocationFix":" Australia",
+    "Postcode":2404,
+    "Cooling":281,
+    "Heating":2944,
+    "Latitude":"-30.014234",
+    "Longitude":150.6749653
+  },
+  {
+    "Postcode":2405,
+    "LocationFix":" Australia",
+    "Postcode":2405,
+    "Cooling":1824,
+    "Heating":1170,
+    "Latitude":"-28.8981206",
+    "Longitude":149.5642369
+  },
+  {
+    "Postcode":2406,
+    "LocationFix":" Australia",
+    "Postcode":2406,
+    "Cooling":1824,
+    "Heating":1170,
+    "Latitude":"-28.9741075",
+    "Longitude":149.1960526
+  },
+  {
+    "Postcode":2408,
+    "LocationFix":" Australia",
+    "Postcode":2408,
+    "Cooling":1824,
+    "Heating":1170,
+    "Latitude":"-28.9014496",
+    "Longitude":150.4428323
+  },
+  {
+    "Postcode":2409,
+    "LocationFix":" Australia",
+    "Postcode":2409,
+    "Cooling":1824,
+    "Heating":1170,
+    "Latitude":"-28.696216",
+    "Longitude":150.1184797
+  },
+  {
+    "Postcode":2410,
+    "LocationFix":" Australia",
+    "Postcode":2410,
+    "Cooling":1824,
+    "Heating":1170,
+    "Latitude":"-28.9050811",
+    "Longitude":150.8144215
+  },
+  {
+    "Postcode":2411,
+    "LocationFix":" Australia",
+    "Postcode":2411,
+    "Cooling":1824,
+    "Heating":1170,
+    "Latitude":"-29.1555311",
+    "Longitude":150.4428323
+  },
+  {
+    "Postcode":2415,
+    "LocationFix":" Australia",
+    "Postcode":2415,
+    "Cooling":942,
+    "Heating":1444,
+    "Latitude":"-32.2537173",
+    "Longitude":151.8643252
+  },
+  {
+    "Postcode":2420,
+    "LocationFix":" Australia",
+    "Postcode":2420,
+    "Cooling":942,
+    "Heating":1444,
+    "Latitude":"-32.3296556",
+    "Longitude":151.7473377
+  },
+  {
+    "Postcode":2421,
+    "LocationFix":" Australia",
+    "Postcode":2421,
+    "Cooling":942,
+    "Heating":1444,
+    "Latitude":"-32.5486951",
+    "Longitude":151.5369624
+  },
+  {
+    "Postcode":2422,
+    "LocationFix":" Australia",
+    "Postcode":2422,
+    "Cooling":942,
+    "Heating":1444,
+    "Latitude":"-31.9652427",
+    "Longitude":151.7941232
+  },
+  {
+    "Postcode":2423,
+    "LocationFix":" Australia",
+    "Postcode":2423,
+    "Cooling":790,
+    "Heating":696,
+    "Latitude":"-32.358861",
+    "Longitude":152.215754
+  },
+  {
+    "Postcode":2424,
+    "LocationFix":" Australia",
+    "Postcode":2424,
+    "Cooling":942,
+    "Heating":1444,
+    "Latitude":"-31.6440437",
+    "Longitude":152.0282394
+  },
+  {
+    "Postcode":2425,
+    "LocationFix":" Australia",
+    "Postcode":2425,
+    "Cooling":942,
+    "Heating":1444,
+    "Latitude":"-32.4809178",
+    "Longitude":152.0282394
+  },
+  {
+    "Postcode":2426,
+    "LocationFix":" Australia",
+    "Postcode":2426,
+    "Cooling":810,
+    "Heating":1094,
+    "Latitude":"-31.8260586",
+    "Longitude":152.5796026
+  },
+  {
+    "Postcode":2427,
+    "LocationFix":" Australia",
+    "Postcode":2427,
+    "Cooling":810,
+    "Heating":1094,
+    "Latitude":"-31.8377031",
+    "Longitude":152.7206315
+  },
+  {
+    "Postcode":2428,
+    "LocationFix":" Australia",
+    "Postcode":2428,
+    "Cooling":810,
+    "Heating":1094,
+    "Latitude":"-32.2735633",
+    "Longitude":152.4738975
+  },
+  {
+    "Postcode":2429,
+    "LocationFix":" Australia",
+    "Postcode":2429,
+    "Cooling":810,
+    "Heating":1094,
+    "Latitude":"-31.7944775",
+    "Longitude":152.3095833
+  },
+  {
+    "Postcode":2430,
+    "LocationFix":" Australia",
+    "Postcode":2430,
+    "Cooling":810,
+    "Heating":1094,
+    "Latitude":"-31.9112192",
+    "Longitude":152.4604258
+  },
+  {
+    "Postcode":2431,
+    "LocationFix":" Australia",
+    "Postcode":2431,
+    "Cooling":790,
+    "Heating":696,
+    "Latitude":"-30.9186021",
+    "Longitude":153.0500809
+  },
+  {
+    "Postcode":2439,
+    "LocationFix":" Australia",
+    "Postcode":2439,
+    "Cooling":810,
+    "Heating":1094,
+    "Latitude":"-31.6342174",
+    "Longitude":152.6148504
+  },
+  {
+    "Postcode":2440,
+    "LocationFix":" Australia",
+    "Postcode":2440,
+    "Cooling":790,
+    "Heating":696,
+    "Latitude":"-30.9630729",
+    "Longitude":152.5443612
+  },
+  {
+    "Postcode":2441,
+    "LocationFix":" Australia",
+    "Postcode":2441,
+    "Cooling":790,
+    "Heating":696,
+    "Latitude":"-30.8735606",
+    "Longitude":152.8029443
+  },
+  {
+    "Postcode":2443,
+    "LocationFix":" Australia",
+    "Postcode":2443,
+    "Cooling":810,
+    "Heating":1094,
+    "Latitude":"-31.5715736",
+    "Longitude":152.7088752
+  },
+  {
+    "Postcode":2444,
+    "LocationFix":" Australia",
+    "Postcode":2444,
+    "Cooling":810,
+    "Heating":1094,
+    "Latitude":"-31.4336537",
+    "Longitude":152.8994159
+  },
+  {
+    "Postcode":2445,
+    "LocationFix":" Australia",
+    "Postcode":2445,
+    "Cooling":790,
+    "Heating":696,
+    "Latitude":"-31.5931838",
+    "Longitude":152.8029443
+  },
+  {
+    "Postcode":2446,
+    "LocationFix":" Australia",
+    "Postcode":2446,
+    "Cooling":810,
+    "Heating":1094,
+    "Latitude":"-31.4267124",
+    "Longitude":152.3565156
+  },
+  {
+    "Postcode":2447,
+    "LocationFix":" Australia",
+    "Postcode":2447,
+    "Cooling":790,
+    "Heating":696,
+    "Latitude":"-30.740808",
+    "Longitude":152.8735247
+  },
+  {
+    "Postcode":2448,
+    "LocationFix":" Australia",
+    "Postcode":2448,
+    "Cooling":790,
+    "Heating":696,
+    "Latitude":"-30.5997515",
+    "Longitude":152.9558991
+  },
+  {
+    "Postcode":2449,
+    "LocationFix":" Australia",
+    "Postcode":2449,
+    "Cooling":790,
+    "Heating":696,
+    "Latitude":"-30.6133236",
+    "Longitude":152.6853649
+  },
+  {
+    "Postcode":2450,
+    "LocationFix":" Australia",
+    "Postcode":2450,
+    "Cooling":790,
+    "Heating":696,
+    "Latitude":"-30.2963111",
+    "Longitude":153.1156751
+  },
+  {
+    "Postcode":2452,
+    "LocationFix":" Australia",
+    "Postcode":2452,
+    "Cooling":790,
+    "Heating":696,
+    "Latitude":"-30.3581041",
+    "Longitude":153.0912986
+  },
+  {
+    "Postcode":2453,
+    "LocationFix":" Australia",
+    "Postcode":2453,
+    "Cooling":281,
+    "Heating":2944,
+    "Latitude":"-30.2516968",
+    "Longitude":152.5913512
+  },
+  {
+    "Postcode":2454,
+    "LocationFix":" Australia",
+    "Postcode":2454,
+    "Cooling":790,
+    "Heating":696,
+    "Latitude":"-30.4483796",
+    "Longitude":152.8029443
+  },
+  {
+    "Postcode":2455,
+    "LocationFix":" Australia",
+    "Postcode":2455,
+    "Cooling":790,
+    "Heating":696,
+    "Latitude":"-30.5198264",
+    "Longitude":152.9794406
+  },
+  {
+    "Postcode":2456,
+    "LocationFix":" Australia",
+    "Postcode":2456,
+    "Cooling":790,
+    "Heating":696,
+    "Latitude":"-30.0520062",
+    "Longitude":153.1325243
+  },
+  {
+    "Postcode":2460,
+    "LocationFix":" Australia",
+    "Postcode":2460,
+    "Cooling":790,
+    "Heating":696,
+    "Latitude":"-29.6427683",
+    "Longitude":152.7323884
+  },
+  {
+    "Postcode":2462,
+    "LocationFix":" Australia",
+    "Postcode":2462,
+    "Cooling":790,
+    "Heating":696,
+    "Latitude":"-29.7093022",
+    "Longitude":153.1325243
+  },
+  {
+    "Postcode":2463,
+    "LocationFix":" Australia",
+    "Postcode":2463,
+    "Cooling":790,
+    "Heating":696,
+    "Latitude":"-29.6112567",
+    "Longitude":153.2739287
+  },
+  {
+    "Postcode":2464,
+    "LocationFix":" Australia",
+    "Postcode":2464,
+    "Cooling":790,
+    "Heating":696,
+    "Latitude":"-29.4843022",
+    "Longitude":153.332874
+  },
+  {
+    "Postcode":2465,
+    "LocationFix":" Australia",
+    "Postcode":2465,
+    "Cooling":790,
+    "Heating":696,
+    "Latitude":"-29.4168813",
+    "Longitude":153.244462
+  },
+  {
+    "Postcode":2466,
+    "LocationFix":" Australia",
+    "Postcode":2466,
+    "Cooling":790,
+    "Heating":696,
+    "Latitude":"-29.3618914",
+    "Longitude":153.3387693
+  },
+  {
+    "Postcode":2469,
+    "LocationFix":" Australia",
+    "Postcode":2469,
+    "Cooling":1682,
+    "Heating":949,
+    "Latitude":"-28.9152316",
+    "Longitude":152.5443612
+  },
+  {
+    "Postcode":2470,
+    "LocationFix":" Australia",
+    "Postcode":2470,
+    "Cooling":1682,
+    "Heating":949,
+    "Latitude":"-28.878424",
+    "Longitude":152.9676695
+  },
+  {
+    "Postcode":2471,
+    "LocationFix":" Australia",
+    "Postcode":2471,
+    "Cooling":1682,
+    "Heating":949,
+    "Latitude":"-28.9931793",
+    "Longitude":153.2817015
+  },
+  {
+    "Postcode":2472,
+    "LocationFix":" Australia",
+    "Postcode":2472,
+    "Cooling":790,
+    "Heating":696,
+    "Latitude":"-29.1481762",
+    "Longitude":153.3210837
+  },
+  {
+    "Postcode":2473,
+    "LocationFix":" Australia",
+    "Postcode":2473,
+    "Cooling":790,
+    "Heating":696,
+    "Latitude":"-29.1384809",
+    "Longitude":153.4272185
+  },
+  {
+    "Postcode":2474,
+    "LocationFix":" Australia",
+    "Postcode":2474,
+    "Cooling":1682,
+    "Heating":949,
+    "Latitude":"-28.4803132",
+    "Longitude":152.9205918
+  },
+  {
+    "Postcode":2475,
+    "LocationFix":" Australia",
+    "Postcode":2475,
+    "Cooling":281,
+    "Heating":2944,
+    "Latitude":"-28.5241278",
+    "Longitude":152.4269361
+  },
+  {
+    "Postcode":2476,
+    "LocationFix":" Australia",
+    "Postcode":2476,
+    "Cooling":281,
+    "Heating":2944,
+    "Latitude":"-28.3622406",
+    "Longitude":152.4738975
+  },
+  {
+    "Postcode":2477,
+    "LocationFix":" Australia",
+    "Postcode":2477,
+    "Cooling":1464,
+    "Heating":459,
+    "Latitude":"-28.9094612",
+    "Longitude":153.4154233
+  },
+  {
+    "Postcode":2478,
+    "LocationFix":" Australia",
+    "Postcode":2478,
+    "Cooling":1464,
+    "Heating":459,
+    "Latitude":"-28.8529354",
+    "Longitude":153.5570056
+  },
+  {
+    "Postcode":2479,
+    "LocationFix":" Australia",
+    "Postcode":2479,
+    "Cooling":1464,
+    "Heating":459,
+    "Latitude":"-28.713311",
+    "Longitude":153.5098019
+  },
+  {
+    "Postcode":2480,
+    "LocationFix":" Australia",
+    "Postcode":2480,
+    "Cooling":1682,
+    "Heating":949,
+    "Latitude":"-28.7665066",
+    "Longitude":153.250355
+  },
+  {
+    "Postcode":2481,
+    "LocationFix":" Australia",
+    "Postcode":2481,
+    "Cooling":1464,
+    "Heating":459,
+    "Latitude":"-28.6283277",
+    "Longitude":153.568808
+  },
+  {
+    "Postcode":2482,
+    "LocationFix":" Australia",
+    "Postcode":2482,
+    "Cooling":1464,
+    "Heating":459,
+    "Latitude":"-28.5204603",
+    "Longitude":153.4154233
+  },
+  {
+    "Postcode":2483,
+    "LocationFix":" Australia",
+    "Postcode":2483,
+    "Cooling":1464,
+    "Heating":459,
+    "Latitude":"-28.4536389",
+    "Longitude":153.5098019
+  },
+  {
+    "Postcode":2484,
+    "LocationFix":" Australia",
+    "Postcode":2484,
+    "Cooling":1464,
+    "Heating":459,
+    "Latitude":"-28.3541283",
+    "Longitude":153.3446649
+  },
+  {
+    "Postcode":2485,
+    "LocationFix":" Australia",
+    "Postcode":2485,
+    "Cooling":1464,
+    "Heating":459,
+    "Latitude":"-28.178556",
+    "Longitude":153.5157018
+  },
+  {
+    "Postcode":2486,
+    "LocationFix":" Australia",
+    "Postcode":2486,
+    "Cooling":1464,
+    "Heating":459,
+    "Latitude":"-28.2187657",
+    "Longitude":153.4744054
+  },
+  {
+    "Postcode":2487,
+    "LocationFix":" Australia",
+    "Postcode":2487,
+    "Cooling":1464,
+    "Heating":459,
+    "Latitude":"-28.2768342",
+    "Longitude":153.5452038
+  },
+  {
+    "Postcode":2488,
+    "LocationFix":" Australia",
+    "Postcode":2488,
+    "Cooling":1464,
+    "Heating":459,
+    "Latitude":"-28.3352184",
+    "Longitude":153.5393031
+  },
+  {
+    "Postcode":2489,
+    "LocationFix":" Australia",
+    "Postcode":2489,
+    "Cooling":1464,
+    "Heating":459,
+    "Latitude":"-28.3834692",
+    "Longitude":153.5629067
+  },
+  {
+    "Postcode":2490,
+    "LocationFix":" Australia",
+    "Postcode":2490,
+    "Cooling":1464,
+    "Heating":459,
+    "Latitude":"-28.2687625",
+    "Longitude":153.4803044
+  },
+  {
+    "Postcode":2500,
+    "LocationFix":" Australia",
+    "Postcode":2500,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-34.4207112",
+    "Longitude":150.8783824
+  },
+  {
+    "Postcode":2502,
+    "LocationFix":" Australia",
+    "Postcode":2502,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-34.4884509",
+    "Longitude":150.8754745
+  },
+  {
+    "Postcode":2505,
+    "LocationFix":" Australia",
+    "Postcode":2505,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-34.4744767",
+    "Longitude":150.8900145
+  },
+  {
+    "Postcode":2506,
+    "LocationFix":" Australia",
+    "Postcode":2506,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-34.4793722",
+    "Longitude":150.840584
+  },
+  {
+    "Postcode":2508,
+    "LocationFix":" Australia",
+    "Postcode":2508,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-34.1528192",
+    "Longitude":150.8841983
+  },
+  {
+    "Postcode":2515,
+    "LocationFix":" Australia",
+    "Postcode":2515,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-34.295339",
+    "Longitude":150.933643
+  },
+  {
+    "Postcode":2516,
+    "LocationFix":" Australia",
+    "Postcode":2516,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-34.2773581",
+    "Longitude":150.9132815
+  },
+  {
+    "Postcode":2517,
+    "LocationFix":" Australia",
+    "Postcode":2517,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-34.3454996",
+    "Longitude":150.9016476
+  },
+  {
+    "Postcode":2518,
+    "LocationFix":" Australia",
+    "Postcode":2518,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-34.3729598",
+    "Longitude":150.8900145
+  },
+  {
+    "Postcode":2519,
+    "LocationFix":" Australia",
+    "Postcode":2519,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-34.3902523",
+    "Longitude":150.8783824
+  },
+  {
+    "Postcode":2522,
+    "LocationFix":" Australia",
+    "Postcode":2522,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-34.6458913",
+    "Longitude":-58.3831514
+  },
+  {
+    "Postcode":2526,
+    "LocationFix":" Australia",
+    "Postcode":2526,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-34.4264163",
+    "Longitude":150.8027952
+  },
+  {
+    "Postcode":2527,
+    "LocationFix":" Australia",
+    "Postcode":2527,
+    "Cooling":529,
+    "Heating":1369,
+    "Latitude":"-34.5703699",
+    "Longitude":150.7330562
+  },
+  {
+    "Postcode":2528,
+    "LocationFix":" Australia",
+    "Postcode":2528,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-34.5566631",
+    "Longitude":150.8551207
+  },
+  {
+    "Postcode":2529,
+    "LocationFix":" Australia",
+    "Postcode":2529,
+    "Cooling":529,
+    "Heating":1369,
+    "Latitude":"-34.5971935",
+    "Longitude":150.8551207
+  },
+  {
+    "Postcode":2530,
+    "LocationFix":" Australia",
+    "Postcode":2530,
+    "Cooling":676,
+    "Heating":706,
+    "Latitude":"-34.5014792",
+    "Longitude":150.7795452
+  },
+  {
+    "Postcode":2533,
+    "LocationFix":" Australia",
+    "Postcode":2533,
+    "Cooling":529,
+    "Heating":1369,
+    "Latitude":"-34.6554293",
+    "Longitude":150.8260487
+  },
+  {
+    "Postcode":2534,
+    "LocationFix":" Australia",
+    "Postcode":2534,
+    "Cooling":529,
+    "Heating":1369,
+    "Latitude":"-34.7373565",
+    "Longitude":150.7911697
+  },
+  {
+    "Postcode":2535,
+    "LocationFix":" Australia",
+    "Postcode":2535,
+    "Cooling":529,
+    "Heating":1369,
+    "Latitude":"-34.7139191",
+    "Longitude":150.6633499
+  },
+  {
+    "Postcode":2536,
+    "LocationFix":" Australia",
+    "Postcode":2536,
+    "Cooling":529,
+    "Heating":1369,
+    "Latitude":"-35.6491178",
+    "Longitude":150.0722053
+  },
+  {
+    "Postcode":2537,
+    "LocationFix":" Australia",
+    "Postcode":2537,
+    "Cooling":529,
+    "Heating":1369,
+    "Latitude":"-35.8894726",
+    "Longitude":149.9334764
+  },
+  {
+    "Postcode":2538,
+    "LocationFix":" Australia",
+    "Postcode":2538,
+    "Cooling":529,
+    "Heating":1369,
+    "Latitude":"-35.3159135",
+    "Longitude":150.4355251
+  },
+  {
+    "Postcode":2539,
+    "LocationFix":" Australia",
+    "Postcode":2539,
+    "Cooling":529,
+    "Heating":1369,
+    "Latitude":"-35.3536829",
+    "Longitude":150.2342337
+  },
+  {
+    "Postcode":2540,
+    "LocationFix":" Australia",
+    "Postcode":2540,
+    "Cooling":529,
+    "Heating":1369,
+    "Latitude":"-34.9726824",
+    "Longitude":150.535641
+  },
+  {
+    "Postcode":2541,
+    "LocationFix":" Australia",
+    "Postcode":2541,
+    "Cooling":529,
+    "Heating":1369,
+    "Latitude":"-34.8838052",
+    "Longitude":150.5994815
+  },
+  {
+    "Postcode":2545,
+    "LocationFix":" Australia",
+    "Postcode":2545,
+    "Cooling":529,
+    "Heating":1369,
+    "Latitude":"-36.1284919",
+    "Longitude":149.7948904
+  },
+  {
+    "Postcode":2546,
+    "LocationFix":" Australia",
+    "Postcode":2546,
+    "Cooling":529,
+    "Heating":1369,
+    "Latitude":"-36.2586281",
+    "Longitude":149.9797036
+  },
+  {
+    "Postcode":2548,
+    "LocationFix":" Australia",
+    "Postcode":2548,
+    "Cooling":529,
+    "Heating":1369,
+    "Latitude":"-36.8790318",
+    "Longitude":149.8930406
+  },
+  {
+    "Postcode":2549,
+    "LocationFix":" Australia",
+    "Postcode":2549,
+    "Cooling":529,
+    "Heating":1369,
+    "Latitude":"-36.9804396",
+    "Longitude":149.817978
+  },
+  {
+    "Postcode":2550,
+    "LocationFix":" Australia",
+    "Postcode":2550,
+    "Cooling":529,
+    "Heating":1369,
+    "Latitude":"-36.6279305",
+    "Longitude":149.7487272
+  },
+  {
+    "Postcode":2551,
+    "LocationFix":" Australia",
+    "Postcode":2551,
+    "Cooling":529,
+    "Heating":1369,
+    "Latitude":"-37.2536446",
+    "Longitude":149.887265
+  },
+  {
+    "Postcode":2555,
+    "LocationFix":" Australia",
+    "Postcode":2555,
+    "Cooling":529,
+    "Heating":1369,
+    "Latitude":"-33.8858926",
+    "Longitude":150.7388665
+  },
+  {
+    "Postcode":2556,
+    "LocationFix":" Australia",
+    "Postcode":2556,
+    "Cooling":529,
+    "Heating":1369,
+    "Latitude":"-33.9404662",
+    "Longitude":150.7330562
+  },
+  {
+    "Postcode":2557,
+    "LocationFix":" Australia",
+    "Postcode":2557,
+    "Cooling":529,
+    "Heating":1369,
+    "Latitude":"-33.9531013",
+    "Longitude":150.7621101
+  },
+  {
+    "Postcode":2558,
+    "LocationFix":" Australia",
+    "Postcode":2558,
+    "Cooling":942,
+    "Heating":1444,
+    "Latitude":"-34.0334797",
+    "Longitude":150.7969823
+  },
+  {
+    "Postcode":2559,
+    "LocationFix":" Australia",
+    "Postcode":2559,
+    "Cooling":942,
+    "Heating":1444,
+    "Latitude":"-34.050553",
+    "Longitude":150.794076
+  },
+  {
+    "Postcode":2560,
+    "LocationFix":" Australia",
+    "Postcode":2560,
+    "Cooling":942,
+    "Heating":1444,
+    "Latitude":"-34.0663534",
+    "Longitude":150.8132416
+  },
+  {
+    "Postcode":2563,
+    "LocationFix":" Australia",
+    "Postcode":2563,
+    "Cooling":942,
+    "Heating":1444,
+    "Latitude":"-34.1028697",
+    "Longitude":150.7504879
+  },
+  {
+    "Postcode":2564,
+    "LocationFix":" Australia",
+    "Postcode":2564,
+    "Cooling":942,
+    "Heating":1444,
+    "Latitude":"-33.9963891",
+    "Longitude":150.8900145
+  },
+  {
+    "Postcode":2565,
+    "LocationFix":" Australia",
+    "Postcode":2565,
+    "Cooling":942,
+    "Heating":1444,
+    "Latitude":"-33.9873763",
+    "Longitude":150.8551207
+  },
+  {
+    "Postcode":2566,
+    "LocationFix":" Australia",
+    "Postcode":2566,
+    "Cooling":942,
+    "Heating":1444,
+    "Latitude":"-34.0317453",
+    "Longitude":150.8493059
+  },
+  {
+    "Postcode":2567,
+    "LocationFix":" Australia",
+    "Postcode":2567,
+    "Cooling":942,
+    "Heating":1444,
+    "Latitude":"-34.048387",
+    "Longitude":150.7562989
+  },
+  {
+    "Postcode":2568,
+    "LocationFix":" Australia",
+    "Postcode":2568,
+    "Cooling":942,
+    "Heating":1444,
+    "Latitude":"-34.1189627",
+    "Longitude":150.7243411
+  },
+  {
+    "Postcode":2569,
+    "LocationFix":" Australia",
+    "Postcode":2569,
+    "Cooling":942,
+    "Heating":1444,
+    "Latitude":"-34.158408",
+    "Longitude":150.7098171
+  },
+  {
+    "Postcode":2571,
+    "LocationFix":" Australia",
+    "Postcode":2571,
+    "Cooling":942,
+    "Heating":1444,
+    "Latitude":"-34.2291624",
+    "Longitude":150.6869931
+  },
+  {
+    "Postcode":2572,
+    "LocationFix":" Australia",
+    "Postcode":2572,
+    "Cooling":942,
+    "Heating":1444,
+    "Latitude":"-34.177879",
+    "Longitude":150.5124332
+  },
+  {
+    "Postcode":2573,
+    "LocationFix":" Australia",
+    "Postcode":2573,
+    "Cooling":942,
+    "Heating":1444,
+    "Latitude":"-34.233219",
+    "Longitude":150.587872
+  },
+  {
+    "Postcode":2574,
+    "LocationFix":" Australia",
+    "Postcode":2574,
+    "Cooling":942,
+    "Heating":1444,
+    "Latitude":"-34.3767989",
+    "Longitude":150.6517354
+  },
+  {
+    "Postcode":2575,
+    "LocationFix":" Australia",
+    "Postcode":2575,
+    "Cooling":493,
+    "Heating":2930,
+    "Latitude":"-34.358075",
+    "Longitude":150.3500838
+  },
+  {
+    "Postcode":2576,
+    "LocationFix":" Australia",
+    "Postcode":2576,
+    "Cooling":493,
+    "Heating":2930,
+    "Latitude":"-34.5304441",
+    "Longitude":150.4660289
+  },
+  {
+    "Postcode":2577,
+    "LocationFix":" Australia",
+    "Postcode":2577,
+    "Cooling":493,
+    "Heating":2930,
+    "Latitude":"-34.5459268",
+    "Longitude":150.3792932
+  },
+  {
+    "Postcode":2578,
+    "LocationFix":" Australia",
+    "Postcode":2578,
+    "Cooling":493,
+    "Heating":2930,
+    "Latitude":"-34.6699254",
+    "Longitude":150.2689787
+  },
+  {
+    "Postcode":2579,
+    "LocationFix":" Australia",
+    "Postcode":2579,
+    "Cooling":493,
+    "Heating":2930,
+    "Latitude":"-34.7125661",
+    "Longitude":150.1647697
+  },
+  {
+    "Postcode":2580,
+    "LocationFix":" Australia",
+    "Postcode":2580,
+    "Cooling":493,
+    "Heating":2930,
+    "Latitude":"-34.7206289",
+    "Longitude":149.7487272
+  },
+  {
+    "Postcode":2581,
+    "LocationFix":" Australia",
+    "Postcode":2581,
+    "Cooling":493,
+    "Heating":2930,
+    "Latitude":"-34.7796381",
+    "Longitude":149.3800105
+  },
+  {
+    "Postcode":2582,
+    "LocationFix":" Australia",
+    "Postcode":2582,
+    "Cooling":493,
+    "Heating":2930,
+    "Latitude":"-34.9445333",
+    "Longitude":148.8289611
+  },
+  {
+    "Postcode":2584,
+    "LocationFix":" Australia",
+    "Postcode":2584,
+    "Cooling":964,
+    "Heating":2341,
+    "Latitude":"-34.6796688",
+    "Longitude":148.6687118
+  },
+  {
+    "Postcode":2585,
+    "LocationFix":" Australia",
+    "Postcode":2585,
+    "Cooling":964,
+    "Heating":2341,
+    "Latitude":"-34.5737516",
+    "Longitude":148.577239
+  },
+  {
+    "Postcode":2586,
+    "LocationFix":" Australia",
+    "Postcode":2586,
+    "Cooling":271,
+    "Heating":3761,
+    "Latitude":"-34.4652711",
+    "Longitude":148.8289611
+  },
+  {
+    "Postcode":2587,
+    "LocationFix":" Australia",
+    "Postcode":2587,
+    "Cooling":271,
+    "Heating":3761,
+    "Latitude":"-34.6013985",
+    "Longitude":148.3260629
+  },
+  {
+    "Postcode":2588,
+    "LocationFix":" Australia",
+    "Postcode":2588,
+    "Cooling":964,
+    "Heating":2341,
+    "Latitude":"-34.522128",
+    "Longitude":148.1209694
+  },
+  {
+    "Postcode":2590,
+    "LocationFix":" Australia",
+    "Postcode":2590,
+    "Cooling":964,
+    "Heating":2341,
+    "Latitude":"-34.6546705",
+    "Longitude":147.9617144
+  },
+  {
+    "Postcode":2600,
+    "LocationFix":" Australia",
+    "Postcode":2600,
+    "Cooling":493,
+    "Heating":2930,
+    "Latitude":"-35.3075699",
+    "Longitude":149.1099161
+  },
+  {
+    "Postcode":2601,
+    "LocationFix":" Australia",
+    "Postcode":2601,
+    "Cooling":493,
+    "Heating":2930,
+    "Latitude":"-35.2809942",
+    "Longitude":149.1213974
+  },
+  {
+    "Postcode":2602,
+    "LocationFix":" Australia",
+    "Postcode":2602,
+    "Cooling":493,
+    "Heating":2930,
+    "Latitude":"-35.2476948",
+    "Longitude":149.1443634
+  },
+  {
+    "Postcode":2603,
+    "LocationFix":" Australia",
+    "Postcode":2603,
+    "Cooling":493,
+    "Heating":2930,
+    "Latitude":"-35.3239832",
+    "Longitude":149.1328799
+  },
+  {
+    "Postcode":2604,
+    "LocationFix":" Australia",
+    "Postcode":2604,
+    "Cooling":493,
+    "Heating":2930,
+    "Latitude":"-35.3321319",
+    "Longitude":149.1529768
+  },
+  {
+    "Postcode":2605,
+    "LocationFix":" Australia",
+    "Postcode":2605,
+    "Cooling":493,
+    "Heating":2930,
+    "Latitude":"-35.3341832",
+    "Longitude":149.0898262
+  },
+  {
+    "Postcode":2606,
+    "LocationFix":" Australia",
+    "Postcode":2606,
+    "Cooling":493,
+    "Heating":2930,
+    "Latitude":"-35.3488087",
+    "Longitude":149.089914
+  },
+  {
+    "Postcode":2607,
+    "LocationFix":" Australia",
+    "Postcode":2607,
+    "Cooling":493,
+    "Heating":2930,
+    "Latitude":"-35.3639236",
+    "Longitude":149.0984358
+  },
+  {
+    "Postcode":2609,
+    "LocationFix":" Australia",
+    "Postcode":2609,
+    "Cooling":493,
+    "Heating":2930,
+    "Latitude":"-35.2736652",
+    "Longitude":149.2190324
+  },
+  {
+    "Postcode":2611,
+    "LocationFix":" Australia",
+    "Postcode":2611,
+    "Cooling":493,
+    "Heating":2930,
+    "Latitude":"-35.4214818",
+    "Longitude":148.6915912
+  },
+  {
+    "Postcode":2612,
+    "LocationFix":" Australia",
+    "Postcode":2612,
+    "Cooling":493,
+    "Heating":2930,
+    "Latitude":"-35.2907015",
+    "Longitude":149.155848
+  },
+  {
+    "Postcode":2614,
+    "LocationFix":" Australia",
+    "Postcode":2614,
+    "Cooling":493,
+    "Heating":2930,
+    "Latitude":"-35.2516136",
+    "Longitude":149.0525253
+  },
+  {
+    "Postcode":2615,
+    "LocationFix":" Australia",
+    "Postcode":2615,
+    "Cooling":493,
+    "Heating":2930,
+    "Latitude":"-35.2075045",
+    "Longitude":149.0269146
+  },
+  {
+    "Postcode":2617,
+    "LocationFix":" Australia",
+    "Postcode":2617,
+    "Cooling":493,
+    "Heating":2930,
+    "Latitude":"-35.228161",
+    "Longitude":149.092696
+  },
+  {
+    "Postcode":2618,
+    "LocationFix":" Australia",
+    "Postcode":2618,
+    "Cooling":493,
+    "Heating":2930,
+    "Latitude":"-35.0756406",
+    "Longitude":149.0812173
+  },
+  {
+    "Postcode":2619,
+    "LocationFix":" Australia",
+    "Postcode":2619,
+    "Cooling":493,
+    "Heating":2930,
+    "Latitude":"-35.3732007",
+    "Longitude":149.2017971
+  },
+  {
+    "Postcode":2620,
+    "LocationFix":" Australia",
+    "Postcode":2620,
+    "Cooling":493,
+    "Heating":2930,
+    "Latitude":"-35.4986976",
+    "Longitude":149.2420166
+  },
+  {
+    "Postcode":2621,
+    "LocationFix":" Australia",
+    "Postcode":2621,
+    "Cooling":493,
+    "Heating":2930,
+    "Latitude":"-35.3895931",
+    "Longitude":149.4784175
+  },
+  {
+    "Postcode":2622,
+    "LocationFix":" Australia",
+    "Postcode":2622,
+    "Cooling":493,
+    "Heating":2930,
+    "Latitude":"-35.52059",
+    "Longitude":149.7487272
+  },
+  {
+    "Postcode":2623,
+    "LocationFix":" Australia",
+    "Postcode":2623,
+    "Cooling":493,
+    "Heating":2930,
+    "Latitude":"-35.576588",
+    "Longitude":149.4490642
+  },
+  {
+    "Postcode":2625,
+    "LocationFix":" Australia",
+    "Postcode":2625,
+    "Cooling":5,
+    "Heating":6230,
+    "Latitude":"-36.4961991",
+    "Longitude":148.2861542
+  },
+  {
+    "Postcode":2626,
+    "LocationFix":" Australia",
+    "Postcode":2626,
+    "Cooling":493,
+    "Heating":2930,
+    "Latitude":"-35.8686568",
+    "Longitude":149.1501056
+  },
+  {
+    "Postcode":2628,
+    "LocationFix":" Australia",
+    "Postcode":2628,
+    "Cooling":493,
+    "Heating":2930,
+    "Latitude":"-36.5490119",
+    "Longitude":148.7831534
+  },
+  {
+    "Postcode":2629,
+    "LocationFix":" Australia",
+    "Postcode":2629,
+    "Cooling":62,
+    "Heating":5178,
+    "Latitude":"-36.0002232",
+    "Longitude":148.7831534
+  },
+  {
+    "Postcode":2630,
+    "LocationFix":" Australia",
+    "Postcode":2630,
+    "Cooling":493,
+    "Heating":2930,
+    "Latitude":"-36.2356483",
+    "Longitude":149.1274796
+  },
+  {
+    "Postcode":2631,
+    "LocationFix":" Australia",
+    "Postcode":2631,
+    "Cooling":493,
+    "Heating":2930,
+    "Latitude":"-36.5504439",
+    "Longitude":149.3339956
+  },
+  {
+    "Postcode":2632,
+    "LocationFix":" Australia",
+    "Postcode":2632,
+    "Cooling":493,
+    "Heating":2930,
+    "Latitude":"-36.9411375",
+    "Longitude":149.1960526
+  },
+  {
+    "Postcode":2633,
+    "LocationFix":" Australia",
+    "Postcode":2633,
+    "Cooling":493,
+    "Heating":2930,
+    "Latitude":"-36.9653136",
+    "Longitude":148.8747865
+  },
+  {
+    "Postcode":2640,
+    "LocationFix":" Australia",
+    "Postcode":2640,
+    "Cooling":964,
+    "Heating":2341,
+    "Latitude":"-35.9976838",
+    "Longitude":147.259277
+  },
+  {
+    "Postcode":2641,
+    "LocationFix":" Australia",
+    "Postcode":2641,
+    "Cooling":964,
+    "Heating":2341,
+    "Latitude":"-36.0233964",
+    "Longitude":146.9323531
+  },
+  {
+    "Postcode":2642,
+    "LocationFix":" Australia",
+    "Postcode":2642,
+    "Cooling":964,
+    "Heating":2341,
+    "Latitude":"-36.2066816",
+    "Longitude":148.2804541
+  },
+  {
+    "Postcode":2643,
+    "LocationFix":" Australia",
+    "Postcode":2643,
+    "Cooling":964,
+    "Heating":2341,
+    "Latitude":"-35.9448091",
+    "Longitude":146.6177236
+  },
+  {
+    "Postcode":2644,
+    "LocationFix":" Australia",
+    "Postcode":2644,
+    "Cooling":964,
+    "Heating":2341,
+    "Latitude":"-35.7533631",
+    "Longitude":147.4174803
+  },
+  {
+    "Postcode":2645,
+    "LocationFix":" Australia",
+    "Postcode":2645,
+    "Cooling":964,
+    "Heating":2341,
+    "Latitude":"-35.3139098",
+    "Longitude":146.2482277
+  },
+  {
+    "Postcode":2646,
+    "LocationFix":" Australia",
+    "Postcode":2646,
+    "Cooling":964,
+    "Heating":2341,
+    "Latitude":"-35.7553785",
+    "Longitude":146.2929381
+  },
+  {
+    "Postcode":2647,
+    "LocationFix":" Australia",
+    "Postcode":2647,
+    "Cooling":964,
+    "Heating":2341,
+    "Latitude":"-35.9286597",
+    "Longitude":146.0472969
+  },
+  {
+    "Postcode":2648,
+    "LocationFix":" Australia",
+    "Postcode":2648,
+    "Cooling":1310,
+    "Heating":1653,
+    "Latitude":"-33.3707197",
+    "Longitude":142.1912307
+  },
+  {
+    "Postcode":2649,
+    "LocationFix":" Australia",
+    "Postcode":2649,
+    "Cooling":493,
+    "Heating":2930,
+    "Latitude":"-35.8017999",
+    "Longitude":148.3032562
+  },
+  {
+    "Postcode":2650,
+    "LocationFix":" Australia",
+    "Postcode":2650,
+    "Cooling":964,
+    "Heating":2341,
+    "Latitude":"-35.283152",
+    "Longitude":147.4174803
+  },
+  {
+    "Postcode":2651,
+    "LocationFix":" Australia",
+    "Postcode":2651,
+    "Cooling":964,
+    "Heating":2341,
+    "Latitude":"-35.1526817",
+    "Longitude":147.4740404
+  },
+  {
+    "Postcode":2652,
+    "LocationFix":" Australia",
+    "Postcode":2652,
+    "Cooling":964,
+    "Heating":2341,
+    "Latitude":"-34.0238999",
+    "Longitude":145.7578403
+  },
+  {
+    "Postcode":2653,
+    "LocationFix":" Australia",
+    "Postcode":2653,
+    "Cooling":493,
+    "Heating":2930,
+    "Latitude":"-35.7869336",
+    "Longitude":148.052689
+  },
+  {
+    "Postcode":2655,
+    "LocationFix":" Australia",
+    "Postcode":2655,
+    "Cooling":964,
+    "Heating":2341,
+    "Latitude":"-35.2520497",
+    "Longitude":147.0562333
+  },
+  {
+    "Postcode":2656,
+    "LocationFix":" Australia",
+    "Postcode":2656,
+    "Cooling":964,
+    "Heating":2341,
+    "Latitude":"-35.2474643",
+    "Longitude":146.786149
+  },
+  {
+    "Postcode":2658,
+    "LocationFix":" Australia",
+    "Postcode":2658,
+    "Cooling":964,
+    "Heating":2341,
+    "Latitude":"-35.5374394",
+    "Longitude":146.9661233
+  },
+  {
+    "Postcode":2659,
+    "LocationFix":" Australia",
+    "Postcode":2659,
+    "Cooling":964,
+    "Heating":2341,
+    "Latitude":"-35.7436011",
+    "Longitude":146.8760951
+  },
+  {
+    "Postcode":2660,
+    "LocationFix":" Australia",
+    "Postcode":2660,
+    "Cooling":964,
+    "Heating":2341,
+    "Latitude":"-35.6696233",
+    "Longitude":147.0787735
+  },
+  {
+    "Postcode":2661,
+    "LocationFix":" Australia",
+    "Postcode":2661,
+    "Cooling":964,
+    "Heating":2341,
+    "Latitude":"-35.1571982",
+    "Longitude":147.2931571
+  },
+  {
+    "Postcode":2663,
+    "LocationFix":" Australia",
+    "Postcode":2663,
+    "Cooling":964,
+    "Heating":2341,
+    "Latitude":"-35.1229215",
+    "Longitude":145.8913207
+  },
+  {
+    "Postcode":2665,
+    "LocationFix":" Australia",
+    "Postcode":2665,
+    "Cooling":964,
+    "Heating":2341,
+    "Latitude":"-34.3566955",
+    "Longitude":146.8311117
+  },
+  {
+    "Postcode":2666,
+    "LocationFix":" Australia",
+    "Postcode":2666,
+    "Cooling":964,
+    "Heating":2341,
+    "Latitude":"-34.4152092",
+    "Longitude":147.5532762
+  },
+  {
+    "Postcode":2668,
+    "LocationFix":" Australia",
+    "Postcode":2668,
+    "Cooling":964,
+    "Heating":2341,
+    "Latitude":"-34.0966466",
+    "Longitude":147.4174803
+  },
+  {
+    "Postcode":2669,
+    "LocationFix":" Australia",
+    "Postcode":2669,
+    "Cooling":1310,
+    "Heating":1653,
+    "Latitude":"-33.6678012",
+    "Longitude":146.6513853
+  },
+  {
+    "Postcode":2671,
+    "LocationFix":" Australia",
+    "Postcode":2671,
+    "Cooling":1285,
+    "Heating":1905,
+    "Latitude":"-33.8840393",
+    "Longitude":147.3722545
+  },
+  {
+    "Postcode":2672,
+    "LocationFix":" Australia",
+    "Postcode":2672,
+    "Cooling":2031,
+    "Heating":1255,
+    "Latitude":"-33.399431",
+    "Longitude":146.2929381
+  },
+  {
+    "Postcode":2675,
+    "LocationFix":" Australia",
+    "Postcode":2675,
+    "Cooling":2031,
+    "Heating":1255,
+    "Latitude":"-33.2853898",
+    "Longitude":145.6689636
+  },
+  {
+    "Postcode":2680,
+    "LocationFix":" Australia",
+    "Postcode":2680,
+    "Cooling":1310,
+    "Heating":1653,
+    "Latitude":"-34.394413",
+    "Longitude":145.9358581
+  },
+  {
+    "Postcode":2681,
+    "LocationFix":" Australia",
+    "Postcode":2681,
+    "Cooling":1310,
+    "Heating":1653,
+    "Latitude":"-34.1102303",
+    "Longitude":146.1588712
+  },
+  {
+    "Postcode":2700,
+    "LocationFix":" Australia",
+    "Postcode":2700,
+    "Cooling":1310,
+    "Heating":1653,
+    "Latitude":"-34.9767465",
+    "Longitude":146.2929381
+  },
+  {
+    "Postcode":2701,
+    "LocationFix":" Australia",
+    "Postcode":2701,
+    "Cooling":964,
+    "Heating":2341,
+    "Latitude":"-34.7016901",
+    "Longitude":147.2573406
+  },
+  {
+    "Postcode":2702,
+    "LocationFix":" Australia",
+    "Postcode":2702,
+    "Cooling":964,
+    "Heating":2341,
+    "Latitude":"-34.7932199",
+    "Longitude":147.0336982
+  },
+  {
+    "Postcode":2703,
+    "LocationFix":" Australia",
+    "Postcode":2703,
+    "Cooling":1310,
+    "Heating":1653,
+    "Latitude":"-34.6260147",
+    "Longitude":146.3936145
+  },
+  {
+    "Postcode":2705,
+    "LocationFix":" Australia",
+    "Postcode":2705,
+    "Cooling":1310,
+    "Heating":1653,
+    "Latitude":"-34.4808824",
+    "Longitude":146.3376699
+  },
+  {
+    "Postcode":2706,
+    "LocationFix":" Australia",
+    "Postcode":2706,
+    "Cooling":1310,
+    "Heating":1653,
+    "Latitude":"-34.6280192",
+    "Longitude":145.8690603
+  },
+  {
+    "Postcode":2707,
+    "LocationFix":" Australia",
+    "Postcode":2707,
+    "Cooling":1310,
+    "Heating":1653,
+    "Latitude":"-34.8075597",
+    "Longitude":145.7578403
+  },
+  {
+    "Postcode":2710,
+    "LocationFix":" Australia",
+    "Postcode":2710,
+    "Cooling":1310,
+    "Heating":1653,
+    "Latitude":"-35.247342",
+    "Longitude":144.9611836
+  },
+  {
+    "Postcode":2711,
+    "LocationFix":" Australia",
+    "Postcode":2711,
+    "Cooling":1310,
+    "Heating":1653,
+    "Latitude":"-33.9871774",
+    "Longitude":144.4342138
+  },
+  {
+    "Postcode":2712,
+    "LocationFix":" Australia",
+    "Postcode":2712,
+    "Cooling":964,
+    "Heating":2341,
+    "Latitude":"-35.7148531",
+    "Longitude":145.8023118
+  },
+  {
+    "Postcode":2713,
+    "LocationFix":" Australia",
+    "Postcode":2713,
+    "Cooling":1310,
+    "Heating":1653,
+    "Latitude":"-35.5514125",
+    "Longitude":145.5358152
+  },
+  {
+    "Postcode":2714,
+    "LocationFix":" Australia",
+    "Postcode":2714,
+    "Cooling":1310,
+    "Heating":1653,
+    "Latitude":"#NAME?",
+    "Longitude":null
+  },
+  {
+    "Postcode":2715,
+    "LocationFix":" Australia",
+    "Postcode":2715,
+    "Cooling":1310,
+    "Heating":1653,
+    "Latitude":"-33.7309634",
+    "Longitude":143.2180495
+  },
+  {
+    "Postcode":2716,
+    "LocationFix":" Australia",
+    "Postcode":2716,
+    "Cooling":1310,
+    "Heating":1653,
+    "Latitude":"-35.1438001",
+    "Longitude":145.7133909
+  },
+  {
+    "Postcode":2717,
+    "LocationFix":" Australia",
+    "Postcode":2717,
+    "Cooling":1310,
+    "Heating":1653,
+    "Latitude":"-34.0796702",
+    "Longitude":142.0851258
+  },
+  {
+    "Postcode":2720,
+    "LocationFix":" Australia",
+    "Postcode":2720,
+    "Cooling":493,
+    "Heating":2930,
+    "Latitude":"-35.4741087",
+    "Longitude":148.4629997
+  },
+  {
+    "Postcode":2721,
+    "LocationFix":" Australia",
+    "Postcode":2721,
+    "Cooling":964,
+    "Heating":2341,
+    "Latitude":"-34.0173794",
+    "Longitude":147.6892483
+  },
+  {
+    "Postcode":2722,
+    "LocationFix":" Australia",
+    "Postcode":2722,
+    "Cooling":964,
+    "Heating":2341,
+    "Latitude":"-34.9718878",
+    "Longitude":147.9617144
+  },
+  {
+    "Postcode":2725,
+    "LocationFix":" Australia",
+    "Postcode":2725,
+    "Cooling":964,
+    "Heating":2341,
+    "Latitude":"-34.4822804",
+    "Longitude":147.848103
+  },
+  {
+    "Postcode":2726,
+    "LocationFix":" Australia",
+    "Postcode":2726,
+    "Cooling":964,
+    "Heating":2341,
+    "Latitude":"-34.787121",
+    "Longitude":148.3488742
+  },
+  {
+    "Postcode":2727,
+    "LocationFix":" Australia",
+    "Postcode":2727,
+    "Cooling":964,
+    "Heating":2341,
+    "Latitude":"-34.998988",
+    "Longitude":148.3260629
+  },
+  {
+    "Postcode":2729,
+    "LocationFix":" Australia",
+    "Postcode":2729,
+    "Cooling":964,
+    "Heating":2341,
+    "Latitude":"-35.2879839",
+    "Longitude":147.9617144
+  },
+  {
+    "Postcode":2730,
+    "LocationFix":" Australia",
+    "Postcode":2730,
+    "Cooling":493,
+    "Heating":2930,
+    "Latitude":"-35.5382202",
+    "Longitude":148.0754444
+  },
+  {
+    "Postcode":2731,
+    "LocationFix":" Australia",
+    "Postcode":2731,
+    "Cooling":1310,
+    "Heating":1653,
+    "Latitude":"-35.874342",
+    "Longitude":144.6533747
+  },
+  {
+    "Postcode":2732,
+    "LocationFix":" Australia",
+    "Postcode":2732,
+    "Cooling":1310,
+    "Heating":1653,
+    "Latitude":"-35.4668501",
+    "Longitude":144.1283863
+  },
+  {
+    "Postcode":2733,
+    "LocationFix":" Australia",
+    "Postcode":2733,
+    "Cooling":1310,
+    "Heating":1653,
+    "Latitude":"-35.0600117",
+    "Longitude":144.1720041
+  },
+  {
+    "Postcode":2734,
+    "LocationFix":" Australia",
+    "Postcode":2734,
+    "Cooling":1310,
+    "Heating":1653,
+    "Latitude":"-34.934665",
+    "Longitude":143.6935405
+  },
+  {
+    "Postcode":2735,
+    "LocationFix":" Australia",
+    "Postcode":2735,
+    "Cooling":1310,
+    "Heating":1653,
+    "Latitude":"-35.1841488",
+    "Longitude":143.5852111
+  },
+  {
+    "Postcode":2736,
+    "LocationFix":" Australia",
+    "Postcode":2736,
+    "Cooling":1310,
+    "Heating":1653,
+    "Latitude":"-34.9942345",
+    "Longitude":143.3690158
+  },
+  {
+    "Postcode":2737,
+    "LocationFix":" Australia",
+    "Postcode":2737,
+    "Cooling":1310,
+    "Heating":1653,
+    "Latitude":"-34.3341497",
+    "Longitude":142.9599661
+  },
+  {
+    "Postcode":2738,
+    "LocationFix":" Australia",
+    "Postcode":2738,
+    "Cooling":1310,
+    "Heating":1653,
+    "Latitude":"-34.282162",
+    "Longitude":142.4891909
+  },
+  {
+    "Postcode":2739,
+    "LocationFix":" Australia",
+    "Postcode":2739,
+    "Cooling":1310,
+    "Heating":1653,
+    "Latitude":"-33.9991159",
+    "Longitude":142.4465474
+  },
+  {
+    "Postcode":2745,
+    "LocationFix":" Australia",
+    "Postcode":2745,
+    "Cooling":942,
+    "Heating":1444,
+    "Latitude":"-33.8479652",
+    "Longitude":150.6517354
+  },
+  {
+    "Postcode":2747,
+    "LocationFix":" Australia",
+    "Postcode":2747,
+    "Cooling":942,
+    "Heating":1444,
+    "Latitude":"-33.7568098",
+    "Longitude":150.7330562
+  },
+  {
+    "Postcode":2748,
+    "LocationFix":" Australia",
+    "Postcode":2748,
+    "Cooling":942,
+    "Heating":1444,
+    "Latitude":"-33.7979447",
+    "Longitude":150.742396
+  },
+  {
+    "Postcode":2749,
+    "LocationFix":" Australia",
+    "Postcode":2749,
+    "Cooling":942,
+    "Heating":1444,
+    "Latitude":"-33.7039148",
+    "Longitude":150.6865817
+  },
+  {
+    "Postcode":2750,
+    "LocationFix":" Australia",
+    "Postcode":2750,
+    "Cooling":942,
+    "Heating":1444,
+    "Latitude":"-33.744767",
+    "Longitude":150.6865817
+  },
+  {
+    "Postcode":2752,
+    "LocationFix":" Australia",
+    "Postcode":2752,
+    "Cooling":942,
+    "Heating":1444,
+    "Latitude":"-33.9240163",
+    "Longitude":150.6110918
+  },
+  {
+    "Postcode":2753,
+    "LocationFix":" Australia",
+    "Postcode":2753,
+    "Cooling":942,
+    "Heating":1444,
+    "Latitude":"-33.6461877",
+    "Longitude":150.7354839
+  },
+  {
+    "Postcode":2754,
+    "LocationFix":" Australia",
+    "Postcode":2754,
+    "Cooling":942,
+    "Heating":1444,
+    "Latitude":"-33.5631923",
+    "Longitude":150.7156265
+  },
+  {
+    "Postcode":2755,
+    "LocationFix":" Australia",
+    "Postcode":2755,
+    "Cooling":942,
+    "Heating":1444,
+    "Latitude":"-34.6465455",
+    "Longitude":-58.3859626
+  },
+  {
+    "Postcode":2757,
+    "LocationFix":" Australia",
+    "Postcode":2757,
+    "Cooling":942,
+    "Heating":1444,
+    "Latitude":"-33.5517656",
+    "Longitude":150.7011034
+  },
+  {
+    "Postcode":2758,
+    "LocationFix":" Australia",
+    "Postcode":2758,
+    "Cooling":942,
+    "Heating":1444,
+    "Latitude":"-33.5114239",
+    "Longitude":150.535641
+  },
+  {
+    "Postcode":2759,
+    "LocationFix":" Australia",
+    "Postcode":2759,
+    "Cooling":942,
+    "Heating":1444,
+    "Latitude":"-33.8060826",
+    "Longitude":150.7853574
+  },
+  {
+    "Postcode":2760,
+    "LocationFix":" Australia",
+    "Postcode":2760,
+    "Cooling":942,
+    "Heating":1444,
+    "Latitude":"-33.7688356",
+    "Longitude":150.7795452
+  },
+  {
+    "Postcode":2761,
+    "LocationFix":" Australia",
+    "Postcode":2761,
+    "Cooling":942,
+    "Heating":1444,
+    "Latitude":"-33.7393563",
+    "Longitude":150.8434913
+  },
+  {
+    "Postcode":2762,
+    "LocationFix":" Australia",
+    "Postcode":2762,
+    "Cooling":942,
+    "Heating":1444,
+    "Latitude":"-33.7044482",
+    "Longitude":150.8667511
+  },
+  {
+    "Postcode":2763,
+    "LocationFix":" Australia",
+    "Postcode":2763,
+    "Cooling":942,
+    "Heating":1444,
+    "Latitude":"-33.7206583",
+    "Longitude":150.8900145
+  },
+  {
+    "Postcode":2765,
+    "LocationFix":" Australia",
+    "Postcode":2765,
+    "Cooling":942,
+    "Heating":1444,
+    "Latitude":"-33.6496795",
+    "Longitude":150.8725666
+  },
+  {
+    "Postcode":2766,
+    "LocationFix":" Australia",
+    "Postcode":2766,
+    "Cooling":942,
+    "Heating":1444,
+    "Latitude":"-33.8072744",
+    "Longitude":150.8493059
+  },
+  {
+    "Postcode":2767,
+    "LocationFix":" Australia",
+    "Postcode":2767,
+    "Cooling":942,
+    "Heating":1444,
+    "Latitude":"-33.7585633",
+    "Longitude":150.8783824
+  },
+  {
+    "Postcode":2768,
+    "LocationFix":" Australia",
+    "Postcode":2768,
+    "Cooling":942,
+    "Heating":1444,
+    "Latitude":"-33.7278158",
+    "Longitude":150.9278252
+  },
+  {
+    "Postcode":2770,
+    "LocationFix":" Australia",
+    "Postcode":2770,
+    "Cooling":942,
+    "Heating":1444,
+    "Latitude":"-33.7610185",
+    "Longitude":150.8086082
+  },
+  {
+    "Postcode":2774,
+    "LocationFix":" Australia",
+    "Postcode":2774,
+    "Cooling":942,
+    "Heating":1444,
+    "Latitude":"-33.7266709",
+    "Longitude":150.6168974
+  },
+  {
+    "Postcode":2775,
+    "LocationFix":" Australia",
+    "Postcode":2775,
+    "Cooling":942,
+    "Heating":1444,
+    "Latitude":"-33.3029838",
+    "Longitude":151.0005643
+  },
+  {
+    "Postcode":2776,
+    "LocationFix":" Australia",
+    "Postcode":2776,
+    "Cooling":493,
+    "Heating":2930,
+    "Latitude":"-33.6918624",
+    "Longitude":150.5457643
+  },
+  {
+    "Postcode":2777,
+    "LocationFix":" Australia",
+    "Postcode":2777,
+    "Cooling":942,
+    "Heating":1444,
+    "Latitude":"-33.6858294",
+    "Longitude":150.6168974
+  },
+  {
+    "Postcode":2778,
+    "LocationFix":" Australia",
+    "Postcode":2778,
+    "Cooling":493,
+    "Heating":2930,
+    "Latitude":"-33.7237247",
+    "Longitude":150.4979302
+  },
+  {
+    "Postcode":2779,
+    "LocationFix":" Australia",
+    "Postcode":2779,
+    "Cooling":493,
+    "Heating":2930,
+    "Latitude":"-33.7215167",
+    "Longitude":150.4602294
+  },
+  {
+    "Postcode":2780,
+    "LocationFix":" Australia",
+    "Postcode":2780,
+    "Cooling":493,
+    "Heating":2930,
+    "Latitude":"-33.7150827",
+    "Longitude":150.3117835
+  },
+  {
+    "Postcode":2782,
+    "LocationFix":" Australia",
+    "Postcode":2782,
+    "Cooling":493,
+    "Heating":2930,
+    "Latitude":"-33.8116381",
+    "Longitude":150.5124332
+  },
+  {
+    "Postcode":2783,
+    "LocationFix":" Australia",
+    "Postcode":2783,
+    "Cooling":493,
+    "Heating":2930,
+    "Latitude":"-33.7256417",
+    "Longitude":150.4370338
+  },
+  {
+    "Postcode":2784,
+    "LocationFix":" Australia",
+    "Postcode":2784,
+    "Cooling":493,
+    "Heating":2930,
+    "Latitude":"-33.7279709",
+    "Longitude":150.4167407
+  },
+  {
+    "Postcode":2785,
+    "LocationFix":" Australia",
+    "Postcode":2785,
+    "Cooling":493,
+    "Heating":2930,
+    "Latitude":"-33.6977918",
+    "Longitude":150.2342337
+  },
+  {
+    "Postcode":2786,
+    "LocationFix":" Australia",
+    "Postcode":2786,
+    "Cooling":493,
+    "Heating":2930,
+    "Latitude":"-33.5192973",
+    "Longitude":150.2921468
+  },
+  {
+    "Postcode":2790,
+    "LocationFix":" Australia",
+    "Postcode":2790,
+    "Cooling":271,
+    "Heating":3761,
+    "Latitude":"-33.495962",
+    "Longitude":150.1647697
+  },
+  {
+    "Postcode":2791,
+    "LocationFix":" Australia",
+    "Postcode":2791,
+    "Cooling":271,
+    "Heating":3761,
+    "Latitude":"-33.6022084",
+    "Longitude":149.1271385
+  },
+  {
+    "Postcode":2793,
+    "LocationFix":" Australia",
+    "Postcode":2793,
+    "Cooling":271,
+    "Heating":3761,
+    "Latitude":"-33.794889",
+    "Longitude":148.8747865
+  },
+  {
+    "Postcode":2794,
+    "LocationFix":" Australia",
+    "Postcode":2794,
+    "Cooling":1285,
+    "Heating":1905,
+    "Latitude":"-33.8788824",
+    "Longitude":148.6001005
+  },
+  {
+    "Postcode":2795,
+    "LocationFix":" Australia",
+    "Postcode":2795,
+    "Cooling":271,
+    "Heating":3761,
+    "Latitude":"-33.3764131",
+    "Longitude":149.5642369
+  },
+  {
+    "Postcode":2797,
+    "LocationFix":" Australia",
+    "Postcode":2797,
+    "Cooling":271,
+    "Heating":3761,
+    "Latitude":"-33.6854778",
+    "Longitude":148.9894267
+  },
+  {
+    "Postcode":2800,
+    "LocationFix":" Australia",
+    "Postcode":2800,
+    "Cooling":271,
+    "Heating":3761,
+    "Latitude":"-33.2792017",
+    "Longitude":149.0582632
+  },
+  {
+    "Postcode":2803,
+    "LocationFix":" Australia",
+    "Postcode":2803,
+    "Cooling":271,
+    "Heating":3761,
+    "Latitude":"-34.120537",
+    "Longitude":148.5315297
+  },
+  {
+    "Postcode":2804,
+    "LocationFix":" Australia",
+    "Postcode":2804,
+    "Cooling":1285,
+    "Heating":1905,
+    "Latitude":"-33.5565485",
+    "Longitude":148.6001005
+  },
+  {
+    "Postcode":2805,
+    "LocationFix":" Australia",
+    "Postcode":2805,
+    "Cooling":1285,
+    "Heating":1905,
+    "Latitude":"-33.6395627",
+    "Longitude":148.3945107
+  },
+  {
+    "Postcode":2806,
+    "LocationFix":" Australia",
+    "Postcode":2806,
+    "Cooling":1285,
+    "Heating":1905,
+    "Latitude":"-33.3984728",
+    "Longitude":148.3260629
+  },
+  {
+    "Postcode":2809,
+    "LocationFix":" Australia",
+    "Postcode":2809,
+    "Cooling":1285,
+    "Heating":1905,
+    "Latitude":"-34.0414059",
+    "Longitude":148.3945107
+  },
+  {
+    "Postcode":2820,
+    "LocationFix":" Australia",
+    "Postcode":2820,
+    "Cooling":1285,
+    "Heating":1905,
+    "Latitude":"-32.5743502",
+    "Longitude":149.0123679
+  },
+  {
+    "Postcode":2821,
+    "LocationFix":" Australia",
+    "Postcode":2821,
+    "Cooling":1285,
+    "Heating":1905,
+    "Latitude":"-32.3212524",
+    "Longitude":148.0982046
+  },
+  {
+    "Postcode":2823,
+    "LocationFix":" Australia",
+    "Postcode":2823,
+    "Cooling":1285,
+    "Heating":1905,
+    "Latitude":"-31.8320618",
+    "Longitude":148.0982046
+  },
+  {
+    "Postcode":2825,
+    "LocationFix":" Australia",
+    "Postcode":2825,
+    "Cooling":1285,
+    "Heating":1905,
+    "Latitude":"-31.7929088",
+    "Longitude":147.1013188
+  },
+  {
+    "Postcode":2827,
+    "LocationFix":" Australia",
+    "Postcode":2827,
+    "Cooling":1285,
+    "Heating":1905,
+    "Latitude":"-31.6552936",
+    "Longitude":148.6458369
+  },
+  {
+    "Postcode":2828,
+    "LocationFix":" Australia",
+    "Postcode":2828,
+    "Cooling":1285,
+    "Heating":1905,
+    "Latitude":"-31.2107509",
+    "Longitude":148.8289611
+  },
+  {
+    "Postcode":2829,
+    "LocationFix":" Australia",
+    "Postcode":2829,
+    "Cooling":1285,
+    "Heating":1905,
+    "Latitude":"-30.9471459",
+    "Longitude":148.4629997
+  },
+  {
+    "Postcode":2830,
+    "LocationFix":" Australia",
+    "Postcode":2830,
+    "Cooling":1285,
+    "Heating":1905,
+    "Latitude":"-32.1754247",
+    "Longitude":148.6001005
+  },
+  {
+    "Postcode":2831,
+    "LocationFix":" Australia",
+    "Postcode":2831,
+    "Cooling":2031,
+    "Heating":1255,
+    "Latitude":"-31.038393",
+    "Longitude":146.741207
+  },
+  {
+    "Postcode":2832,
+    "LocationFix":" Australia",
+    "Postcode":2832,
+    "Cooling":1824,
+    "Heating":1170,
+    "Latitude":"-29.8563108",
+    "Longitude":148.0982046
+  },
+  {
+    "Postcode":2833,
+    "LocationFix":" Australia",
+    "Postcode":2833,
+    "Cooling":1824,
+    "Heating":1170,
+    "Latitude":"-29.2282132",
+    "Longitude":148.5543821
+  },
+  {
+    "Postcode":2834,
+    "LocationFix":" Australia",
+    "Postcode":2834,
+    "Cooling":1824,
+    "Heating":1170,
+    "Latitude":"-29.3044154",
+    "Longitude":148.052689
+  },
+  {
+    "Postcode":2835,
+    "LocationFix":" Australia",
+    "Postcode":2835,
+    "Cooling":2031,
+    "Heating":1255,
+    "Latitude":"-31.6862716",
+    "Longitude":145.1375834
+  },
+  {
+    "Postcode":2836,
+    "LocationFix":" Australia",
+    "Postcode":2836,
+    "Cooling":2031,
+    "Heating":1255,
+    "Latitude":"-31.0252202",
+    "Longitude":143.5635637
+  },
+  {
+    "Postcode":2839,
+    "LocationFix":" Australia",
+    "Postcode":2839,
+    "Cooling":2031,
+    "Heating":1255,
+    "Latitude":"-29.8310404",
+    "Longitude":147.1013188
+  },
+  {
+    "Postcode":2840,
+    "LocationFix":" Australia",
+    "Postcode":2840,
+    "Cooling":2031,
+    "Heating":1255,
+    "Latitude":"-29.7526206",
+    "Longitude":145.1375834
+  },
+  {
+    "Postcode":2842,
+    "LocationFix":" Australia",
+    "Postcode":2842,
+    "Cooling":1285,
+    "Heating":1905,
+    "Latitude":"-31.7501864",
+    "Longitude":149.1501056
+  },
+  {
+    "Postcode":2843,
+    "LocationFix":" Australia",
+    "Postcode":2843,
+    "Cooling":1285,
+    "Heating":1905,
+    "Latitude":"-31.7845656",
+    "Longitude":149.7487272
+  },
+  {
+    "Postcode":2844,
+    "LocationFix":" Australia",
+    "Postcode":2844,
+    "Cooling":1285,
+    "Heating":1905,
+    "Latitude":"-32.0462102",
+    "Longitude":149.3339956
+  },
+  {
+    "Postcode":2846,
+    "LocationFix":" Australia",
+    "Postcode":2846,
+    "Cooling":271,
+    "Heating":3761,
+    "Latitude":"-33.1446203",
+    "Longitude":150.0722053
+  },
+  {
+    "Postcode":2847,
+    "LocationFix":" Australia",
+    "Postcode":2847,
+    "Cooling":271,
+    "Heating":3761,
+    "Latitude":"-33.3520881",
+    "Longitude":149.9681453
+  },
+  {
+    "Postcode":2849,
+    "LocationFix":" Australia",
+    "Postcode":2849,
+    "Cooling":271,
+    "Heating":3761,
+    "Latitude":"-32.7056049",
+    "Longitude":150.1184797
+  },
+  {
+    "Postcode":2850,
+    "LocationFix":" Australia",
+    "Postcode":2850,
+    "Cooling":271,
+    "Heating":3761,
+    "Latitude":"-32.5593561",
+    "Longitude":149.5642369
+  },
+  {
+    "Postcode":2852,
+    "LocationFix":" Australia",
+    "Postcode":2852,
+    "Cooling":1285,
+    "Heating":1905,
+    "Latitude":"-32.2596985",
+    "Longitude":149.5181554
+  },
+  {
+    "Postcode":2864,
+    "LocationFix":" Australia",
+    "Postcode":2864,
+    "Cooling":1285,
+    "Heating":1905,
+    "Latitude":"-33.3258607",
+    "Longitude":148.7144751
+  },
+  {
+    "Postcode":2865,
+    "LocationFix":" Australia",
+    "Postcode":2865,
+    "Cooling":271,
+    "Heating":3761,
+    "Latitude":"-33.1521836",
+    "Longitude":148.6001005
+  },
+  {
+    "Postcode":2868,
+    "LocationFix":" Australia",
+    "Postcode":2868,
+    "Cooling":1285,
+    "Heating":1905,
+    "Latitude":"-32.7462554",
+    "Longitude":148.6001005
+  },
+  {
+    "Postcode":2870,
+    "LocationFix":" Australia",
+    "Postcode":2870,
+    "Cooling":1285,
+    "Heating":1905,
+    "Latitude":"-33.0218853",
+    "Longitude":148.2804541
+  },
+  {
+    "Postcode":2871,
+    "LocationFix":" Australia",
+    "Postcode":2871,
+    "Cooling":1285,
+    "Heating":1905,
+    "Latitude":"-33.4021901",
+    "Longitude":147.9162555
+  },
+  {
+    "Postcode":2873,
+    "LocationFix":" Australia",
+    "Postcode":2873,
+    "Cooling":1285,
+    "Heating":1905,
+    "Latitude":"-32.2765796",
+    "Longitude":147.3722545
+  },
+  {
+    "Postcode":2874,
+    "LocationFix":" Australia",
+    "Postcode":2874,
+    "Cooling":1285,
+    "Heating":1905,
+    "Latitude":"-32.6250881",
+    "Longitude":147.5985807
+  },
+  {
+    "Postcode":2875,
+    "LocationFix":" Australia",
+    "Postcode":2875,
+    "Cooling":1285,
+    "Heating":1905,
+    "Latitude":"-32.9751777",
+    "Longitude":147.5532762
+  },
+  {
+    "Postcode":2876,
+    "LocationFix":" Australia",
+    "Postcode":2876,
+    "Cooling":1285,
+    "Heating":1905,
+    "Latitude":"-33.1071907",
+    "Longitude":147.8708157
+  },
+  {
+    "Postcode":2877,
+    "LocationFix":" Australia",
+    "Postcode":2877,
+    "Cooling":2031,
+    "Heating":1255,
+    "Latitude":"-32.8686201",
+    "Longitude":146.382423
+  },
+  {
+    "Postcode":2878,
+    "LocationFix":" Australia",
+    "Postcode":2878,
+    "Cooling":2031,
+    "Heating":1255,
+    "Latitude":"-32.733105",
+    "Longitude":144.4342138
+  },
+  {
+    "Postcode":2879,
+    "LocationFix":" Australia",
+    "Postcode":2879,
+    "Cooling":2031,
+    "Heating":1255,
+    "Latitude":"-32.3693586",
+    "Longitude":142.8741407
+  },
+  {
+    "Postcode":2880,
+    "LocationFix":" Australia",
+    "Postcode":2880,
+    "Cooling":2031,
+    "Heating":1255,
+    "Latitude":"-30.5512963",
+    "Longitude":141.6834275
+  },
+  {
+    "Postcode":2898,
+    "LocationFix":" Australia",
+    "Postcode":2898,
+    "Cooling":790,
+    "Heating":696,
+    "Latitude":"-31.5314822",
+    "Longitude":159.0701995
+  },
+  {
+    "Postcode":2899,
+    "LocationFix":" Australia",
+    "Postcode":2899,
+    "Cooling":790,
+    "Heating":696,
+    "Latitude":"-34.6467099",
+    "Longitude":-58.3877507
+  },
+  {
+    "Postcode":2900,
+    "LocationFix":" Australia",
+    "Postcode":2900,
+    "Cooling":493,
+    "Heating":2930,
+    "Latitude":"-35.4170279",
+    "Longitude":149.0668705
+  },
+  {
+    "Postcode":2902,
+    "LocationFix":" Australia",
+    "Postcode":2902,
+    "Cooling":493,
+    "Heating":2930,
+    "Latitude":"-35.383968",
+    "Longitude":149.0640013
+  },
+  {
+    "Postcode":2903,
+    "LocationFix":" Australia",
+    "Postcode":2903,
+    "Cooling":493,
+    "Heating":2930,
+    "Latitude":"-35.3987152",
+    "Longitude":149.0898262
+  },
+  {
+    "Postcode":2904,
+    "LocationFix":" Australia",
+    "Postcode":2904,
+    "Cooling":493,
+    "Heating":2930,
+    "Latitude":"-35.4135536",
+    "Longitude":149.0984358
+  },
+  {
+    "Postcode":2905,
+    "LocationFix":" Australia",
+    "Postcode":2905,
+    "Cooling":493,
+    "Heating":2930,
+    "Latitude":"-35.4366428",
+    "Longitude":149.1099161
+  },
+  {
+    "Postcode":2906,
+    "LocationFix":" Australia",
+    "Postcode":2906,
+    "Cooling":493,
+    "Heating":2930,
+    "Latitude":"-35.463155",
+    "Longitude":149.0984358
+  }
+]

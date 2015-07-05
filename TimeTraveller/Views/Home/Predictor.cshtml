@@ -1,0 +1,124 @@
+﻿<div class="card">
+    <div class="card-body">
+        <div id="visitor-chart" class="flot height-6" data-title="Site visits" data-color="#9C27B0,#0aa89e"></div>
+    </div><!--end .card-body -->
+</div><!--end .card -->
+
+
+
+@section scripts
+{
+    <script type="text/javascript">
+        $(function () {
+            var chart = $("#visitor-chart");
+            if (!$.isFunction($.fn.plot) || chart.length === 0) {
+                return;
+            }
+
+            var o = this;
+            var labelColor = chart.css('color');
+            var data = [
+                {
+                    label: 'Pageviews',
+                    data: [
+                        [moment().subtract(11, 'month').valueOf(), 1100],
+                        [moment().subtract(10, 'month').valueOf(), 2450],
+                        [moment().subtract(9, 'month').valueOf(), 3800],
+                        [moment().subtract(8, 'month').valueOf(), 3400],
+                        [moment().subtract(7, 'month').valueOf(), 3000],
+                        [moment().subtract(6, 'month').valueOf(), 5250],
+                        [moment().subtract(5, 'month').valueOf(), 7500],
+                        [moment().subtract(4, 'month').valueOf(), 5500],
+                        [moment().subtract(3, 'month').valueOf(), 3500],
+                        [moment().subtract(2, 'month').valueOf(), 4000],
+                        [moment().subtract(1, 'month').valueOf(), 4500],
+                        [moment().valueOf(), 3000]
+                    ],
+                    last: true
+                },
+                {
+                    label: 'Visitors',
+                    data: [
+                        [moment().subtract(11, 'month').valueOf(), 100],
+                        [moment().subtract(10, 'month').valueOf(), 450],
+                        [moment().subtract(9, 'month').valueOf(), 800],
+                        [moment().subtract(8, 'month').valueOf(), 400],
+                        [moment().subtract(7, 'month').valueOf(), 2100],
+                        [moment().subtract(6, 'month').valueOf(), 2440],
+                        [moment().subtract(5, 'month').valueOf(), 3500],
+                        [moment().subtract(4, 'month').valueOf(), 2800],
+                        [moment().subtract(3, 'month').valueOf(), 2500],
+                        [moment().subtract(2, 'month').valueOf(), 1000],
+                        [moment().subtract(1, 'month').valueOf(), 500],
+                        [moment().valueOf(), 1000]
+                    ],
+                    last: true
+                }
+            ];
+
+            var options = {
+                colors: chart.data('color').split(','),
+                series: {
+                    shadowSize: 0,
+                    lines: {
+                        show: true,
+                        lineWidth: 2
+                    },
+                    points: {
+                        show: true,
+                        radius: 3,
+                        lineWidth: 2
+                    }
+                },
+                legend: {
+                    show: false
+                },
+                xaxis: {
+                    mode: "time",
+                    timeformat: "%b",
+                    color: 'rgba(0, 0, 0, 0)',
+                    font: { color: labelColor }
+                },
+                yaxis: {
+                    font: { color: labelColor }
+                },
+                grid: {
+                    borderWidth: 0,
+                    color: labelColor,
+                    hoverable: true
+                }
+            };
+
+            chart.width('100%');
+            var plot = $.plot(chart, data, options);
+
+            var tip, previousPoint = null;
+            chart.bind("plothover", function (event, pos, item) {
+                if (item) {
+                    if (previousPoint !== item.dataIndex) {
+                        previousPoint = item.dataIndex;
+
+                        var x = item.datapoint[0];
+                        var y = item.datapoint[1];
+                        var tipLabel = '<strong>' + $(this).data('title') + '</strong>';
+                        var tipContent = y + " " + item.series.label.toLowerCase() + " on " + moment(x).format('dddd');
+
+                        if (tip !== undefined) {
+                            $(tip).popover('destroy');
+                        }
+                        tip = $('<div></div>').appendTo('body').css({ left: item.pageX, top: item.pageY - 5, position: 'absolute' });
+                        tip.popover({ html: true, title: tipLabel, content: tipContent, placement: 'top' }).popover('show');
+                    }
+                }
+                else {
+                    if (tip !== undefined) {
+                        $(tip).popover('destroy');
+                    }
+                    previousPoint = null;
+                }
+            });
+        });
+
+
+</script>
+}
