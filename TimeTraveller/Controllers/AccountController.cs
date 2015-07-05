@@ -395,6 +395,7 @@ namespace TimeTraveller.Controllers
 
         public ActionResult LogOff()
         {
+            Session.RemoveAll();
             AuthenticationManager.SignOut();
             return RedirectToAction("Index", "Home");
         }

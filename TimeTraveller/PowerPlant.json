@@ -1,0 +1,2000 @@
+﻿[
+  {
+    "Name":"Berrimah Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-12.4348163,
+    "Longitude":130.9227185
+  },
+  {
+    "Name":"Kalumburu Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-14.286706,
+    "Longitude":126.6461025
+  },
+  {
+    "Name":"Kununurra Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-15.7735463,
+    "Longitude":128.739196
+  },
+  {
+    "Name":"Argyle Diamond Mine Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-16.291496,
+    "Longitude":128.7577605
+  },
+  {
+    "Name":"Ord River Power Station",
+    "Class":"Renewable",
+    "Latitude":-16.291496,
+    "Longitude":128.7577605
+  },
+  {
+    "Name":"Ardyaloon Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-16.4372428,
+    "Longitude":123.0755264
+  },
+  {
+    "Name":"Barron Gorge Power Station",
+    "Class":"Renewable",
+    "Latitude":-16.8189116,
+    "Longitude":145.6364449
+  },
+  {
+    "Name":"Waterloo Wind Farm",
+    "Class":"Renewable",
+    "Latitude":-16.9126794,
+    "Longitude":145.7415385
+  },
+  {
+    "Name":"Warmun Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-17.0186503,
+    "Longitude":128.2168208
+  },
+  {
+    "Name":"Tableland Power Station",
+    "Class":"Renewable",
+    "Latitude":-17.0465321,
+    "Longitude":145.3250548
+  },
+  {
+    "Name":"Mulgrave Power Station",
+    "Class":"Renewable",
+    "Latitude":-17.0930805,
+    "Longitude":145.7867982
+  },
+  {
+    "Name":"Koombooloomba Power Station",
+    "Class":"Renewable",
+    "Latitude":-17.5246806,
+    "Longitude":146.0323287
+  },
+  {
+    "Name":"South Johnstone Power Station",
+    "Class":"Renewable",
+    "Latitude":-17.5978385,
+    "Longitude":145.9953508
+  },
+  {
+    "Name":"Windy Hill Wind Farm",
+    "Class":"Renewable",
+    "Latitude":-17.6077968,
+    "Longitude":145.4828987
+  },
+  {
+    "Name":"Kareeya Power Station",
+    "Class":"Renewable",
+    "Latitude":-17.8359632,
+    "Longitude":145.7059063
+  },
+  {
+    "Name":"Broome Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-17.9814324,
+    "Longitude":122.2107509
+  },
+  {
+    "Name":"Fitzroy Crossing Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-18.1941751,
+    "Longitude":125.5689353
+  },
+  {
+    "Name":"Halls Creek Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-18.2240552,
+    "Longitude":127.6682037
+  },
+  {
+    "Name":"Lajamanu Power Station",
+    "Class":"Renewable",
+    "Latitude":-18.4680916,
+    "Longitude":130.4375966
+  },
+  {
+    "Name":"Macknade Sugar Mill Power Station",
+    "Class":"Renewable",
+    "Latitude":-18.5876755,
+    "Longitude":146.2608807
+  },
+  {
+    "Name":"Victoria Sugar Mill Power Station",
+    "Class":"Renewable",
+    "Latitude":-18.6468512,
+    "Longitude":146.2016723
+  },
+  {
+    "Name":"Yabulu Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-19.2158372,
+    "Longitude":146.6017645
+  },
+  {
+    "Name":"Invicta Sugar Mill Power Station",
+    "Class":"Renewable",
+    "Latitude":-19.5131396,
+    "Longitude":147.107227
+  },
+  {
+    "Name":"Tennant Creek Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-19.6458495,
+    "Longitude":134.1912458
+  },
+  {
+    "Name":"Warrego Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-19.9047177,
+    "Longitude":134.2079782
+  },
+  {
+    "Name":"Port Hedland Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-20.3677948,
+    "Longitude":118.5585309
+  },
+  {
+    "Name":"Port Hedland (HBI) Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-20.3677948,
+    "Longitude":118.5585309
+  },
+  {
+    "Name":"Proserpine Sugar Mill Power Station",
+    "Class":"Renewable",
+    "Latitude":-20.4014183,
+    "Longitude":148.5797457
+  },
+  {
+    "Name":"Collinsville Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-20.5530485,
+    "Longitude":147.8443104
+  },
+  {
+    "Name":"Burrup Peninsula (Karratha Gas Plant) Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-20.61572,
+    "Longitude":116.79323
+  },
+  {
+    "Name":"Burrup Peninsula (Pluto Phase 1) Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-20.61572,
+    "Longitude":116.79323
+  },
+  {
+    "Name":"Cape Lambert Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-20.6288928,
+    "Longitude":117.1944475
+  },
+  {
+    "Name":"Dampier Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-20.6637988,
+    "Longitude":116.7084604
+  },
+  {
+    "Name":"Katherine Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-20.6792788,
+    "Longitude":117.189
+  },
+  {
+    "Name":"Diamantina Power Station",
+    "Class":"",
+    "Latitude":-20.7247053,
+    "Longitude":139.4974616
+  },
+  {
+    "Name":"Leichhardt Power Station",
+    "Class":"",
+    "Latitude":-20.7247053,
+    "Longitude":139.4974616
+  },
+  {
+    "Name":"Karratha Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-20.7925043,
+    "Longitude":116.8251058
+  },
+  {
+    "Name":"Cape Preston",
+    "Class":"",
+    "Latitude":-20.85,
+    "Longitude":116.2
+  },
+  {
+    "Name":"Mackay GT Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-21.1412101,
+    "Longitude":149.1856253
+  },
+  {
+    "Name":"Marble Bar Solar Farm",
+    "Class":"Renewable",
+    "Latitude":-21.1714256,
+    "Longitude":119.7435198
+  },
+  {
+    "Name":"Marble Bar Diesel Backup Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-21.1714256,
+    "Longitude":119.7435198
+  },
+  {
+    "Name":"Plane Creek Sugar Mill Power Station",
+    "Class":"Renewable",
+    "Latitude":-21.4237187,
+    "Longitude":149.2177796
+  },
+  {
+    "Name":"Onslow Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-21.637849,
+    "Longitude":115.1133872
+  },
+  {
+    "Name":"Telfer Gold Mine Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-21.7102143,
+    "Longitude":122.205351
+  },
+  {
+    "Name":"Nullagine Solar Farm",
+    "Class":"Renewable",
+    "Latitude":-21.8860482,
+    "Longitude":120.1086262
+  },
+  {
+    "Name":"Nullagine Diesel Backup Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-21.8860482,
+    "Longitude":120.1086262
+  },
+  {
+    "Name":"Moranbah North Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-22.0009139,
+    "Longitude":148.0457654
+  },
+  {
+    "Name":"Moranbah Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-22.0009139,
+    "Longitude":148.0457654
+  },
+  {
+    "Name":"Cloudbreak Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-22.177626,
+    "Longitude":118.7847123
+  },
+  {
+    "Name":"Yuendumu Power Station",
+    "Class":"Renewable",
+    "Latitude":-22.2540001,
+    "Longitude":131.7954277
+  },
+  {
+    "Name":"German Creek Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-22.8102735,
+    "Longitude":148.6998219
+  },
+  {
+    "Name":"Coral Bay Wind Turbines",
+    "Class":"Renewable",
+    "Latitude":-23.1410266,
+    "Longitude":113.7764051
+  },
+  {
+    "Name":"Coral Bay Diesel Backup Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-23.1410266,
+    "Longitude":113.7764051
+  },
+  {
+    "Name":"Paraburdoo (Standby) Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-23.2327978,
+    "Longitude":116.7505677
+  },
+  {
+    "Name":"Paraburdoo Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-23.2327978,
+    "Longitude":116.7505677
+  },
+  {
+    "Name":"DoubleTree by Hilton Hotel Power Station",
+    "Class":"Renewable",
+    "Latitude":-23.7002104,
+    "Longitude":133.8806114
+  },
+  {
+    "Name":"Ron Goodin Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-23.7009674,
+    "Longitude":133.8998849
+  },
+  {
+    "Name":"Uterne Solar Power Station",
+    "Class":"Renewable",
+    "Latitude":-23.7651287,
+    "Longitude":133.8634178
+  },
+  {
+    "Name":"Alice Springs Airport Power Station",
+    "Class":"Renewable",
+    "Latitude":-23.7755048,
+    "Longitude":133.9089153
+  },
+  {
+    "Name":"Yarwun Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-23.8452563,
+    "Longitude":151.1267314
+  },
+  {
+    "Name":"Gladstone Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-23.8570259,
+    "Longitude":151.2246842
+  },
+  {
+    "Name":"Owen Springs Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-24.1325812,
+    "Longitude":133.5358246
+  },
+  {
+    "Name":"Brewer Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-24.1325812,
+    "Longitude":133.5358246
+  },
+  {
+    "Name":"Carnarvon Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-24.8826946,
+    "Longitude":113.6570204
+  },
+  {
+    "Name":"Mungullah Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-24.8826946,
+    "Longitude":113.6570204
+  },
+  {
+    "Name":"Carnarvon Solar Farm",
+    "Class":"Renewable",
+    "Latitude":-24.8826946,
+    "Longitude":113.6570204
+  },
+  {
+    "Name":"Gascoyne Junction Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-25.0499946,
+    "Longitude":115.2098412
+  },
+  {
+    "Name":"Isis Central Sugar Mill Power Station",
+    "Class":"Renewable",
+    "Latitude":-25.1954347,
+    "Longitude":152.1708004
+  },
+  {
+    "Name":"Yulara Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-25.2416808,
+    "Longitude":130.9832123
+  },
+  {
+    "Name":"Fraser Coast Community Solar Farm",
+    "Class":"Renewable",
+    "Latitude":-25.3165416,
+    "Longitude":152.8019458
+  },
+  {
+    "Name":"Windorah Power Station",
+    "Class":"Renewable",
+    "Latitude":-25.4227091,
+    "Longitude":142.6557984
+  },
+  {
+    "Name":"Maryborough Power Station",
+    "Class":"Renewable",
+    "Latitude":-25.5371225,
+    "Longitude":152.701553
+  },
+  {
+    "Name":"Suncoast Gold Macadamia Power Station",
+    "Class":"Renewable",
+    "Latitude":-26.1902977,
+    "Longitude":152.6653914
+  },
+  {
+    "Name":"Ernabella Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-26.2641991,
+    "Longitude":132.1763523
+  },
+  {
+    "Name":"Umuwa Solar Power Station",
+    "Class":"Renewable",
+    "Latitude":-26.4863935,
+    "Longitude":132.0411965
+  },
+  {
+    "Name":"Meekatharra Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-26.5912076,
+    "Longitude":118.4967489
+  },
+  {
+    "Name":"Mount Keith (Nickel Mine) Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-26.5970705,
+    "Longitude":120.224719
+  },
+  {
+    "Name":"Jundee Gold Mine Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-26.5970705,
+    "Longitude":120.224719
+  },
+  {
+    "Name":"Wiluna (Gold Mine) Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-26.5970705,
+    "Longitude":120.224719
+  },
+  {
+    "Name":"Wiluna Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-26.5970705,
+    "Longitude":120.224719
+  },
+  {
+    "Name":"Condamine A Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-26.6702002,
+    "Longitude":150.339196
+  },
+  {
+    "Name":"Tarong GT Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-26.767581,
+    "Longitude":151.8437331
+  },
+  {
+    "Name":"Tarong North Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-26.767581,
+    "Longitude":151.8437331
+  },
+  {
+    "Name":"Tarong Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-26.767581,
+    "Longitude":151.8437331
+  },
+  {
+    "Name":"Kogan Creek Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-26.8431898,
+    "Longitude":150.7892255
+  },
+  {
+    "Name":"Braemar 1 Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-27.0411043,
+    "Longitude":150.7620371
+  },
+  {
+    "Name":"Braemar 2 Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-27.0411043,
+    "Longitude":150.7620371
+  },
+  {
+    "Name":"Daandine Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-27.0411043,
+    "Longitude":150.7620371
+  },
+  {
+    "Name":"Darling Downs Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-27.0411043,
+    "Longitude":150.7620371
+  },
+  {
+    "Name":"Roghan Road (Landfill) Power Station",
+    "Class":"Renewable",
+    "Latitude":-27.348838,
+    "Longitude":153.0312868
+  },
+  {
+    "Name":"Wivenhoe Hydroelectric Power Station",
+    "Class":"Renewable",
+    "Latitude":-27.3823951,
+    "Longitude":152.6502873
+  },
+  {
+    "Name":"Oakey Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-27.4339554,
+    "Longitude":151.7209352
+  },
+  {
+    "Name":"Bulwer Island Power Station",
+    "Class":"",
+    "Latitude":-27.4710107,
+    "Longitude":153.0234489
+  },
+  {
+    "Name":"Wivenhoe Small Power Station",
+    "Class":"Renewable",
+    "Latitude":-27.5949608,
+    "Longitude":152.8503444
+  },
+  {
+    "Name":"Swanbank B Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-27.6573324,
+    "Longitude":152.8073699
+  },
+  {
+    "Name":"Swanbank E Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-27.6573324,
+    "Longitude":152.8073699
+  },
+  {
+    "Name":"Ti Tree Bioenergy Power Station",
+    "Class":"Renewable",
+    "Latitude":-27.657928,
+    "Longitude":152.6945869
+  },
+  {
+    "Name":"Browns Plains (Landfill) Power Station",
+    "Class":"Renewable",
+    "Latitude":-27.6612236,
+    "Longitude":153.0400982
+  },
+  {
+    "Name":"Kalbarri PV System",
+    "Class":"Renewable",
+    "Latitude":-27.7110529,
+    "Longitude":114.1645358
+  },
+  {
+    "Name":"Stapylton Green Energy Power Station",
+    "Class":"Renewable",
+    "Latitude":-27.7302838,
+    "Longitude":153.2454801
+  },
+  {
+    "Name":"Rocky Point Sugar Sugar Mill Power Station",
+    "Class":"Renewable",
+    "Latitude":-27.7455011,
+    "Longitude":153.3208986
+  },
+  {
+    "Name":"Millmerran Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-27.9574029,
+    "Longitude":151.2995217
+  },
+  {
+    "Name":"Mount Magnet Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-28.0652153,
+    "Longitude":117.8484125
+  },
+  {
+    "Name":"Condong Sugar Mill Power Station",
+    "Class":"Renewable",
+    "Latitude":-28.3117732,
+    "Longitude":153.4362433
+  },
+  {
+    "Name":"Yalgoo Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-28.345207,
+    "Longitude":116.6823907
+  },
+  {
+    "Name":"Laverton (Granny Smith Gold Mine) Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-28.6256929,
+    "Longitude":122.4069716
+  },
+  {
+    "Name":"Sunrise Dam Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-28.6256929,
+    "Longitude":122.4069716
+  },
+  {
+    "Name":"Laverton Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-28.6256929,
+    "Longitude":122.4069716
+  },
+  {
+    "Name":"Geraldton Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-28.7759337,
+    "Longitude":114.6540363
+  },
+  {
+    "Name":"Mungarra Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-28.8338942,
+    "Longitude":115.2854748
+  },
+  {
+    "Name":"Leonora (Murrin Murrin Nickel Mine) Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-28.8854693,
+    "Longitude":121.3258179
+  },
+  {
+    "Name":"Leonora Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-28.8854693,
+    "Longitude":121.3258179
+  },
+  {
+    "Name":"Walkaway Wind Farm",
+    "Class":"Renewable",
+    "Latitude":-28.9398074,
+    "Longitude":114.8048376
+  },
+  {
+    "Name":"Greenough River Solar Farm",
+    "Class":"Renewable",
+    "Latitude":-28.9398074,
+    "Longitude":114.8048376
+  },
+  {
+    "Name":"Pindari Power Station",
+    "Class":"Renewable",
+    "Latitude":-29.2488192,
+    "Longitude":151.124295
+  },
+  {
+    "Name":"Menzies Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-29.6959645,
+    "Longitude":121.0315799
+  },
+  {
+    "Name":"Nymboida Power Station",
+    "Class":"Renewable",
+    "Latitude":-29.9386098,
+    "Longitude":152.7263082
+  },
+  {
+    "Name":"Copeton Power Station",
+    "Class":"Renewable",
+    "Latitude":-30.009836,
+    "Longitude":150.91887
+  },
+  {
+    "Name":"Wilga Park Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-30.4251959,
+    "Longitude":149.637055
+  },
+  {
+    "Name":"Box Hill Power Station",
+    "Class":"Renewable",
+    "Latitude":-30.5143425,
+    "Longitude":151.6669644
+  },
+  {
+    "Name":"Oaky Power Station",
+    "Class":"Renewable",
+    "Latitude":-30.515375,
+    "Longitude":152.0453925
+  },
+  {
+    "Name":"West Kalgoorlie Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-30.8128709,
+    "Longitude":121.3911193
+  },
+  {
+    "Name":"Lake Keepit Power Station",
+    "Class":"Renewable",
+    "Latitude":-30.8583263,
+    "Longitude":150.5172651
+  },
+  {
+    "Name":"Kalgoorlie (Nickel Smelter) Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-30.9779795,
+    "Longitude":121.5830349
+  },
+  {
+    "Name":"Kambalda Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-31.1985745,
+    "Longitude":121.6524987
+  },
+  {
+    "Name":"Broken Hill Power Station",
+    "Class":"Renewable",
+    "Latitude":-31.4537517,
+    "Longitude":145.2576103
+  },
+  {
+    "Name":"Collgar Wind Farm",
+    "Class":"Renewable",
+    "Latitude":-31.4823417,
+    "Longitude":118.2812988
+  },
+  {
+    "Name":"Merredin Power Station",
+    "Class":"Non-Renewable",
+    "Latitude":-31.4823417,
+    "Longitude":118.2812988
+  },
+  {
+    "Name":"Neerabup Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-31.6725018,
+    "Longitude":115.7468493
+  },
+  {
+    "Name":"Pinjar Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-31.6937504,
+    "Longitude":115.843028
+  },
+  {
+    "Name":"Tamala Park Power Station",
+    "Class":"Renewable",
+    "Latitude":-31.7065781,
+    "Longitude":115.7223171
+  },
+  {
+    "Name":"Wilpena Solar Farm",
+    "Class":"Renewable",
+    "Latitude":-31.8491493,
+    "Longitude":138.4700562
+  },
+  {
+    "Name":"Noranda Power Station",
+    "Class":"Renewable",
+    "Latitude":-31.876493,
+    "Longitude":115.8956468
+  },
+  {
+    "Name":"Broken Hill GT Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-31.9558583,
+    "Longitude":141.4651361
+  },
+  {
+    "Name":"Shenton Park WMRC Project Power Station",
+    "Class":"Renewable",
+    "Latitude":-31.9576926,
+    "Longitude":115.8237747
+  },
+  {
+    "Name":"Kalamunda Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-31.9733853,
+    "Longitude":116.0601384
+  },
+  {
+    "Name":"Perth Zoo Solar Power System",
+    "Class":"Renewable",
+    "Latitude":-31.9817999,
+    "Longitude":115.8637129
+  },
+  {
+    "Name":"Rottnest Island Wind Turbine",
+    "Class":"Renewable",
+    "Latitude":-31.9969253,
+    "Longitude":115.5400441
+  },
+  {
+    "Name":"Cannington Mine Power Station",
+    "Class":"Non renewable",
+    "Latitude":-32.020034,
+    "Longitude":115.9328428
+  },
+  {
+    "Name":"Gosnells (Kelvin Road) Power Station",
+    "Class":"Renewable",
+    "Latitude":-32.0702017,
+    "Longitude":115.9999433
+  },
+  {
+    "Name":"Canning Vale Power Station",
+    "Class":"Renewable",
+    "Latitude":-32.0709598,
+    "Longitude":115.8938833
+  },
+  {
+    "Name":"Glenbawn Power Station",
+    "Class":"Renewable",
+    "Latitude":-32.1174524,
+    "Longitude":151.0075825
+  },
+  {
+    "Name":"Norseman Mine Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-32.1985676,
+    "Longitude":121.7812684
+  },
+  {
+    "Name":"Kwinana Cogeneration Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-32.2469389,
+    "Longitude":115.759967
+  },
+  {
+    "Name":"Kwinana Swift Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-32.2469389,
+    "Longitude":115.759967
+  },
+  {
+    "Name":"South Cardup (Shale Road Landfill) Power Station",
+    "Class":"Renewable",
+    "Latitude":-32.2569798,
+    "Longitude":115.9958673
+  },
+  {
+    "Name":"Bayswater Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-32.2651665,
+    "Longitude":150.888323
+  },
+  {
+    "Name":"Hunter Valley GT Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-32.2651665,
+    "Longitude":150.888323
+  },
+  {
+    "Name":"Liddell Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-32.2651665,
+    "Longitude":150.888323
+  },
+  {
+    "Name":"Glennies Creek Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-32.4380983,
+    "Longitude":151.1515876
+  },
+  {
+    "Name":"Bodangora Wind Farm",
+    "Class":"Renewable",
+    "Latitude":-32.454432,
+    "Longitude":148.997886
+  },
+  {
+    "Name":"Mandurah Power Station",
+    "Class":"Renewable",
+    "Latitude":-32.5368093,
+    "Longitude":115.7427457
+  },
+  {
+    "Name":"Playford Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-32.5521374,
+    "Longitude":137.8231955
+  },
+  {
+    "Name":"Northern Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-32.5521374,
+    "Longitude":137.8231955
+  },
+  {
+    "Name":"Singleton Solar Farm",
+    "Class":"Renewable",
+    "Latitude":-32.5619694,
+    "Longitude":151.1753157
+  },
+  {
+    "Name":"Burrendong Power Station",
+    "Class":"Renewable",
+    "Latitude":-32.6557191,
+    "Longitude":149.1057096
+  },
+  {
+    "Name":"Hunter Economic (HEZ) Zone Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-32.8149916,
+    "Longitude":151.427994
+  },
+  {
+    "Name":"Tomago Aluminium Smelter Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-32.8283987,
+    "Longitude":151.7110404
+  },
+  {
+    "Name":"Kooragang Power Station",
+    "Class":"Renewable",
+    "Latitude":-32.8847163,
+    "Longitude":151.7705321
+  },
+  {
+    "Name":"CSIRO Energy Centre",
+    "Class":"Renewable",
+    "Latitude":-32.8916357,
+    "Longitude":151.7287974
+  },
+  {
+    "Name":"Wagerup (Bauxite Mine & Alumina Refinery) Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-32.9067696,
+    "Longitude":115.9013263
+  },
+  {
+    "Name":"Wagerup Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-32.9067696,
+    "Longitude":115.9013263
+  },
+  {
+    "Name":"Weddell Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-32.9250979,
+    "Longitude":151.761261
+  },
+  {
+    "Name":"Narrogin Bioenergy Plant",
+    "Class":"Renewable",
+    "Latitude":-32.9346838,
+    "Longitude":117.1764315
+  },
+  {
+    "Name":"Teralba Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-32.9643569,
+    "Longitude":151.604204
+  },
+  {
+    "Name":"Awaba (Landfill) Power Station",
+    "Class":"Renewable",
+    "Latitude":-33.0123315,
+    "Longitude":151.5428126
+  },
+  {
+    "Name":"Eraring GT Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-33.0664351,
+    "Longitude":151.5179683
+  },
+  {
+    "Name":"Eraring Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-33.0664351,
+    "Longitude":151.5179683
+  },
+  {
+    "Name":"Vales Point B Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-33.1477239,
+    "Longitude":151.5386785
+  },
+  {
+    "Name":"Colongra Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-33.2115063,
+    "Longitude":151.5359503
+  },
+  {
+    "Name":"Munmorah Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-33.2115063,
+    "Longitude":151.5359503
+  },
+  {
+    "Name":"Mt Piper Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-33.3505942,
+    "Longitude":150.0542807
+  },
+  {
+    "Name":"Hallett 1 Brown Hill  Wind Farm",
+    "Class":"Renewable",
+    "Latitude":-33.3676729,
+    "Longitude":138.7888955
+  },
+  {
+    "Name":"Hallett 4 North Brown Hill  Wind Farm",
+    "Class":"Renewable",
+    "Latitude":-33.3676729,
+    "Longitude":138.7888955
+  },
+  {
+    "Name":"Hallett 1 Brown Hill  Wind Farm",
+    "Class":"Renewable",
+    "Latitude":-33.3676729,
+    "Longitude":138.7888955
+  },
+  {
+    "Name":"Hallett 5 The Bluff  Wind Farm",
+    "Class":"Renewable",
+    "Latitude":-33.3676729,
+    "Longitude":138.7888955
+  },
+  {
+    "Name":"Hallett Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-33.3880219,
+    "Longitude":138.7601232
+  },
+  {
+    "Name":"Wallerawang C Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-33.411283,
+    "Longitude":150.0649371
+  },
+  {
+    "Name":"Clements Gap Wind Farm",
+    "Class":"Renewable",
+    "Latitude":-33.4364532,
+    "Longitude":138.0637132
+  },
+  {
+    "Name":"Hallett 2 Hallet Hill  Wind Farm",
+    "Class":"Renewable",
+    "Latitude":-33.5166667,
+    "Longitude":138.8666667
+  },
+  {
+    "Name":"Hallett 2 Hallet Hill  Wind Farm",
+    "Class":"Renewable",
+    "Latitude":-33.5166667,
+    "Longitude":138.8666667
+  },
+  {
+    "Name":"Blayney Wind Farm",
+    "Class":"Renewable",
+    "Latitude":-33.5322571,
+    "Longitude":149.2552883
+  },
+  {
+    "Name":"Mount Millar Wind Farm",
+    "Class":"Renewable",
+    "Latitude":-33.6836181,
+    "Longitude":136.9249075
+  },
+  {
+    "Name":"Blackmores Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-33.6969476,
+    "Longitude":151.2956646
+  },
+  {
+    "Name":"Grange Avenue (Landfill) Power Station",
+    "Class":"Renewable",
+    "Latitude":-33.6976036,
+    "Longitude":150.8324909
+  },
+  {
+    "Name":"Snowtown Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-33.7082122,
+    "Longitude":138.0444429
+  },
+  {
+    "Name":"Ravensthorpe Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-33.7088671,
+    "Longitude":120.471415
+  },
+  {
+    "Name":"Wyangala A Power Station",
+    "Class":"Renewable",
+    "Latitude":-33.7511173,
+    "Longitude":148.5897408
+  },
+  {
+    "Name":"Snowtown Wind Farm Stage 1",
+    "Class":"Renewable",
+    "Latitude":-33.7821391,
+    "Longitude":138.2142424
+  },
+  {
+    "Name":"Snowtown Wind Farm Stage 2",
+    "Class":"Renewable",
+    "Latitude":-33.7821391,
+    "Longitude":138.2142424
+  },
+  {
+    "Name":"Eastern Creek 2 (Landfill) Power Station",
+    "Class":"Renewable",
+    "Latitude":-33.8023398,
+    "Longitude":150.8692139
+  },
+  {
+    "Name":"Eastern Creek (Landfill) Power Station",
+    "Class":"Renewable",
+    "Latitude":-33.8023398,
+    "Longitude":150.8692139
+  },
+  {
+    "Name":"Erskine Park Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-33.8048794,
+    "Longitude":150.8036923
+  },
+  {
+    "Name":"Meadowbank Power Station",
+    "Class":"Renewable",
+    "Latitude":-33.8160945,
+    "Longitude":151.0907685
+  },
+  {
+    "Name":"EarthPower Biomass Plant Power Station",
+    "Class":"Renewable",
+    "Latitude":-33.8199214,
+    "Longitude":151.0251479
+  },
+  {
+    "Name":"Club Merrylands Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-33.8366804,
+    "Longitude":150.9907477
+  },
+  {
+    "Name":"40 Mount St Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-33.8386344,
+    "Longitude":151.2071142
+  },
+  {
+    "Name":"101 Miller St Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-33.8386344,
+    "Longitude":151.2071142
+  },
+  {
+    "Name":"Stadium Australia Power Station",
+    "Class":"Renewable",
+    "Latitude":-33.8672238,
+    "Longitude":151.084709
+  },
+  {
+    "Name":"133 Castlereagh St Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-33.8674869,
+    "Longitude":151.2069902
+  },
+  {
+    "Name":"Warragamba Power Station",
+    "Class":"Renewable",
+    "Latitude":-33.88935,
+    "Longitude":150.6031143
+  },
+  {
+    "Name":"Bankstown Sports Club Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-33.9172891,
+    "Longitude":151.035882
+  },
+  {
+    "Name":"Amcor Gawler (Glass Bottle Plant) Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-33.9212714,
+    "Longitude":151.2270202
+  },
+  {
+    "Name":"Remount Power Station",
+    "Class":"Renewable",
+    "Latitude":-33.9466949,
+    "Longitude":18.473821
+  },
+  {
+    "Name":"Revesby Workers Club Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-33.9518528,
+    "Longitude":151.0153472
+  },
+  {
+    "Name":"St George Leagues Club Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-33.9627271,
+    "Longitude":151.1334636
+  },
+  {
+    "Name":"Kogarah Town Square Solar Array",
+    "Class":"Renewable",
+    "Latitude":-33.9627271,
+    "Longitude":151.1334636
+  },
+  {
+    "Name":"Jacks Gully (Landfill) Power Station",
+    "Class":"Renewable",
+    "Latitude":-34.0403082,
+    "Longitude":150.7352013
+  },
+  {
+    "Name":"Lucas Heights III (Landfill) Power Station",
+    "Class":"Renewable",
+    "Latitude":-34.0476142,
+    "Longitude":150.9835572
+  },
+  {
+    "Name":"Lucas Heights II (Landfill) Power Station",
+    "Class":"Renewable",
+    "Latitude":-34.0476142,
+    "Longitude":150.9835572
+  },
+  {
+    "Name":"Lucas Heights I (Landfill) Power Station",
+    "Class":"Renewable",
+    "Latitude":-34.0476142,
+    "Longitude":150.9835572
+  },
+  {
+    "Name":"Western Suburbs Leagues Club (Campbelltown) Power Plant",
+    "Class":"Non Renewable",
+    "Latitude":-34.0516761,
+    "Longitude":150.830568
+  },
+  {
+    "Name":"Tower Mine Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-34.183122,
+    "Longitude":150.7095965
+  },
+  {
+    "Name":"Appin (Mine) Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-34.1979109,
+    "Longitude":150.788537
+  },
+  {
+    "Name":"Macarthur Wind Farm",
+    "Class":"Renewable",
+    "Latitude":-34.2122683,
+    "Longitude":150.7214362
+  },
+  {
+    "Name":"Tahmoor Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-34.2915689,
+    "Longitude":150.5804523
+  },
+  {
+    "Name":"Bremer Bay Wind Turbine",
+    "Class":"Renewable",
+    "Latitude":-34.3926208,
+    "Longitude":119.379376
+  },
+  {
+    "Name":"Bremer Bay Diesel Backup Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-34.3926208,
+    "Longitude":119.379376
+  },
+  {
+    "Name":"Bannaby Gas Fired Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-34.4414637,
+    "Longitude":149.9955288
+  },
+  {
+    "Name":"Mildura Solar Farm",
+    "Class":"Renewable",
+    "Latitude":-34.4543948,
+    "Longitude":142.1988188
+  },
+  {
+    "Name":"West Illawarra Leagues Club Power Plant",
+    "Class":"Non Renewable",
+    "Latitude":-34.4547167,
+    "Longitude":150.8449072
+  },
+  {
+    "Name":"Crookwell Wind Farm",
+    "Class":"Renewable",
+    "Latitude":-34.4556195,
+    "Longitude":149.4674255
+  },
+  {
+    "Name":"Angaston Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-34.5011446,
+    "Longitude":139.0480842
+  },
+  {
+    "Name":"Tallawarra Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-34.5364373,
+    "Longitude":150.7846411
+  },
+  {
+    "Name":"Cathedral Rocks Wind Farm",
+    "Class":"Renewable",
+    "Latitude":-34.7195321,
+    "Longitude":135.8574623
+  },
+  {
+    "Name":"Bendeela (Shoalhaven Scheme) Power Station",
+    "Class":"Renewable",
+    "Latitude":-34.7341224,
+    "Longitude":150.5258765
+  },
+  {
+    "Name":"Kangaroo Valley (Shoalhaven Scheme) Power Station",
+    "Class":"Renewable",
+    "Latitude":-34.7341224,
+    "Longitude":150.5258765
+  },
+  {
+    "Name":"Pelican Point Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-34.7762772,
+    "Longitude":138.4854343
+  },
+  {
+    "Name":"Cullerin Range Wind Farm",
+    "Class":"Renewable",
+    "Latitude":-34.7817405,
+    "Longitude":149.2674949
+  },
+  {
+    "Name":"Gunning Power Station",
+    "Class":"Renewable",
+    "Latitude":-34.7817405,
+    "Longitude":149.2674949
+  },
+  {
+    "Name":"Quarantine Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-34.7909973,
+    "Longitude":138.5212237
+  },
+  {
+    "Name":"Torrens Island A Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-34.7909973,
+    "Longitude":138.5212237
+  },
+  {
+    "Name":"Torrens Island B Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-34.7909973,
+    "Longitude":138.5212237
+  },
+  {
+    "Name":"Terminal Storage Mini Hydro Power Station",
+    "Class":"Renewable",
+    "Latitude":-34.8207571,
+    "Longitude":138.7272841
+  },
+  {
+    "Name":"Wingfield II (Landfill) Power Station",
+    "Class":"Renewable",
+    "Latitude":-34.8380244,
+    "Longitude":138.58645
+  },
+  {
+    "Name":"West Nowra (Shoalhaven) (Landfill) Power Station",
+    "Class":"Renewable",
+    "Latitude":-34.8746265,
+    "Longitude":150.6029082
+  },
+  {
+    "Name":"Bamarang Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-34.9009206,
+    "Longitude":150.5194573
+  },
+  {
+    "Name":"Ballarat Solar Park",
+    "Class":"Renewable",
+    "Latitude":-35.0105401,
+    "Longitude":138.5623064
+  },
+  {
+    "Name":"Woodlawn Wind Farm",
+    "Class":"Renewable",
+    "Latitude":-35.0698377,
+    "Longitude":149.6548024
+  },
+  {
+    "Name":"Woodlawn Bioreactor (Landfill) Power Station",
+    "Class":"Renewable",
+    "Latitude":-35.0698377,
+    "Longitude":149.6548024
+  },
+  {
+    "Name":"Wattle Point Wind Farm",
+    "Class":"Renewable",
+    "Latitude":-35.084683,
+    "Longitude":137.745704
+  },
+  {
+    "Name":"Uranquinty Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-35.1924412,
+    "Longitude":147.2469254
+  },
+  {
+    "Name":"Pedler Creek (Landfill) Power Station",
+    "Class":"Renewable",
+    "Latitude":-35.2175985,
+    "Longitude":138.5411437
+  },
+  {
+    "Name":"Capital Wind Farm",
+    "Class":"Renewable",
+    "Latitude":-35.2541272,
+    "Longitude":149.4403247
+  },
+  {
+    "Name":"Blowering Power Station",
+    "Class":"Renewable",
+    "Latitude":-35.3994807,
+    "Longitude":148.2306662
+  },
+  {
+    "Name":"Tumut 3 Power Station",
+    "Class":"Renewable",
+    "Latitude":-35.581295,
+    "Longitude":148.2964071
+  },
+  {
+    "Name":"Jounama Small Hydro Power Station",
+    "Class":"Renewable",
+    "Latitude":-35.581295,
+    "Longitude":148.2964071
+  },
+  {
+    "Name":"Starfish Hill Wind Farm",
+    "Class":"Renewable",
+    "Latitude":-35.603729,
+    "Longitude":138.1052858
+  },
+  {
+    "Name":"The Drop Power Station",
+    "Class":"Renewable",
+    "Latitude":-35.6572084,
+    "Longitude":145.8093901
+  },
+  {
+    "Name":"Hopetoun Wind Turbines",
+    "Class":"Renewable",
+    "Latitude":-35.7277152,
+    "Longitude":142.3635906
+  },
+  {
+    "Name":"Tumut 1 Power Station (Upper Tumut)",
+    "Class":"Renewable",
+    "Latitude":-35.9366569,
+    "Longitude":148.3805546
+  },
+  {
+    "Name":"Tumut 2 Power Station (Upper Tumut)",
+    "Class":"Renewable",
+    "Latitude":-35.9366569,
+    "Longitude":148.3805546
+  },
+  {
+    "Name":"Yarrawonga Power Station",
+    "Class":"Renewable",
+    "Latitude":-36.0181497,
+    "Longitude":146.0030368
+  },
+  {
+    "Name":"Hume Power Station",
+    "Class":"Renewable",
+    "Latitude":-36.1027349,
+    "Longitude":146.9115724
+  },
+  {
+    "Name":"Murray 2 Power Station",
+    "Class":"Renewable",
+    "Latitude":-36.2165553,
+    "Longitude":148.1293807
+  },
+  {
+    "Name":"Murray 1 Power Station",
+    "Class":"Renewable",
+    "Latitude":-36.2165553,
+    "Longitude":148.1293807
+  },
+  {
+    "Name":"Banimboola Power Station",
+    "Class":"Renewable",
+    "Latitude":-36.2734558,
+    "Longitude":147.24611
+  },
+  {
+    "Name":"Blue Lake Milling Power Plant",
+    "Class":"Non Renewable",
+    "Latitude":-36.3111665,
+    "Longitude":140.7733804
+  },
+  {
+    "Name":"Tatiara Meats Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-36.3111665,
+    "Longitude":140.7733804
+  },
+  {
+    "Name":"Shepparton Biogas Generation Plant Power Station",
+    "Class":"Renewable",
+    "Latitude":-36.3775176,
+    "Longitude":145.4000439
+  },
+  {
+    "Name":"Redbank Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-36.3986866,
+    "Longitude":174.6605093
+  },
+  {
+    "Name":"Jindabyne Dam Mini Hydro Power Station",
+    "Class":"Renewable",
+    "Latitude":-36.41479,
+    "Longitude":148.6110247
+  },
+  {
+    "Name":"Tatura Biogas Generation Plant Power Station",
+    "Class":"Renewable",
+    "Latitude":-36.4401084,
+    "Longitude":145.2287634
+  },
+  {
+    "Name":"Guthega Power Station",
+    "Class":"Renewable",
+    "Latitude":-36.5,
+    "Longitude":148.2666667
+  },
+  {
+    "Name":"Brown Mountain Power Station",
+    "Class":"Renewable",
+    "Latitude":-36.6278771,
+    "Longitude":149.5698865
+  },
+  {
+    "Name":"West Kiewa Power Station (Mount Beauty Hydro Scheme)",
+    "Class":"Renewable",
+    "Latitude":-36.7427006,
+    "Longitude":147.1693466
+  },
+  {
+    "Name":"Bendigo Solar Park",
+    "Class":"Renewable",
+    "Latitude":-36.7587109,
+    "Longitude":144.2837466
+  },
+  {
+    "Name":"Bogong Power Station (Mount Beauty Hydro Scheme)",
+    "Class":"Renewable",
+    "Latitude":-36.8049109,
+    "Longitude":147.224898
+  },
+  {
+    "Name":"Clover Power Station",
+    "Class":"Renewable",
+    "Latitude":-36.8049109,
+    "Longitude":147.224898
+  },
+  {
+    "Name":"Eildon Power Station",
+    "Class":"Renewable",
+    "Latitude":-37.234287,
+    "Longitude":145.9083992
+  },
+  {
+    "Name":"Waubra Wind Farm",
+    "Class":"Renewable",
+    "Latitude":-37.356205,
+    "Longitude":143.6361076
+  },
+  {
+    "Name":"Challicum Hills Wind Farm",
+    "Class":"Renewable",
+    "Latitude":-37.3661125,
+    "Longitude":143.1724044
+  },
+  {
+    "Name":"Leonards Hill Power Station",
+    "Class":"Renewable",
+    "Latitude":-37.4194856,
+    "Longitude":144.1166123
+  },
+  {
+    "Name":"Ladbroke Grove Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-37.4367935,
+    "Longitude":140.7194001
+  },
+  {
+    "Name":"Ballarat Base Hospital Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-37.5621071,
+    "Longitude":143.8561493
+  },
+  {
+    "Name":"Lake Bonney Wind Farm",
+    "Class":"Renewable",
+    "Latitude":-37.5949432,
+    "Longitude":140.3536982
+  },
+  {
+    "Name":"Canunda Wind Farm",
+    "Class":"Renewable",
+    "Latitude":-37.5949432,
+    "Longitude":140.3536982
+  },
+  {
+    "Name":"Snuggery Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-37.5949432,
+    "Longitude":140.3536982
+  },
+  {
+    "Name":"Oakland Hills Wind Farm",
+    "Class":"Renewable",
+    "Latitude":-37.6365832,
+    "Longitude":142.5464302
+  },
+  {
+    "Name":"Broadmeadows (Landfill) Power Station",
+    "Class":"Renewable",
+    "Latitude":-37.6786214,
+    "Longitude":144.956815
+  },
+  {
+    "Name":"Oaky Creek Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-37.69706,
+    "Longitude":145.0590021
+  },
+  {
+    "Name":"Tulla Calder Interchange Solar Array",
+    "Class":"Renewable",
+    "Latitude":-37.7364624,
+    "Longitude":144.8896249
+  },
+  {
+    "Name":"Queen Victoria Market Solar Array",
+    "Class":"Renewable",
+    "Latitude":-37.8090328,
+    "Longitude":144.9492723
+  },
+  {
+    "Name":"Laverton North Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-37.8206826,
+    "Longitude":144.8158721
+  },
+  {
+    "Name":"Mt Gambier",
+    "Class":"Renewable",
+    "Latitude":-37.8279225,
+    "Longitude":140.7752527
+  },
+  {
+    "Name":"Symex Port Melbourne Power Plant",
+    "Class":"Non Renewable",
+    "Latitude":-37.836926,
+    "Longitude":144.94455
+  },
+  {
+    "Name":"Lake Glenmaggie Power Station",
+    "Class":"Renewable",
+    "Latitude":-37.8923846,
+    "Longitude":146.7498884
+  },
+  {
+    "Name":"Clayton (Landfill) Power Station",
+    "Class":"Renewable",
+    "Latitude":-37.939807,
+    "Longitude":145.1332686
+  },
+  {
+    "Name":"Springvale (Landfill) Power Station",
+    "Class":"Renewable",
+    "Latitude":-37.9519166,
+    "Longitude":145.1521142
+  },
+  {
+    "Name":"Corio Power Station",
+    "Class":"Renewable",
+    "Latitude":-38.0759239,
+    "Longitude":144.3590278
+  },
+  {
+    "Name":"Mortlake Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-38.0810074,
+    "Longitude":142.8054953
+  },
+  {
+    "Name":"Yallourn Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-38.1852881,
+    "Longitude":146.3179019
+  },
+  {
+    "Name":"Energy Brix Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-38.2345742,
+    "Longitude":146.3947107
+  },
+  {
+    "Name":"Codrington Wind Farm",
+    "Class":"Renewable",
+    "Latitude":-38.2419598,
+    "Longitude":142.1002497
+  },
+  {
+    "Name":"Hallam Road (Landfill) Power Station",
+    "Class":"Renewable",
+    "Latitude":-38.2456363,
+    "Longitude":175.2153062
+  },
+  {
+    "Name":"Loy Yang A Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-38.2526692,
+    "Longitude":146.5933526
+  },
+  {
+    "Name":"Valley Power Station (Peaking Facility)",
+    "Class":"Non Renewable",
+    "Latitude":-38.2526692,
+    "Longitude":146.5933526
+  },
+  {
+    "Name":"Jeeralang A Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-38.2551963,
+    "Longitude":146.4876154
+  },
+  {
+    "Name":"Jeeralang B Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-38.2551963,
+    "Longitude":146.4876154
+  },
+  {
+    "Name":"Yambuk Wind Farm",
+    "Class":"Renewable",
+    "Latitude":-38.3389481,
+    "Longitude":142.1868559
+  },
+  {
+    "Name":"Cape Bridgewater Wind Farm",
+    "Class":"Renewable",
+    "Latitude":-38.371456,
+    "Longitude":141.3992416
+  },
+  {
+    "Name":"Anglesea Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-38.4049149,
+    "Longitude":144.1887836
+  },
+  {
+    "Name":"Wonthaggi Wind Farm",
+    "Class":"Renewable",
+    "Latitude":-38.6059367,
+    "Longitude":145.588532
+  },
+  {
+    "Name":"Toora Wind Farm",
+    "Class":"Renewable",
+    "Latitude":-38.6628144,
+    "Longitude":146.3278831
+  },
+  {
+    "Name":"Bluff Point (Woolnorth) Wind Farm",
+    "Class":"Renewable",
+    "Latitude":-40.6873827,
+    "Longitude":144.7184091
+  },
+  {
+    "Name":"Studland Bay (Woolnorth) Wind Farm",
+    "Class":"Renewable",
+    "Latitude":-40.6873827,
+    "Longitude":144.7184091
+  },
+  {
+    "Name":"Loy Yang B Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-41.1865592,
+    "Longitude":146.3435737
+  },
+  {
+    "Name":"Paloona Power Station",
+    "Class":"Renewable",
+    "Latitude":-41.2572787,
+    "Longitude":146.2759044
+  },
+  {
+    "Name":"Trevallyn Power Station",
+    "Class":"Renewable",
+    "Latitude":-41.4354134,
+    "Longitude":147.1191143
+  },
+  {
+    "Name":"Wilmot Power Station",
+    "Class":"Renewable",
+    "Latitude":-41.4760916,
+    "Longitude":146.1619857
+  },
+  {
+    "Name":"Cethana Power Station",
+    "Class":"Renewable",
+    "Latitude":-41.4760916,
+    "Longitude":146.1619857
+  },
+  {
+    "Name":"Boco Rock Power Station",
+    "Class":"Renewable",
+    "Latitude":-41.65914,
+    "Longitude":145.60508
+  },
+  {
+    "Name":"Bastyan Power Station",
+    "Class":"Renewable",
+    "Latitude":-41.7386447,
+    "Longitude":145.6187323
+  },
+  {
+    "Name":"Mackintosh Power Station",
+    "Class":"Renewable",
+    "Latitude":-41.7386447,
+    "Longitude":145.6187323
+  },
+  {
+    "Name":"Poatina Power Station",
+    "Class":"Renewable",
+    "Latitude":-41.7992502,
+    "Longitude":146.9574976
+  },
+  {
+    "Name":"Rowallan Power Station",
+    "Class":"Renewable",
+    "Latitude":-41.8357118,
+    "Longitude":146.1978308
+  },
+  {
+    "Name":"Lemonthyme Power Station",
+    "Class":"Renewable",
+    "Latitude":-41.8357118,
+    "Longitude":146.1978308
+  },
+  {
+    "Name":"Fisher Power Station",
+    "Class":"Renewable",
+    "Latitude":-41.8357118,
+    "Longitude":146.1978308
+  },
+  {
+    "Name":"Butlers Gorge Power Station",
+    "Class":"Renewable",
+    "Latitude":-42.2735494,
+    "Longitude":146.2711453
+  },
+  {
+    "Name":"Tungatinah Power Station",
+    "Class":"Renewable",
+    "Latitude":-42.2970507,
+    "Longitude":146.4459262
+  },
+  {
+    "Name":"Tarraleah Power Station",
+    "Class":"Renewable",
+    "Latitude":-42.2970507,
+    "Longitude":146.4459262
+  },
+  {
+    "Name":"Wayatinah Power Station",
+    "Class":"Renewable",
+    "Latitude":-42.3884835,
+    "Longitude":146.5005202
+  },
+  {
+    "Name":"Liapootah Power Station",
+    "Class":"Renewable",
+    "Latitude":-42.3884835,
+    "Longitude":146.5005202
+  },
+  {
+    "Name":"Tribute Power Station",
+    "Class":"Renewable",
+    "Latitude":-42.4064185,
+    "Longitude":171.6911559
+  },
+  {
+    "Name":"Reece Power Station",
+    "Class":"Renewable",
+    "Latitude":-42.4064185,
+    "Longitude":171.6911559
+  },
+  {
+    "Name":"Repulse Power Station",
+    "Class":"Renewable",
+    "Latitude":-42.4858446,
+    "Longitude":146.7136999
+  },
+  {
+    "Name":"Cluny Power Station",
+    "Class":"Renewable",
+    "Latitude":-42.4858446,
+    "Longitude":146.7136999
+  },
+  {
+    "Name":"Catagunya Power Station",
+    "Class":"Renewable",
+    "Latitude":-42.4858446,
+    "Longitude":146.7136999
+  },
+  {
+    "Name":"Hobart Power Station",
+    "Class":"Renewable",
+    "Latitude":-42.8945228,
+    "Longitude":147.3094914
+  },
+  {
+    "Name":"Nieterana Power Station",
+    "Class":"Renewable",
+    "Latitude":-42.9427306,
+    "Longitude":147.3842591
+  },
+  {
+    "Name":"Callide C Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-43.0041666,
+    "Longitude":171.3766666
+  },
+  {
+    "Name":"Callide B Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-43.0041666,
+    "Longitude":171.3766666
+  },
+  {
+    "Name":"Callide A Power Station",
+    "Class":"Non Renewable",
+    "Latitude":-43.0041666,
+    "Longitude":171.3766666
+  }
+]

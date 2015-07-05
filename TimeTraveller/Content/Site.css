@@ -1,4 +1,14 @@
-﻿section {
+﻿.text-primary,
+.gui-icon,
+.fa {
+  color: #DC4461 !important;
+}
+.headerbar,
+.headerbar-left,
+.menubar-scroll-panel {
+  background-color: #64af3e;
+}
+section {
   padding: 0px;
 }
 .middlePage {

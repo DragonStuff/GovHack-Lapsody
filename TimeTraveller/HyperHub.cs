@@ -180,7 +180,7 @@ namespace TimeTraveller
             {
 
             }
-        }
+        }        
 
         public void RemoveUsage(int id)
         {
@@ -238,9 +238,16 @@ namespace TimeTraveller
                 }
                 else
                 {
-                    var oldEmission = usage.Emission;
-                    usage.Quantity = quantity;
-                    CalculateEmission(usage, oldEmission);
+                    if (quantity == 0)
+                    {
+                        RemoveUsage(usage.Id);
+                    }
+                    else
+                    {
+                        var oldEmission = usage.Emission;
+                        usage.Quantity = quantity;
+                        CalculateEmission(usage, oldEmission);
+                    }
                 }
 
                 ctx.SaveChanges();

@@ -32,6 +32,7 @@ namespace TimeTraveller
                       "~/Scripts/materialadmin/libs/toastr/*.js",
                       "~/Scripts/materialadmin/libs/bootstrap-datepicker/*.js",
                       "~/Scripts/markerclusterer.js",
+                      "~/Scripts/fontawesome-markers.min.js",
                       "~/Scripts/timetravellers.js"
                       ));
 

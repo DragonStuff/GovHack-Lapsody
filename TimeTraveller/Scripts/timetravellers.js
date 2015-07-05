@@ -7,16 +7,24 @@ var circle = null;
 var radius = 1000;
 var isAuthenticated = false;
 var powerstationOn = false;
+var airPollutionOn = false;
 var year = 2015;
+var powerPlantsArray = [];
+var airPollutionArray = [];
+var myApp;
 
 $(document).ready(function() {
-    $(".reportToggle").click(function() {
+    $(".reportToggle").click(function () {
         switch ($(this).attr('id')) {
             case "chkPowerStation":
                 powerstationOn = !powerstationOn;
                 hyperHub.togglePowerStationReport(powerstationOn);
                 break;
-        }
+            case "chkAirPollution":
+                airPollutionOn = !airPollutionOn;
+                hyperHub.toggleAirPollution(airPollutionOn);
+                break;
+        }        
     });
 
     $("#datepicker").datepicker({
@@ -24,9 +32,29 @@ $(document).ready(function() {
         viewMode: "years",
         minViewMode: "years"
     }).on("changeDate", function (e) {
-        year = e.date.getFullYear();
+        var newYear = e.date.getFullYear();
+        if (newYear !== year) {
+            year = newYear;
+            $("#currentYear").html("" + year);
+            hyperHub.toggleAirPollution(airPollutionOn);
+        }
     });;
+
+    loadPowerStations();
+    loadAirPollution();
 });
+
+function loadPowerStations() {
+    $.getJSON("PowerPlant.json", function (data) {
+        powerPlantsArray = data;
+    });
+}
+
+function loadAirPollution() {
+    $.getJSON("AirPollution.json", function (data) {
+        airPollutionArray = data;
+    });
+}
 
 function closeDialog() {
     $("#dialog").dialog("close");
@@ -46,7 +74,10 @@ function logOff() {
 function addAppliance() {
     var product = $("#cbxUsage").val().trim();
     var quantity = $("#cbxQuantity").val().trim();
+    updateAppliance(product, quantity);
+}
 
+function updateAppliance(product, quantity) {
     if (product.length > 0 && quantity.length > 0) {
         hyperHub.addUsage(product, quantity);
 
@@ -55,7 +86,6 @@ function addAppliance() {
     } else {
         toastr.error('Please Select an Appliance and Quantity', 'Try Again!');
     }
-
 }
 
 function removeAppliance(id) {
@@ -150,4 +180,3 @@ function setLocation(latlng) {
     currCenter = latlng;
     map.setCenter(latlng);
 }
-
