@@ -24,7 +24,7 @@ namespace TimeTraveller
                     UpdateUserConnection(username);
 
                     GetMyUsage();
-                    //UserListChanged();
+                    UserListChanged();
                 }
             }
             catch
